@@ -1,6 +1,5 @@
-#works with associated foods nutritional requirement  -----updated on 19th use  this
-#umang - ye pakka chalega - works with nutrition_cf - Sheet2.csv
-#xxx - bmi,gender,serving  ---24th july best working code
+#works with associated foods nutritional requirement  ---26th july best working code
+# works with nutrition_cf - Sheet4.csv
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -107,11 +106,11 @@ user_height = float(input("Enter your height: "))
 user_weight = int(input("Enter your weight: "))'''
 
 user_allergies_input = 'no-allergies'
-user_region_pattern = "south"
-user_category = "veg"
+user_region_pattern = "east"
+user_category = "non-veg"
 user_gender = "male"
 user_height = 1.85
-user_weight = 80
+user_weight = 70
 
 print("User preference\nAllergy : "+user_allergies_input+"\nRegion : "+user_region_pattern+"\nCategory : "+user_category+"\n")
 
@@ -129,7 +128,7 @@ associativity_rules = {
     '6': ['7'],
     '11': ['10','12'],
     '14': ['13'],
-    '9': ['12']
+    '9': ['10','12']
     # Add more rules as needed
 }
 
@@ -179,8 +178,6 @@ def recommend_food(df, meal_type, target_nutrients, num_recommendations=27):
     distances, indices = knn.kneighbors(target_values_scaled)
 
     recommended_foods = meal_data.iloc[indices[0]]
-    #print(recommended_foods.info())
-    #print(recommended_foods['Food'])
     return recommended_foods.head(num_recommendations)
 
 def divide_by_serving(food):
@@ -209,13 +206,14 @@ def divide_by_serving_combo(food, assoc_food, target_nutrients):
     new_food = new_food.drop(['Serving_Numbers'], axis=0)
     new_assoc_food = new_assoc_food.drop(['Serving_Numbers_assoc'], axis=0)
 
-    return [new_food['Food'], new_food['Energy(kcal)']]
+    return []
 
 
 
 # Function to print recommendations with associative rules
 def print_recommendations_with_associative_rules(recommended_foods, associative_rules, valid_associations, target_nutrients):
     assoc_food_present = []
+    #print(recommended_foods['Food'])
     for index, row in recommended_foods.iterrows():
         food_item = row['Food']
         associativity = str(row['Associativity'])
@@ -227,15 +225,19 @@ def print_recommendations_with_associative_rules(recommended_foods, associative_
         cal=[]
         for value in associativity_values:
             if value in valid_associations and value in associative_rules:
-                associated_food_items = recommended_foods[recommended_foods['Associativity'].isin(associative_rules[value])]
-                if (value!=14):
+                if (value=='11' or value=='9' or value=='5' or value=='3' or value=='1'):
+                    associated_food_items = nutrition_data[nutrition_data['Associativity'].isin(associative_rules[value])]  
+                else:
+                    associated_food_items = recommended_foods[recommended_foods['Associativity'].isin(associative_rules[value])]     
+                if (value!='14'):
                     associated_food_items = associated_food_items[~associated_food_items['Food'].isin(assoc_food_present)]
                 if not associated_food_items.empty:
                     #print(associated_food_items['Food'])
+                    rowdish = row
                     for _, assoc_row in associated_food_items.iterrows():
                         if check_combined_nutritional_requirements(row, assoc_row, target_nutrients):
                             assoc_food_present.append(assoc_row['Food'])
-                            print("if")
+                            #print("if")
                             associated_foods.append(assoc_row['Food'])  
                             assoc_calorie=assoc_row['Energy(kcal)']
                             calorie = row['Energy(kcal)']
@@ -246,7 +248,7 @@ def print_recommendations_with_associative_rules(recommended_foods, associative_
                         else:
                             food_df = divide_by_serving_combo(row,assoc_row,target_nutrients)
                             if len(food_df)==4 :
-                                print("Check combo serving and printed")  
+                                #print("Check combo serving and printed")  
                                 assoc_food_present.append(assoc_row['Food']) 
                                 calorie = food_df[1]                           
                                 assoc_foods = food_df[2]
@@ -254,27 +256,27 @@ def print_recommendations_with_associative_rules(recommended_foods, associative_
                                 combined_cal = assoc_calorie + calorie
                                 cal.append(combined_cal)
                                 associated_foods.append(assoc_foods)
-                                break   
-                                                                
-                            '''elif (len(food_df)==2) and check_nutritional_requirements(row, target_nutrients) : 
-                                if not(associated_foods):
-                                    print("elif")
-                                    print(f"{row['Food'], food_df[1]}")   
-                                    break'''
+                                break
+                        rowdish = row                                     
+                    if check_nutritional_requirements(rowdish, target_nutrients): 
+                        if not(associated_foods):
+                            #print("elif")
+                            print(f"{rowdish['Food'], rowdish['Energy(kcal)']}")   
+                            break
                                                       
         if associated_foods :
             print(f"{food_item, cal} (associated with: {', '.join(associated_foods)})")
         elif '0' in associativity_values:
-          if check_nutritional_requirements(row, target_nutrients):
-            print("0 if")
-            print(f"{food_item, calorie}")
-          else:
-            df = divide_by_serving(row)
-            if check_nutritional_requirements(df, target_nutrients):
-              item = df['Food']
-              calorie = df['Energy(kcal)']
-              print("0 elif")
-              print(f"{item, calorie}")
+                if check_nutritional_requirements(row, target_nutrients):
+                    #print("0 if")
+                    print(f"{food_item, calorie}")
+                else:
+                    df = divide_by_serving(row)
+                    if check_nutritional_requirements(df, target_nutrients):
+                        item = df['Food']
+                        calorie = df['Energy(kcal)']
+                        #print("0 elif")
+                        print(f"{item, calorie}")
 
 # Filtering the dataset based on user preferences
 try:
