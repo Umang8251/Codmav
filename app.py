@@ -7,14 +7,14 @@ import requests
 #from recommender import load_data, filter_dataset, recommend_food, prepare_recommendations_with_associative_rules
 from img_finder import get_images_links
 from streamlit_lottie import st_lottie
-st.set_page_config(page_title="Recommender System", page_icon=":tada:")
+st.set_page_config(page_title="Recommender System", page_icon=":tada:", layout="wide")
 
 def load_lottieurl(url):
     r = requests.get(url)
     if r.status_code != 200:
         return None
     return r.json()
-
+    
 lottie_coding = load_lottieurl("https://lottie.host/0193aee4-27d6-4b30-ad1f-33ab0f07bde3/nkAKPlrlyd.json")
 
 
@@ -37,7 +37,7 @@ with st.container():
             allergies = ["no-allergies"]
         else:
             allergies = user_allergies_input
-
+    
 
     with right_column:
         user_weight = st.number_input('Enter your weight (in kg)',
@@ -50,17 +50,18 @@ with st.container():
         user_region_pattern = st.selectbox("Select your region", ["North", "South", "East", "West", "Continental"],
                                    index=None,
                                    placeholder="")
-
-bmi = (user_weight)/pow(user_height,2)
+        
+bmi = (user_weight)/pow(user_height,2)        
 # Define associativity rules
 associativity_rules = {
+    #'PITA BREAD (WHEAT)': ['Hummus', 'TABBOULEH'],
     '1': ['2'],
     '3': ['2', '4', '8'],
     '5': ['4', '8'],
     '6': ['7'],
     '11': ['10','12'],
     '14': ['13'],
-    '9': ['12']
+    '9': ['10','12']
     # Add more rules as needed
 }
 
@@ -84,17 +85,17 @@ if st.button("Generate Diet Plan", type="primary"):
             recommended_breakfast = recommend_food(filtered_data, 'Breakfast', target_breakfast)
         except:
             recommended_breakfast = recommend_food(filtered_data_null, 'Breakfast', target_breakfast)
-
+        
         try:
             recommended_snacks = recommend_food(filtered_data, 'Snacks', target_snacks)
         except:
             recommended_snacks = recommend_food(filtered_data_null, 'Snacks', target_snacks)
-
+        
         try:
             recommended_appetizers = recommend_food(filtered_data, 'Appetizer', target_appetizers)
         except:
             recommended_appetizers = recommend_food(filtered_data_null, 'Appetizer', target_appetizers)
-
+    
     finally:
         recommended_lunch = recommend_food(filtered_data, 'Lunch', target_lunch)
         recommended_dinner = recommend_food(filtered_data, 'Dinner', target_dinner)
@@ -132,7 +133,32 @@ if st.button("Generate Diet Plan", type="primary"):
     images_snacks = fetch_images_for_recommendations(search_terms_snacks)
 
     def display_recommendations_with_images(recommendations, images, title):
-        st.write(f'## {title}')
+    # Define column sizes as constants
+        column_styles = {
+            'Meal Type': 'width: 100px;',
+            'Image': 'width: 100px;',
+            'Food Dish': 'width: 200px;',
+            'Nutrition Info': 'width: 300px;',
+            'Calories': 'width: 100px;',
+            'Carbon Footprint': 'width: 150px;'
+        }
+        
+        # Create the table header with column styles
+        table_header = f"""
+        <table>
+            <thead>
+                <tr>
+                    <th style="{column_styles['Meal Type']}">Meal Type</th>
+                    <th style="{column_styles['Image']}">Image</th>
+                    <th style="{column_styles['Food Dish']}">Main Dish</th>
+                    <th style="{column_styles['Nutrition Info']}">Side Dish</th>
+                    <th style="{column_styles['Calories']}">Calories</th>
+                    <th style="{column_styles['Carbon Footprint']}">Carbon Footprint</th>
+                </tr>
+            </thead>
+            <tbody>
+        """
+
         table_data = []
 
         for index, row in recommendations.iterrows():
@@ -145,11 +171,16 @@ if st.button("Generate Diet Plan", type="primary"):
             food_html = f'<strong>{food_link}</strong>'
             carbon_html = f'{carbon_footprint} kg CO2e'
             calories_html = f'{calories} kcal'
-            nutrition_html = row.to_frame().transpose().drop(columns=['Food', 'Carbon Footprint(kg CO2e)','Energy(kcal)']).to_html(index=False, header=False)
-            table_data.append(f'<tr><td>{img_html}</td><td>{food_html}</td><td>{nutrition_html}</td><td>{calories_html}</td><td>{carbon_html}</td></tr>')
+            nutrition_html = row.to_frame().transpose().drop(columns=['Food', 'Carbon Footprint(kg CO2e)', 'Energy(kcal)']).to_html(index=False, header=False)
+            table_data.append(f'<tr><td>{title}</td><td>{img_html}</td><td>{food_html}</td><td>{nutrition_html}</td><td>{calories_html}</td><td>{carbon_html}</td></tr>')
 
-        table_html = f'<table><b><th><td>Food Dish</td><td>Associated Dishes</td><td>Calories</td><td>Carbon Footprint</td><b></th>{" ".join(table_data)}</table>'
+        table_footer = '</tbody></table>'
+        table_html = table_header + "".join(table_data) + table_footer
         st.markdown(table_html, unsafe_allow_html=True)
+
+
+
+
 
 
 
@@ -180,6 +211,3 @@ if st.button("Generate Diet Plan", type="primary"):
         display_recommendations_with_images(weekly_lunch_plan[day], images_lunch, 'Lunch')
         display_recommendations_with_images(weekly_snacks_plan[day], images_snacks, 'Snacks')
         display_recommendations_with_images(weekly_dinner_plan[day], images_dinner, 'Dinner')
-
-
-

@@ -235,8 +235,6 @@ def get_weekly_plan(recommended_foods, associative_rules, valid_associations, ta
                 if (value!='14'):
                     associated_food_items = associated_food_items[~associated_food_items['Food'].isin(assoc_food_present)]
                 if not associated_food_items.empty:
-                    #print(associated_food_items['Food'])
-                    rowdish = row
                     for _, assoc_row in associated_food_items.iterrows():
                         if check_combined_nutritional_requirements(row, assoc_row, target_nutrients):
                             assoc_food_present.append(assoc_row['Food'])
