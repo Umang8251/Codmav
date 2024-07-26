@@ -111,7 +111,7 @@ user_region_pattern = "south"
 user_category = "veg"
 user_gender = "male"
 user_height = 1.85
-user_weight = 40
+user_weight = 80
 
 print("User preference\nAllergy : "+user_allergies_input+"\nRegion : "+user_region_pattern+"\nCategory : "+user_category+"\n")
 
@@ -231,6 +231,7 @@ def print_recommendations_with_associative_rules(recommended_foods, associative_
                 if (value!=14):
                     associated_food_items = associated_food_items[~associated_food_items['Food'].isin(assoc_food_present)]
                 if not associated_food_items.empty:
+                    #print(associated_food_items['Food'])
                     for _, assoc_row in associated_food_items.iterrows():
                         if check_combined_nutritional_requirements(row, assoc_row, target_nutrients):
                             assoc_food_present.append(assoc_row['Food'])
@@ -255,11 +256,11 @@ def print_recommendations_with_associative_rules(recommended_foods, associative_
                                 associated_foods.append(assoc_foods)
                                 break   
                                                                 
-                            elif (len(food_df)==2) and check_nutritional_requirements(row, target_nutrients) : 
+                            '''elif (len(food_df)==2) and check_nutritional_requirements(row, target_nutrients) : 
                                 if not(associated_foods):
                                     print("elif")
                                     print(f"{row['Food'], food_df[1]}")   
-                                    break
+                                    break'''
                                                       
         if associated_foods :
             print(f"{food_item, cal} (associated with: {', '.join(associated_foods)})")
