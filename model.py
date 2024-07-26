@@ -130,13 +130,13 @@ associativity_rules = {
     '6': ['7'],
     '11': ['10','12'],
     '14': ['13'],
-    '9': ['12']
+    '9': ['10','12']
     # Add more rules as needed
 }
 
 bmi = (user_weight)/pow(user_height,2)
 target_values = set_target_values(bmi, user_gender)
-print("BMI:",bmi)
+#print("BMI:",bmi)
 
 target_breakfast = target_values['breakfast']
 target_lunch = target_values['lunch']
@@ -210,11 +210,12 @@ def divide_by_serving_combo(food, assoc_food, target_nutrients):
     new_food = new_food.drop(['Serving_Numbers'], axis=0)
     new_assoc_food = new_assoc_food.drop(['Serving_Numbers_assoc'], axis=0)
 
-    return [new_food['Food'], new_food['Energy(kcal)']]
+    return []
 
 
 # Function to print recommendations with associative rules
 def get_weekly_plan(recommended_foods, associative_rules, valid_associations, target_nutrients):
+    assoc_food_present = []
     weekly_plan = []
     for index, row in recommended_foods.iterrows():
         food_item = row['Food']
@@ -225,39 +226,39 @@ def get_weekly_plan(recommended_foods, associative_rules, valid_associations, ta
         associativity_values = [value.strip() for value in associativity.split(',')]
         associated_foods = []
         cal=[]
-        calory=[]
         for value in associativity_values:
             if value in valid_associations and value in associative_rules:
-                associated_food_items = recommended_foods[recommended_foods['Associativity'].isin(associative_rules[value])]
+                if (value=='11' or value=='9' or value=='5' or value=='3' or value=='1'):
+                    associated_food_items = nutrition_data[nutrition_data['Associativity'].isin(associative_rules[value])]  
+                else:
+                    associated_food_items = recommended_foods[recommended_foods['Associativity'].isin(associative_rules[value])]     
+                if (value!='14'):
+                    associated_food_items = associated_food_items[~associated_food_items['Food'].isin(assoc_food_present)]
                 if not associated_food_items.empty:
+                    #print(associated_food_items['Food'])
+                    rowdish = row
                     for _, assoc_row in associated_food_items.iterrows():
-                        row_dish = row
                         if check_combined_nutritional_requirements(row, assoc_row, target_nutrients):
-                            associated_foods.append(assoc_row['Food'])
+                            assoc_food_present.append(assoc_row['Food'])
+                            #print("if")
+                            associated_foods.append(assoc_row['Food'])  
                             assoc_calorie=assoc_row['Energy(kcal)']
                             calorie = row['Energy(kcal)']
                             combined_cal = assoc_calorie + calorie
-                            cal.append(combined_cal)
-                            break
-
+                            cal.append(combined_cal)                    
+                            break 
                         else:
-                            food_df = divide_by_serving_combo(row_dish,assoc_row,target_nutrients)
+                            food_df = divide_by_serving_combo(row,assoc_row,target_nutrients)
                             if len(food_df)==4 :
-                                #print("Check combo serving and printed")
-                                calorie = food_df[1]
+                                #print("Check combo serving and printed")  
+                                assoc_food_present.append(assoc_row['Food']) 
+                                calorie = food_df[1]                           
                                 assoc_foods = food_df[2]
                                 assoc_calorie = food_df[3]
                                 combined_cal = assoc_calorie + calorie
                                 cal.append(combined_cal)
                                 associated_foods.append(assoc_foods)
-                                break
-
-                            elif (len(food_df)==2) and check_nutritional_requirements(row, target_nutrients) :
-                                if not(associated_foods):
-                                    #print(f"{row['Food'], food_df[1]}")
-                                    calory=food_df[1]
-                                    weekly_plan.append(f"{row['Food'], calory}")
-                                    break
+                                break                                     
 
         if associated_foods :
             #print(f"{food_item, cal} (associated with: {', '.join(associated_foods)})")
