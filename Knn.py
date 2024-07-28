@@ -317,3 +317,42 @@ print_recommendations_with_associative_rules(recommended_dinner, associativity_r
 
 print("\nRecommended Snacks :"+ str(target_snacks['Energy(kcal)']))
 print_recommendations_with_associative_rules(recommended_snacks, associativity_rules, ['0', '11'], target_snacks)
+
+# Function to calculate accuracy based on recommended foods' nutritional values compared to target nutrients with confidence interval
+def calculate_accuracy_top_two_with_confidence_interval(recommended_foods, target_nutrients, confidence_interval=0.1):
+    nutrient_columns = ['Proteins', 'Carbohydrates', 'Fats', 'Fiber']
+    total_within_range = 0
+    total_nutrients = len(nutrient_columns) * 100  # For top two items
+
+    # Select the top two recommended foods
+    top_two = recommended_foods
+
+    for _, row in top_two.iterrows():
+        for nutrient in nutrient_columns:
+            lower_bound = target_nutrients[nutrient] * (1 - confidence_interval)
+            upper_bound = target_nutrients[nutrient] * (1 + confidence_interval)
+            if lower_bound <= row[nutrient] <= upper_bound:
+                total_within_range += 1
+
+    accuracy = (total_within_range / total_nutrients) * 100  # Percentage of nutrients within the range
+    return accuracy
+
+# Calculate accuracy for each meal type with top two recommended items and confidence interval
+def calculate_overall_accuracy_top_two_with_confidence_interval():
+    accuracies = {}
+    accuracies['Breakfast'] = calculate_accuracy_top_two_with_confidence_interval(recommended_breakfast, target_breakfast)
+    accuracies['Lunch'] = calculate_accuracy_top_two_with_confidence_interval(recommended_lunch, target_lunch)
+    accuracies['Appetizers'] = calculate_accuracy_top_two_with_confidence_interval(recommended_appetizers, target_appetizers)
+    accuracies['Dinner'] = calculate_accuracy_top_two_with_confidence_interval(recommended_dinner, target_dinner)
+    accuracies['Snacks'] = calculate_accuracy_top_two_with_confidence_interval(recommended_snacks, target_snacks)
+
+    overall_accuracy = sum(accuracies.values()) / len(accuracies)
+    return accuracies, overall_accuracy
+
+# Display the accuracy results for top two recommended items with confidence interval
+accuracies_top_two_ci, overall_accuracy_top_two_ci = calculate_overall_accuracy_top_two_with_confidence_interval()
+print("\nAccuracy for each meal type (Top two recommended items only) with ±10% confidence interval:")
+for meal_type, accuracy in accuracies_top_two_ci.items():
+    print(f"{meal_type}: {accuracy:.2f}%")
+
+print(f"\nOverall Accuracy (Top two recommended items only) with ±10% confidence interval: {overall_accuracy_top_two_ci:.2f}%")

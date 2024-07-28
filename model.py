@@ -1,7 +1,4 @@
-#munch nuts ---correct weekly plan
-#works with associated foods nutritional requirement  -----updated on 19th use  this
-#umang - ye pakka chalega - works with nutrition_cf - Sheet2.csv
-#xxx - bmi,gender,serving  ---24th july best working code
+#correct weekly plan
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -34,7 +31,8 @@ def filter_dataset(df, allergies, region_pattern, category):
     if region_pattern != "Null":
         region_filter = df['Region'].apply(lambda x: re.search(region_pattern, x, re.IGNORECASE) is not None)
     else:
-        return df[allergy_condition & category_condition]
+        region_filter = df['Region'].apply(lambda x: True)
+        #return df[allergy_condition & category_condition]
 
     return df[allergy_condition & region_filter & category_condition]
 
@@ -256,7 +254,7 @@ def get_weekly_plan(recommended_foods, associative_rules, valid_associations, ta
                                 combined_cal = assoc_calorie + calorie
                                 cal.append(combined_cal)
                                 associated_foods.append(assoc_foods)
-                                break                                     
+                                break                                
 
         if associated_foods :
             #print(f"{food_item, cal} (associated with: {', '.join(associated_foods)})")

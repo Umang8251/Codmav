@@ -32,11 +32,7 @@ with st.container():
             [":rainbow[Male]", ":rainbow[Female]"],
             horizontal=True,
             )
-        user_allergies_input = st.multiselect("Select your allergies", ["No-Allergies", "Dairy", "Egg", "Gluten", "Nut", "Soy", "Fish", "Mushroom", "Peanut", "Seafood", "Pork", "Onion", "Citrus", "Caffeine", "Garlic"])
-        if "No-Allergies" in user_allergies_input:
-            allergies = ["no-allergies"]
-        else:
-            allergies = user_allergies_input
+        user_allergies_input = st.multiselect("Select your allergies", ["no-allergies", "Dairy", "Egg", "Gluten", "Nut", "Soy", "Fish", "Mushroom", "Peanut", "Seafood", "Pork", "Onion", "Citrus", "Caffeine", "Garlic"])
     
 
     with right_column:
@@ -51,10 +47,9 @@ with st.container():
                                    index=None,
                                    placeholder="")
         
-bmi = (user_weight)/pow(user_height,2)        
+      
 # Define associativity rules
 associativity_rules = {
-    #'PITA BREAD (WHEAT)': ['Hummus', 'TABBOULEH'],
     '1': ['2'],
     '3': ['2', '4', '8'],
     '5': ['4', '8'],
@@ -66,6 +61,7 @@ associativity_rules = {
 }
 
 # Set target values based on BMI and gender
+bmi = (user_weight)/pow(user_height,2)  
 target_values = set_target_values(bmi, gender)
 
 target_breakfast = target_values['breakfast']
@@ -105,7 +101,7 @@ if st.button("Generate Diet Plan", type="primary"):
     recommended_lunch_with_assoc = get_weekly_plan(recommended_lunch, associativity_rules, ['0', '1', '3', '5','14'], target_lunch)
     recommended_appetizers_with_assoc = get_weekly_plan(recommended_appetizers, associativity_rules, ['0', '6'], target_appetizers)
     recommended_dinner_with_assoc = get_weekly_plan(recommended_dinner, associativity_rules, ['0', '1', '3', '5','14'], target_dinner)
-    recommended_snacks_with_assoc = get_weekly_plan(recommended_snacks, associativity_rules, ['0', '6', '11'], target_snacks)
+    recommended_snacks_with_assoc = get_weekly_plan(recommended_snacks, associativity_rules, ['0', '11'], target_snacks)
 
     def to_get_searchterm(df):
         values = []
@@ -177,12 +173,6 @@ if st.button("Generate Diet Plan", type="primary"):
         table_footer = '</tbody></table>'
         table_html = table_header + "".join(table_data) + table_footer
         st.markdown(table_html, unsafe_allow_html=True)
-
-
-
-
-
-
 
     # Organize the recommendations into daily meal plans
     days_of_week = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]

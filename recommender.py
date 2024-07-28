@@ -2,6 +2,7 @@
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
+from sklearn.neighbors import KNeighborsClassifier
 from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import NearestNeighbors
 import re
@@ -31,7 +32,8 @@ def filter_dataset(df, allergies, region_pattern, category):
     if region_pattern != "Null":
         region_filter = df['Region'].apply(lambda x: re.search(region_pattern, x, re.IGNORECASE) is not None)
     else:
-        return df[allergy_condition & category_condition]
+        region_filter = df['Region'].apply(lambda x: True)
+        #return df[allergy_condition & category_condition]
 
     return df[allergy_condition & region_filter & category_condition]
 
@@ -177,6 +179,7 @@ def divide_by_serving_combo(food, assoc_food, target_nutrients):
 def get_weekly_plan(recommended_foods, associative_rules, valid_associations, target_nutrients):
     assoc_food_present = []
     recommendations_with_associations = []
+    print(recommended_foods)
     for index, row in recommended_foods.iterrows():
         food_item = row['Food']
         associativity = str(row['Associativity'])
@@ -219,15 +222,18 @@ def get_weekly_plan(recommended_foods, associative_rules, valid_associations, ta
     
 
         if associated_foods:
-            combined_cal = sum(cal) / len(cal)
+            #combined_cal = sum(cal) / len(cal)
             recommendations_with_associations.append([food_item, ', '.join(associated_foods), carbon_footprint, combined_cal])
         elif '0' in associativity_values:
-            if check_nutritional_requirements(row, target_nutrients):
-                recommendations_with_associations.append([food_item, '', carbon_footprint, calorie])
-            else:
-                df = divide_by_serving(row)
-                if check_nutritional_requirements(df, target_nutrients):
-                    recommendations_with_associations.append([df['Food'], '', df['Carbon Footprint(kg CO2e)'], df['Energy(kcal)']])
+                if check_nutritional_requirements(row, target_nutrients):
+                    recommendations_with_associations.append([food_item, '', carbon_footprint, calorie])
+                else:
+                    df = divide_by_serving(row)
+                    if check_nutritional_requirements(df, target_nutrients):
+                        item = df['Food']
+                        calorie = df['Energy(kcal)']
+                        carbon_footprint = df['Carbon Footprint(kg CO2e)']
+                        recommendations_with_associations.append([item, '', calorie, carbon_footprint])
 
     while len(recommendations_with_associations) < 7:
         recommendations_with_associations.extend(recommendations_with_associations[:7 - len(recommendations_with_associations)])
