@@ -319,7 +319,7 @@ print("\nRecommended Snacks :"+ str(target_snacks['Energy(kcal)']))
 print_recommendations_with_associative_rules(recommended_snacks, associativity_rules, ['0', '11'], target_snacks)
 
 # Function to calculate accuracy based on recommended foods' nutritional values compared to target nutrients with confidence interval
-def calculate_accuracy_top_two_with_confidence_interval(recommended_foods, target_nutrients, confidence_interval=0.1):
+'''def calculate_accuracy_top_two_with_confidence_interval(recommended_foods, target_nutrients, confidence_interval=0.1):
     nutrient_columns = ['Proteins', 'Carbohydrates', 'Fats', 'Fiber']
     total_within_range = 0
     total_nutrients = len(nutrient_columns) * 100  # For top two items
@@ -355,4 +355,4 @@ print("\nAccuracy for each meal type (Top two recommended items only) with ±10%
 for meal_type, accuracy in accuracies_top_two_ci.items():
     print(f"{meal_type}: {accuracy:.2f}%")
 
-print(f"\nOverall Accuracy (Top two recommended items only) with ±10% confidence interval: {overall_accuracy_top_two_ci:.2f}%")
+print(f"\nOverall Accuracy (Top two recommended items only) with ±10% confidence interval: {overall_accuracy_top_two_ci:.2f}%")'''
