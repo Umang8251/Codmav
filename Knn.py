@@ -356,3 +356,27 @@ for meal_type, accuracy in accuracies_top_two_ci.items():
     print(f"{meal_type}: {accuracy:.2f}%")
 
 print(f"\nOverall Accuracy (Top two recommended items only) with ±10% confidence interval: {overall_accuracy_top_two_ci:.2f}%")'''
+def calculate_accuracy(recommended_foods, target_values):
+    errors = []
+    for meal_type, foods in recommended_foods.items():
+        target_nutrients = target_values['Type']
+        total_error = 0
+        count = 0
+        for _, food in foods.iterrows():
+            for nutrient, target_value in target_nutrients.items():
+                error = abs(food[nutrient] - target_value) / target_value
+                total_error += error
+                count += 1
+        avg_error = total_error / count
+        errors.append(avg_error)
+    overall_error = np.mean(errors)
+    accuracy = (1 - overall_error) * 100
+    return accuracy
+
+accuracy_bf = calculate_accuracy(recommended_breakfast, target_values)
+accuracy_lun = calculate_accuracy(recommended_lunch, target_values)
+accuracy_din = calculate_accuracy(recommended_dinner, target_values)
+accuracy_snk = calculate_accuracy(recommended_snacks, target_values)
+accuracy_ap = calculate_accuracy(recommended_appetizers, target_values)
+accuracy = (float)(accuracy_ap + accuracy_snk + accuracy_bf + accuracy_lun + accuracy_din)/5
+print(f'Accuracy of the recommendations: {accuracy:.2f}%')

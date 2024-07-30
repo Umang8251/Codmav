@@ -337,4 +337,4 @@ for day, meals in weekly_plan.items():
     print(f"{day}:")
     for meal_type, meal in meals.items():
         print(f"  {meal_type}: {meal}")
-    print()
+    print()   

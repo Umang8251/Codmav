@@ -29,7 +29,7 @@ with st.container():
                             )
         gender = st.radio(
             "Select your gender",
-            [":rainbow[Male]", ":rainbow[Female]"],
+            ["Male", "Female"],
             horizontal=True,
             )
         user_allergies_input = st.multiselect("Select your allergies", ["no-allergies", "Dairy", "Egg", "Gluten", "Nut", "Soy", "Fish", "Mushroom", "Peanut", "Seafood", "Pork", "Onion", "Citrus", "Caffeine", "Garlic"])
