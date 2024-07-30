@@ -167,9 +167,9 @@ def recommend_food(df, meal_type, target_nutrients, num_recommendations=27):
     scaler = StandardScaler()
     X_train_scaled = scaler.fit_transform(X_train)
     X_test_scaled = scaler.transform(X_test)
-
+    scaler = StandardScaler()
     knn = NearestNeighbors(n_neighbors=num_recommendations,metric= 'cosine')
-    knn.fit(X_train_scaled, y_train)
+    #knn.fit(X_train_scaled, y_train)
 
     target_values = np.array([target_nutrients['Proteins'], target_nutrients['Carbohydrates'],
                               target_nutrients['Fats'], target_nutrients['Fiber'],

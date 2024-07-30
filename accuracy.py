@@ -1,5 +1,7 @@
-#works with associated foods nutritional requirement  ---26th july best working code
-# works with nutrition_cf - Sheet4.csv
+#munch nuts
+#works with associated foods nutritional requirement  -----updated on 19th use  this
+#umang - ye pakka chalega - works with nutrition_cf - Sheet2.csv
+#xxx - bmi,gender,serving  ---24th july best working code
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -8,9 +10,10 @@ from sklearn.neighbors import NearestNeighbors
 import numpy as np
 import re
 from math import pow
+from sklearn.metrics import precision_score, recall_score, f1_score, mean_absolute_error, mean_squared_error, roc_auc_score
 
 # Load the dataset
-file_path = 'nutrition_cf - Sheet4.csv'
+file_path = 'nutrition_cf - Sheet3.csv'
 nutrition_data = pd.read_csv(file_path)
 
 # Function to filter dataset based on multiple allergies, region, and category using regex
@@ -98,19 +101,19 @@ def set_target_values(bmi, gender):
 
 
 # User inputs for allergies, region, and category
-'''user_allergies_input = input("Enter allergies separated by commas (e.g., mushroom, peanut): ")
+user_allergies_input = input("Enter allergies separated by commas (e.g., mushroom, peanut): ")
 user_region_pattern = input("Enter region pattern (regex) (e.g., North): ")
 user_category = input("Enter category (e.g., veg, non-veg, eggetarian): ")
 user_gender = input("Enter your gender: ")
 user_height = float(input("Enter your height: "))
-user_weight = int(input("Enter your weight: "))'''
+user_weight = int(input("Enter your weight: "))
 
-user_allergies_input = 'no-allergies'
-user_region_pattern = "south"
+'''user_allergies_input = 'no-allergies'
+user_region_pattern = "continental"
 user_category = "non-veg"
-user_gender = "female"
-user_height = 1.65
-user_weight = 60
+user_gender = "male"
+user_height = 1.85
+user_weight = 80'''
 
 print("User preference\nAllergy : "+user_allergies_input+"\nRegion : "+user_region_pattern+"\nCategory : "+user_category+"\n")
 
@@ -128,12 +131,13 @@ associativity_rules = {
     '6': ['7'],
     '11': ['10','12'],
     '14': ['13'],
-    '9': ['10','12']
+    '9': ['12']
     # Add more rules as needed
 }
 
 bmi = (user_weight)/pow(user_height,2)
 target_values = set_target_values(bmi, user_gender)
+print("BMI:",bmi)
 
 target_breakfast = target_values['breakfast']
 target_lunch = target_values['lunch']
@@ -154,7 +158,7 @@ def check_nutritional_requirements(food, target_nutrients,):
     if(combined_nutrients <= pd.Series(target_nutrients)).all():
         return meets_requirements
 
-def recommend_food(df, meal_type, target_nutrients, num_recommendations=19):
+def recommend_food(df, meal_type, target_nutrients, num_recommendations=27):
     meal_data = df[df['Type'].str.contains(meal_type, case=False, na=False)]
     features = ['Proteins', 'Carbohydrates', 'Fats', 'Fiber', 'Energy(kcal)', 'Carbon Footprint(kg CO2e)']
 
@@ -178,6 +182,7 @@ def recommend_food(df, meal_type, target_nutrients, num_recommendations=19):
     distances, indices = knn.kneighbors(target_values_scaled)
 
     recommended_foods = meal_data.iloc[indices[0]]
+    #print(recommended_foods.head(2))
     return recommended_foods.head(num_recommendations)
 
 def divide_by_serving(food):
@@ -187,90 +192,85 @@ def divide_by_serving(food):
   food = food.drop(['Serving_Numbers'], axis=0)
   return food
 
-def divide_by_serving_combo(food, assoc_food, target_nutrients):
-    serving = food['Serving']
-    assoc_serving = assoc_food['Serving']
-
-    new_food = food.copy()
-    new_assoc_food = assoc_food.copy()
-
-    new_food['Serving_Numbers'] = int(serving[0])
-    new_assoc_food['Serving_Numbers_assoc'] = int(assoc_serving[0])
-
-    new_food[['Proteins', 'Carbohydrates', 'Fats', 'Fiber', 'Energy(kcal)']] = new_food[['Proteins', 'Carbohydrates', 'Fats', 'Fiber', 'Energy(kcal)']].div(new_food['Serving_Numbers'], axis=0)
-    new_assoc_food[['Proteins', 'Carbohydrates', 'Fats', 'Fiber', 'Energy(kcal)']] = new_assoc_food[['Proteins', 'Carbohydrates', 'Fats', 'Fiber', 'Energy(kcal)']].div(new_assoc_food['Serving_Numbers_assoc'], axis=0)
-
-    if check_combined_nutritional_requirements(new_food, new_assoc_food, target_nutrients):
-        return [new_food['Food'], new_food['Energy(kcal)'], new_assoc_food["Food"], new_assoc_food["Energy(kcal)"]]
-
-    new_food = new_food.drop(['Serving_Numbers'], axis=0)
-    new_assoc_food = new_assoc_food.drop(['Serving_Numbers_assoc'], axis=0)
-
-    return []
-
+def divide_by_serving_combo(food,assoc_food,target_nutrients):
+  serving = food['Serving']
+  assoc_serving = assoc_food['Serving']
+  food['Serving_Numbers'] =  int(serving[0])
+  assoc_food['Serving_Numbers_assoc'] =  int(assoc_serving[0])
+  food[['Proteins', 'Carbohydrates', 'Fats', 'Fiber', 'Energy(kcal)']] = food[['Proteins', 'Carbohydrates', 'Fats', 'Fiber', 'Energy(kcal)']].div(food['Serving_Numbers'], axis=0)
+  assoc_food[['Proteins', 'Carbohydrates', 'Fats', 'Fiber', 'Energy(kcal)']] = assoc_food[['Proteins', 'Carbohydrates', 'Fats', 'Fiber', 'Energy(kcal)']].div(assoc_food['Serving_Numbers_assoc'], axis=0)
+  if check_combined_nutritional_requirements(food, assoc_food, target_nutrients):
+      return [food['Food'],food['Energy(kcal)'],assoc_food["Food"],assoc_food["Energy(kcal)"]]
+  food = food.drop(['Serving_Numbers'], axis=0)
+  assoc_food = assoc_food.drop(['Serving_Numbers_assoc'], axis=0)
+  return [food['Food'],food['Energy(kcal)']]
 
 
 # Function to print recommendations with associative rules
-def print_recommendations_with_associative_rules(recommended_foods, associative_rules, valid_associations, target_nutrients):
-    assoc_food_present = []
-    #print(recommended_foods['Food'])
+def get_weekly_plan(recommended_foods, associative_rules, valid_associations, target_nutrients):
+    weekly_plan = []
     for index, row in recommended_foods.iterrows():
         food_item = row['Food']
         associativity = str(row['Associativity'])
         calorie=row['Energy(kcal)']
-        
+
         # Split associativity values if they are combined (e.g., '2,8')
         associativity_values = [value.strip() for value in associativity.split(',')]
         associated_foods = []
         cal=[]
+        calory=[]
         for value in associativity_values:
             if value in valid_associations and value in associative_rules:
-                if (value=='11' or value=='9' or value=='5' or value=='3' or value=='1'):
-                    associated_food_items = nutrition_data[nutrition_data['Associativity'].isin(associative_rules[value])]  
-                else:
-                    associated_food_items = recommended_foods[recommended_foods['Associativity'].isin(associative_rules[value])]     
-                if (value!='14'):
-                    associated_food_items = associated_food_items[~associated_food_items['Food'].isin(assoc_food_present)]
+                associated_food_items = recommended_foods[recommended_foods['Associativity'].isin(associative_rules[value])]
                 if not associated_food_items.empty:
-                    #print(associated_food_items['Food'])
                     for _, assoc_row in associated_food_items.iterrows():
+                        row_dish = row
                         if check_combined_nutritional_requirements(row, assoc_row, target_nutrients):
-                            assoc_food_present.append(assoc_row['Food'])
-                            #print("if")
-                            associated_foods.append(assoc_row['Food'])  
+                            associated_foods.append(assoc_row['Food'])
                             assoc_calorie=assoc_row['Energy(kcal)']
                             calorie = row['Energy(kcal)']
                             combined_cal = assoc_calorie + calorie
-                            cal.append(combined_cal)                    
+                            cal.append(combined_cal)
                             break
-                            
+
                         else:
-                            food_df = divide_by_serving_combo(row,assoc_row,target_nutrients)
+                            food_df = divide_by_serving_combo(row_dish,assoc_row,target_nutrients)
                             if len(food_df)==4 :
-                                #print("Check combo serving and printed")  
-                                assoc_food_present.append(assoc_row['Food']) 
-                                calorie = food_df[1]                           
+                                #print("Check combo serving and printed")
+                                calorie = food_df[1]
                                 assoc_foods = food_df[2]
                                 assoc_calorie = food_df[3]
                                 combined_cal = assoc_calorie + calorie
                                 cal.append(combined_cal)
                                 associated_foods.append(assoc_foods)
                                 break
-                                                                                                             
-        if associated_foods :
-            print(f"{food_item, cal} (associated with: {', '.join(associated_foods)})")
-        elif '0' in associativity_values:
-                if check_nutritional_requirements(row, target_nutrients):
-                    #print("0 if")
-                    print(f"{food_item, calorie}")
-                else:
-                    df = divide_by_serving(row)
-                    if check_nutritional_requirements(df, target_nutrients):
-                        item = df['Food']
-                        calorie = df['Energy(kcal)']
-                        #print("0 elif")
-                        print(f"{item, calorie}")
 
+                            elif (len(food_df)==2) and check_nutritional_requirements(row, target_nutrients) :
+                                if not(associated_foods):
+                                    #print(f"{row['Food'], food_df[1]}")
+                                    calory=food_df[1]
+                                    weekly_plan.append(f"{row['Food'], calory}")
+                                    break
+
+        if associated_foods :
+            #print(f"{food_item, cal} (associated with: {', '.join(associated_foods)})")
+            weekly_plan.append(f"{food_item,cal} (associated with: {', '.join(associated_foods)})")
+        elif '0' in associativity_values:
+          if check_nutritional_requirements(row, target_nutrients):
+            #print(f"{food_item, calorie}")
+            weekly_plan.append(f"{food_item,calorie}")
+          else:
+            df = divide_by_serving(row)
+            if check_nutritional_requirements(df, target_nutrients):
+              item = df['Food']
+              calorie = df['Energy(kcal)']
+              #print(f"{item, calorie}")
+              weekly_plan.append(f"{item,calorie}")
+
+    while len(weekly_plan) < 7:
+        weekly_plan.extend(weekly_plan[:7 - len(weekly_plan)])
+
+    return weekly_plan[:7]
 # Filtering the dataset based on user preferences
 try:
     filtered_data = filter_dataset(nutrition_data, user_allergies, user_region_pattern, user_category)
@@ -295,7 +295,7 @@ finally:
     recommended_dinner = recommend_food(filtered_data, 'Dinner', target_dinner)
 
 
-# Recommend food items for each meal type
+'''# Recommend food items for each meal type
 print("Recommended Breakfast :"+ str(target_breakfast['Energy(kcal)']))
 print_recommendations_with_associative_rules(recommended_breakfast, associativity_rules, ['0', '1', '3', '5','9','14'], target_breakfast)
 
@@ -309,37 +309,92 @@ print("\nRecommended Dinner :"+ str(target_dinner['Energy(kcal)']))
 print_recommendations_with_associative_rules(recommended_dinner, associativity_rules, ['0', '1', '3', '5','14'], target_dinner)
 
 print("\nRecommended Snacks :"+ str(target_snacks['Energy(kcal)']))
-print_recommendations_with_associative_rules(recommended_snacks, associativity_rules, ['0', '11'], target_snacks)
+print_recommendations_with_associative_rules(recommended_snacks, associativity_rules, ['0', '11'], target_snacks)'''
 
-def calculate_nutrient_match_accuracy(recommended_foods, target_nutrients):
-    total_accuracy = 0
-    for index, row in recommended_foods.iterrows():
-        recommended_nutrients = row[['Proteins', 'Carbohydrates', 'Fats', 'Fiber', 'Energy(kcal)']]
-        accuracy = sum(
-            [1 if abs(recommended_nutrients[nutrient] - target_nutrients[nutrient]) / target_nutrients[nutrient] <= 0.10
-             else 0 for nutrient in target_nutrients]
-        ) / len(target_nutrients)
-        total_accuracy += accuracy
-    return total_accuracy / len(recommended_foods)
+breakfast_plan = get_weekly_plan(recommended_breakfast, associativity_rules, ['0', '1', '3', '5','9','14'], target_breakfast)
+snacks_plan = get_weekly_plan(recommended_snacks, associativity_rules, ['0', '6', '11'], target_snacks)
+appetizers_plan = get_weekly_plan(recommended_appetizers, associativity_rules, ['0', '6'], target_appetizers)
+lunch_plan = get_weekly_plan(recommended_lunch, associativity_rules,['0', '1', '3', '5','14'], target_lunch)
+dinner_plan = get_weekly_plan(recommended_dinner, associativity_rules,['0', '1', '3', '5','14'], target_dinner)
 
-# Example usage
-nutrient_match_accuracy_breakfast = calculate_nutrient_match_accuracy(recommended_breakfast, target_breakfast)
-nutrient_match_accuracy_lunch = calculate_nutrient_match_accuracy(recommended_lunch, target_lunch)
-nutrient_match_accuracy_dinner = calculate_nutrient_match_accuracy(recommended_dinner, target_dinner)
-nutrient_match_accuracy_snacks = calculate_nutrient_match_accuracy(recommended_snacks, target_snacks)
-nutrient_match_accuracy_appetizers = calculate_nutrient_match_accuracy(recommended_appetizers, target_appetizers)
+# Format into a weekly plan
+weekly_plan = {
+    'Monday': {'Breakfast': breakfast_plan[0], 'Lunch': lunch_plan[0], 'Snacks': snacks_plan[0], 'Dinner': dinner_plan[0], 'Appetizers': appetizers_plan[0]},
+    'Tuesday': {'Breakfast': breakfast_plan[1], 'Lunch': lunch_plan[1], 'Snacks': snacks_plan[1], 'Dinner': dinner_plan[1], 'Appetizers': appetizers_plan[1]},
+    'Wednesday': {'Breakfast': breakfast_plan[2], 'Lunch': lunch_plan[2], 'Snacks': snacks_plan[2], 'Dinner': dinner_plan[2], 'Appetizers': appetizers_plan[2]},
+    'Thursday': {'Breakfast': breakfast_plan[3], 'Lunch': lunch_plan[3], 'Snacks': snacks_plan[3], 'Dinner': dinner_plan[3], 'Appetizers': appetizers_plan[3]},
+    'Friday': {'Breakfast': breakfast_plan[4], 'Lunch': lunch_plan[4], 'Snacks': snacks_plan[4], 'Dinner': dinner_plan[4], 'Appetizers': appetizers_plan[4]},
+    'Saturday': {'Breakfast': breakfast_plan[5], 'Lunch': lunch_plan[5], 'Snacks': snacks_plan[5], 'Dinner': dinner_plan[5], 'Appetizers': appetizers_plan[5]},
+    'Sunday': {'Breakfast': breakfast_plan[6], 'Lunch': lunch_plan[6], 'Snacks': snacks_plan[6], 'Dinner': dinner_plan[6], 'Appetizers': appetizers_plan[6]},
+}
 
-overall_nutrient_match_accuracy = (
-    nutrient_match_accuracy_breakfast +
-    nutrient_match_accuracy_lunch +
-    nutrient_match_accuracy_dinner +
-    nutrient_match_accuracy_snacks +
-    nutrient_match_accuracy_appetizers
-) / 5
+#print(weekly_plan)
+# Print the weekly plan
+'''for day, meals in weekly_plan.items():
+    print(f"{day}:")
+    for meal_type, meal in meals.items():
+        print(f"  {meal_type}: {meal}")
+    print()'''
+# Function to calculate precision, MAE, and RMSE for nutritional values
+def calculate_metrics(target_values, recommended_values):
+    # Flatten the dictionaries to lists for comparison
+    target_list = [v for k, v in target_values.items()]
+    recommended_list = [v for k, v in recommended_values.items()]
+    
+    # Calculate MAE
+    mae = mean_absolute_error(target_list, recommended_list)
+    
+    # Calculate RMSE
+    rmse = mean_squared_error(target_list, recommended_list, squared=False)
+    
+    # Calculate Precision
+    tolerance = 0.1  # Define a tolerance level, e.g., 10%
+    precision = sum([1 for t, r in zip(target_list, recommended_list) if abs(t - r) / t <= tolerance]) / len(target_list)
+    
+    return precision, mae, rmse    
+# Initialize lists to store daily metrics
+daily_precisions = []
+daily_maes = []
+daily_rmses = []
 
-print(f"Nutrient Match Accuracy for Breakfast: {nutrient_match_accuracy_breakfast:.2f}")
-print(f"Nutrient Match Accuracy for Lunch: {nutrient_match_accuracy_lunch:.2f}")
-print(f"Nutrient Match Accuracy for Dinner: {nutrient_match_accuracy_dinner:.2f}")
-print(f"Nutrient Match Accuracy for Snacks: {nutrient_match_accuracy_snacks:.2f}")
-print(f"Nutrient Match Accuracy for Appetizers: {nutrient_match_accuracy_appetizers:.2f}")
-print(f"Overall Nutrient Match Accuracy: {overall_nutrient_match_accuracy:.2f}")
+for day, meals in weekly_plan.items():
+    for meal_type, meal in meals.items():
+        # Get the target nutrients for the meal type
+        if meal_type.lower() == 'breakfast':
+            target_nutrients = target_breakfast
+        elif meal_type.lower() == 'lunch':
+            target_nutrients = target_lunch
+        elif meal_type.lower() == 'snacks':
+            target_nutrients = target_snacks
+        elif meal_type.lower() == 'dinner':
+            target_nutrients = target_dinner
+        elif meal_type.lower() == 'appetizers':
+            target_nutrients = target_appetizers
+        else:
+            continue
+        
+        # Parse recommended nutrients from the meal (assumes meal is a tuple or formatted string with nutritional values)
+        recommended_values = {
+            'Proteins': int(meal['Proteins']),  # Adjust the parsing according to your actual data structure
+            'Carbohydrates': int(meal['Carbohydrates']),
+            'Fats': int(meal['Fats']),
+            'Fiber': int(meal['Fiber']),
+            'Energy(kcal)': int(meal['Energy(kcal)'])
+        }
+        
+        # Calculate the metrics
+        precision, mae, rmse = calculate_metrics(target_nutrients, recommended_values)
+        
+        # Append the metrics to the respective lists
+        daily_precisions.append(precision)
+        daily_maes.append(mae)
+        daily_rmses.append(rmse)
+
+# Calculate average metrics over the week
+average_precision = np.mean(daily_precisions)
+average_mae = np.mean(daily_maes)
+average_rmse = np.mean(daily_rmses)
+
+print(f"Average Precision: {average_precision}")
+print(f"Average MAE: {average_mae}")
+print(f"Average RMSE: {average_rmse}")
