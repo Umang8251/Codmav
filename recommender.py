@@ -223,10 +223,10 @@ def get_weekly_plan(recommended_foods, associative_rules, valid_associations, ta
 
         if associated_foods:
             #combined_cal = sum(cal) / len(cal)
-            recommendations_with_associations.append([food_item, ', '.join(associated_foods), carbon_footprint, combined_cal])
+            recommendations_with_associations.append([food_item, ', '.join(associated_foods), combined_cal,carbon_footprint])
         elif '0' in associativity_values:
                 if check_nutritional_requirements(row, target_nutrients):
-                    recommendations_with_associations.append([food_item, '', carbon_footprint, calorie])
+                    recommendations_with_associations.append([food_item, '', calorie , carbon_footprint])
                 else:
                     df = divide_by_serving(row)
                     if check_nutritional_requirements(df, target_nutrients):
@@ -238,4 +238,4 @@ def get_weekly_plan(recommended_foods, associative_rules, valid_associations, ta
     while len(recommendations_with_associations) < 7:
         recommendations_with_associations.extend(recommendations_with_associations[:7 - len(recommendations_with_associations)])
 
-    return pd.DataFrame(recommendations_with_associations[:7], columns=['Food', 'Associations', 'Carbon Footprint(kg CO2e)', 'Energy(kcal)'])
+    return pd.DataFrame(recommendations_with_associations[:7], columns=['Food', 'Associations', 'Energy(kcal)','Carbon Footprint(kg CO2e)'])

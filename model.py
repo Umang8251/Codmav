@@ -121,7 +121,6 @@ if user_allergies == ['']:
 
 # Define associativity rules
 associativity_rules = {
-    #'PITA BREAD (WHEAT)': ['Hummus', 'TABBOULEH'],
     '1': ['2'],
     '3': ['2', '4', '8'],
     '5': ['4', '8'],
@@ -155,6 +154,7 @@ def check_nutritional_requirements(food, target_nutrients,):
     if(combined_nutrients <= pd.Series(target_nutrients)).all():
         return meets_requirements
 
+#To recommend 27 nearest neighbours based on the extract features using 'cosine' metric and 'auto' algorithm
 def recommend_food(df, meal_type, target_nutrients, num_recommendations=27):
     meal_data = df[df['Type'].str.contains(meal_type, case=False, na=False)]
     features = ['Proteins', 'Carbohydrates', 'Fats', 'Fiber', 'Energy(kcal)', 'Carbon Footprint(kg CO2e)']
@@ -167,9 +167,9 @@ def recommend_food(df, meal_type, target_nutrients, num_recommendations=27):
     scaler = StandardScaler()
     X_train_scaled = scaler.fit_transform(X_train)
     X_test_scaled = scaler.transform(X_test)
-    scaler = StandardScaler()
+    
     knn = NearestNeighbors(n_neighbors=num_recommendations,metric= 'cosine')
-    #knn.fit(X_train_scaled, y_train)
+    knn.fit(X_train_scaled, y_train)
 
     target_values = np.array([target_nutrients['Proteins'], target_nutrients['Carbohydrates'],
                               target_nutrients['Fats'], target_nutrients['Fiber'],
@@ -179,7 +179,6 @@ def recommend_food(df, meal_type, target_nutrients, num_recommendations=27):
     distances, indices = knn.kneighbors(target_values_scaled)
 
     recommended_foods = meal_data.iloc[indices[0]]
-    #print(recommended_foods.head(2))
     return recommended_foods.head(num_recommendations)
 
 def divide_by_serving(food):
@@ -211,7 +210,7 @@ def divide_by_serving_combo(food, assoc_food, target_nutrients):
     return []
 
 
-# Function to print recommendations with associative rules
+# Function to print recommendations with combinations
 def get_weekly_plan(recommended_foods, associative_rules, valid_associations, target_nutrients):
     assoc_food_present = []
     weekly_plan = []
