@@ -22,7 +22,7 @@ def extract_ingredients(ingredients_string):
 
 # Read carbon footprint data from CF.csv
 cf_dict = {}
-with open('/mnt/data/CF.csv', 'r') as cf_file:
+with open('CF.csv', 'r') as cf_file:
     cf_reader = csv.reader(cf_file)
     next(cf_reader)  # Skip the header row
     for row in cf_reader:
@@ -36,7 +36,7 @@ with open('Dish_Carbon_Footprint.csv', 'w', newline='') as output_file:
     writer.writerow(['Dish', 'Total Carbon Footprint (kg CO2e)'])  # Write the header
 
     # Read FOOD.csv and calculate carbon footprint for each dish
-    with open('FOOD.csv', 'r') as csvfile:
+    with open(' ICE.csv', 'r') as csvfile:
         reader = csv.reader(csvfile)
         next(reader)  # Skip the header row
         for row in reader:

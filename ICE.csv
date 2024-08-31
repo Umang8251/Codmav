@@ -1,0 +1,759 @@
+Food,Serving,Total Weight (gms),Ingredients
+Soya flour Gobi stuffed paratha,2,393,Cauliflower-15 gms; Onion-15 gms; Ginger-4 gms; Cumin seeds-4 gms; chillies-15 gms; Coriander leaves-15 gms; Red chilli Powder-15 gms; Garam Masala-15 gms; Common salt-15 gms; Soya flour-250 gms; Atta-30 gms
+DUMPLINGS (Veg),4,255,carrot-15 gms; CABBAGE-15 gms; Capsicum-15 gms; mushroom-15 gms; Garlic-7 gms; Ginger-7 gms; soya sauce-15 gms; Gingelly oil-7 gms; Onion-15 gms; Atta-125 gms; Common salt-4 gms; Chili Sauce-15 gms
+Baked Vegetables,4,83,Cauliflower-20 gms; carrot-20 gms;Capsicum-20 gms;Black Pepper-4 gms; Common salt-4 gms; Olive oil-15 gms
+LETTUCE WRAP (Chicken),1,369,Lettuce Leaf-20 gms; Chicken-70 gms; Tomato-120 gms; Cucumber-62 gms; Onion-30 gms; Coriander leaves-15 gms;Mint leaves-15 gms; Lemon-15 gms; soya sauce-15 gms; Sesame oil-7 gms
+Soya Sizzler,1,567,Soyabean-30 gms; Ginger-15 gms;Garlic-15 gms; Cooking oil-7 gms; Capsicum-60 gms; Mushroom-20 gms; Onion-20 gms; Zucchini-20 gms; Tomato-120 gms; Cabbage-200 gms; Common salt-15 gms; Red chilli Powder-15 gms; Ginger powder-15 gms; Black pepper-15 gms;
+Fried Rice,1,585,Rice-250 gms; Mustard oil-15 gms; Onion-77 gms; Capsicum-62 gms; carrot-62 gms; Peas-62 gms; Garlic-20 gms; soya sauce-7 gms; Common salt-15 gms; Black pepper-15 gms;
+Soy Milk,1,125,Soya bean-125 gms;
+Soya Bhurji,4,335,Turmeric powder-15 gms; Cumin seeds-15 gms; Common salt-15 gms; Coriander leaves-15 gms; Red chilli Powder-15 gms; Coriander Powder-15 gms; Onion-125 gms; Tomato-90 gms; Chillies-15 gms; Olive oil-15 gms
+Chicken sizzler,1,759,Chicken-300 gms; Sunflower oil-15 gms; Garlic-15 gms; Zucchini-125 gms; Mushroom-125 gms; carrot-125 gms; soya sauce-15 gms; VINEGAR-15 gms; Black pepper-24 gms
+Rajma Chaat,1,343,RAJMA-250 gms; CUCUMBER-15 gms; Tomato-15 gms; Chillies-4 gms; Coriander leaves-15 gms; Lemon-7 gms; Common salt-7 gms; Chat Masala-15 gms; Cumin Powder-15 gms
+Saute Tofu,1,389,Common salt-15 gms; Coriander leaves-15 gms; Tofu-150 gms; Red chilli Powder-15 gms;Onion-125 gms; Garlic-15 gms; Chillies-24 gms; Coriander Powder-15 gms; Turmeric powder-15 gms
+CHILLI CHICKEN,1,374,Chicken-60 gms; soya sauce-15 gms; VINEGAR-7 gms; Ginger-15 gms;Garlic-15 gms; Chillies-7 gms; Onion-60 gms; Capsicum-150 gms; Common salt-15 gms; Coriander leaves-15 gms; ; Olive oil-15 gms
+Soya granules,3,315,Common salt-15 gms; Ginger-1 ; Black pepper-7 gms; CURRY LEAVES-5 gms; CORIANDER-30 gms; Cooking oil-15 gms; Onion-60 gms; Ginger-7 gms; Cumin seeds-7 gms; Chillies-4 gms; CORIANDER LEAVES-15 gms; Soya Granules-150 gms
+Chicken Rice,1,422,Onion-120 gms; Ginger-5 gms;Garlic-5 gms; Cooking oil-2 gms; Common salt-15 gms; Black pepper-15 gms; Rice-60 gms; Chicken-200 gms
+Gravy tofu,1,592,Common salt-15 gms; Black pepper-15 gms; Cooking oil-30 gms; Onion-100 gms;Garlic-2 gms; Ginger-5 gms; Capsicum-100 gms; MUSHROOM-250 gms; soya sauce-15 gms; Tofu-150 gms
+Masala Tofu,1,317,Common salt-15 gms; Onion-10 gms;Garlic-2 gms; Ginger-7 gms; Tomato-120 gms; CORIANDER leaves-15 gms; TURMERIC powder-7 gms; Tofu-150 gms
+Soya Roti Roll (Broccoli & Tofu),1,440,Cumin seeds-15 gms; Turmeric powder-15 gms; Common salt-15 gms; Soya flour-75 gms; Broccoli-125 gms; Tofu-150 gms; Coriander Powder-15 gms; Garam Masala-15 gms; Olive oil-15 gms
+Smoothie (Soya Milk),1,509,Papaya-150 gms; ORANGE-90 gms; Almond-4 gms; PUMPKIN SEED-15 gms; Soya Milk-250 gms
+Tofu Salad,1,169,CUCUMBER-62 gms; Capsicum-62 gms; CORIANDER-15 gms; Lemon-15 gms; Tofu-15 gms
+Soya Chunks Salad,1,1202,CUCUMBER-250 gms; carrot-250 gms; Tomato-120 gms; Capsicum-250 gms; Lemon-5 gms; Common salt-7 gms; Black pepper-15 gms; Parsley-5 gms; Soya Chunks-300 gms
+Noodles Tofu Sizzler,1,452,Common salt-7 gms; Lettuce Leaf-75 gms; Capsicum-75 gms; Onion-70 gms; Mint leaves-15 gms; Ginger-15 gms; Garlic-15 gms; Cumin seeds-15 gms; Coriander seeds-15 gms; Rice Noodles-150 gms
+Nutri matar (soya) Vegetable,1,352,Peas-62 gms; Tomato-120 gms; Onion-50 gms; Cumin seeds-4 gms; Turmeric powder-4 gms; Common salt-7 gms; Cooking oil-15 gms; Coriander leaves-15 gms; Soya Chunks-75 gms
+Soya Sprouts Salad,2,952,CUCUMBER-250 gms; carrot-250 gms; Capsicum-250 gms; Lemon-5 ml; Common salt-7 gms; Black pepper-15 gms;Parsley-15 gms; Brussels sprouts-15 gms; Soyabean-150 gms
+Lettuce wrap with Vegetables,1,245,MUSHROOM-60 gms; Spinach-60 gms; Onion-30 gms; Capsicum-75 gms; carrot-1 gms; Garlic-5 gms; Common salt-0.5 gms; Black pepper-0.5 gms;Parsley-4 gms
+BEANS/CHINESE BEANS,1,300,Beans-125 gms; Onion-100 gms; Cumin seeds-15 gms; Turmeric powder-15 gms; Mustard oil-30 gms; Common salt-15 gms
+Vegetables In Black Bean Sauce,1,194,Garlic-1 gms; Ginger-1 gms; Capsicum-15 gms; carrot-1 gms; MUSHROOM-1 gms; Zucchini-50 gms; Onion-80 gms; soya sauce-15 gms; Common salt-15 gms; Black pepper-15 gms
+Vietnamese cold Spring Roll,2,264,Lettuce Leaf-20 gms; Mint leaves-15 gms; CORIANDER-15 gms; carrot-62 gms; Capsicum-62 gms; CUCUMBER-62 gms; soya sauce-4 gms; VINEGAR-4 gms; Rice paper-20 gms
+Soya wrap,1,1003,Lettuce leaf-60 gms; Tomato-250 gms; CUCUMBER-250 gms; Capsicum-250 gms; Cumin seeds-4 gms; Chillies-4 gms; Common salt-15 gms; Black pepper-15 gms; Lemon-5 gms; Soya-150 gms
+Shredded Chicken with Soya Sauce,4,405,HONEY-15 gms; Common salt-15 gms; Chicken-300 gms; soya sauce-30 gms; Vinegar-15 gms; Sesame Oil-15 gms; Garlic-15 gms
+Rice Flour Wrap with Tofu And Veggie,2,610,Rice Flour-150 gms; Common salt-15 gms; Cumin seeds-15 gms; Ajwain-15 gms; Red chilli Powder-15 gms; Olive oil-15 gms; Tofu-350 gms; Capsicum-10 gms; Onion-10 gms; CABBAGE-10 gms; Coriander Powder-5 gms
+Soya Tikki,2,1070,Soya Granules-150 gms; POTATO-700 gms; Onion-125 gms; Ginger powder-15 gms; Garlic powder-15 gms; Cumin seeds-15 gms; Coriander Powder-5 gms; Garam Masala-15 gms; Common salt-15 gms; Olive oil-15 gms
+Soya Flour Gobhi Stuffed Paratha,2,465,Ginger powder-15 gms; Chillies-15 gms; Coriander Powder-5 gms; Common salt-15 gms; Coriander leaves-15 gms; Soya flour-250 gms; Cauliflower-150 gms;
+Saute Tofu,2,151,Tofu-150 gms; Onion-1 gms
+Soya Flour Cheela,1,685,Soya flour-250 gms;Onion-125 gms; Tomato tomato; Capsicum-250 gms; Chillies-15 gms; Ginger powder-15 gms; Common salt-15 gms; Olive oil-15 gms
+Tofu Tikka Saute in Green Chutney,1,385,Tofu-250 gms; Coriander leaves-15 gms;Mint leaves-15 gms; Chillies-15 gms; Ginger-15 gms;Garlic-15 gms; Cumin seeds-15 gms; Chat Masala-15 gms; Common salt-15 gms; Olive oil-15 gms
+Soya Flour Cheela,1,540,Onion-125 gms; Tomato-90 gms; Capsicum-250 gms; Chillies-15 gms; Turmeric powder-15 gms; Red chilli Powder-15 gms; Common salt-15 gms; Olive oil-15 gms
+Avocado Toast 2,1,530,Avocado-180 gms; Bread-50 gms; Black Pepper-15 gms; Tomato-90 gms; Onion-150 gms; Lemon-15 gms; Olive oil-15 gms;Parsley-15 gms
+Crispy Prawn Rolls,1,184,Shrimp-75 gms; Onion-15 gms; soya sauce-15 gms; Common salt-15 gms;Black Pepper-4 gms; Cooking oil-15 gms; Lemon-15 gms; Garlic powder-15 gms; Ginger powder-15 gms
+Prawn Masala Dumpling,3,105,Shrimp-30 gms; Onion-20 gms; Cooking oil-15 gms; Wheat-40 gms
+Sesame Chicken Salad,1,495,Chicken-100 gms; Lettuce Leaf-80 gms; CABBAGE-80 gms; carrot-50 gms; CUCUMBER-50 gms; Capsicum-50 gms; Onion-60 gms; Common salt-15 gms; Ginger-5 gms;Garlic-5 gms
+Fish Fingers (Grilled / Roasted ),1,453,fish-70 gms; Turmeric powder-4 gms; Lemon-7 gms; Ginger-15 gms; Garlic-15 gms; Common salt-7 gms; Cooking oil-15 gms; Cumin seeds-15 gms; Coriander Powder-15 gms; Garam Masala-15 gms; Rice Flour-150 gms; Besan-125 gms
+Prawn Cutlet,3,117,Shrimp-60 gms; POTATO-20 gms; Onion-7 gms; Turmeric powder-4 gms;Lemon-4 gms; Coriander leaves-15 gms; Common salt-7 gms
+Rice milk,1,129,Common salt-4 gms; Rice-125 gms
+CHICKEN SALAMI SALAD,1,422,Common salt-15 gms; carrot-60 gms; Capsicum-20 gms; Lettuce Leaf-20 gms; Lemon-15 gms; Coriander leaves-0.5 gms; Mint leaves-7 gms; Chicken-250 gms; Olive oil-15 gms; Garlic powder-15 gms
+CHICKEN SAUSAGES SALAD,1,424,Common salt-15 gms; carrot-60 gms; Capsicum-20 gms; Lettuce Leaf-20 gms; Lemon-15 gms; Coriander leaves-7 gms;Mint leaves-7 gms; Chicken-250 gms; Olive oil-15 gms; Garlic powder-15 gms
+Chicken Salami Toast,2,452,Bread-60 gms; Chicken Salami-10 gms;Onion-125 gms; Tomato-90 gms; Capsicum-150 gms; Red chilli Powder-15 gms; Turmeric powder-1 gms; Common salt-1 gms
+Sabudana Cutlet/Tikki,1,113,Sabudana-62 gms; Ginger powder-7 gms; Coriander leaves-7 gms; Red Chilli Powder-7 gms; Common salt-15 gms; Cooking Oil-15 gms
+Chicken Satay,4,651,Chicken-60 gms; Lemon-15 gms; Turmeric powder-15 gms; Cumin seeds-15 gms; Yoghurt-15 gms; Garlic powder-15 gms; Red chilli Powder-7 gms; Coriander Powder-15 gms; Garam Masala-15 gms; Common salt-7 gms; Olive oil-15 gms; Peanuts-200 gms; milk-250 gms ; Ginger powder-7 gms
+Coconut Chutney,2,37,Salt-0.34 gms; Chickpeas-6.75 gms; Chillies-0.45 gms; Cooking Oil-1 gms; Mustard-0.4 gms; Coconut-9 gms
+Sabudana Khichdi,1,125,Tapioca-62 gms; Common salt-15 gms; Cumin seeds-4 gms; Curry leaves-5 gms; POTATO-10 gms; Lemon-7 gms; CORIANDER-15 gms; Cooking oil-7 gms
+Sabudana Vada,10,202,Tapioca-125 gms; POTATO-10 gms; Cumin seeds-7 gms; CORIANDER-15 gms; Common salt-15 gms; Lemon-15 gms; Cooking oil-15 gms
+Masala Onion Salad,1,180,Chillies-15 gms; Common salt-7 gms; Coriander leaves-7 gms; Lemon-15 gms; Cumin seeds-7 gms; Chillies-4 gms; Onion-125 gms
+"BELL PEPPER, ONION & TOMATO VegETABLE",1,555,Capsicum-70 gms; Onion-90 gms; Tomato-120 gms; Turmeric powder-15 gms; Mustard oil-30 gms; Coriander leaves-15 gms; Common salt-15 gms; Capsicum-200 gms
+Roasted Makhana (Foxnuts),1,299,Makhana-250 gms; Common salt-15 gms;Black Pepper-4 gms; Chat Masala-15 gms; Cumin seeds-15 gms
+Hummus,1,122,Gram dal-60 gms;Garlic-10 gms; Lemon-15 gms; Common salt-7 gms; Olive oil-15 gms; Cumin Powder-15 gms
+Almond Flour Wrap,1,291,Common salt-15 gms; Onion-1 gms;Roti-100 gms; Egg-130 gms ; Garlic Powder-15 gms; Black pepper-15 gms; Olive oil-15 gms
+Oats Porridge,2,430,Oats-150 gms; Milk-250 gms; Cinnamon-15 gms; Common salt-15 gms
+MIX NUTS RAITA,1,313,Yoghurt-250 gms; Almond-10 gms; RAISINS-4 gms; Common salt-4 gms; Coriander leaves-15 gms; Black pepper-15 gms; Cumin seeds-15 gms
+Rajma Kebab,4,184,Rajma-80 gms; carrot-15 gms; Potato-30 gms; Peas-15 gms; Common salt-7 gms; Coriander leaves-15 gms; Cooking oil-7 gms; Cumin seeds-15 gms
+Bhel (no papri),1,520,Rice-250 gms; Onion-15 gms; Tomato-120 gms; Cucumber-15 gms; carrot-15 gms; Potato-15 gms; Coriander leaves-30 gms; Common salt-15 gms; Lemon-15 gms; Chat Masala-15 gms; Cumin seeds-15 gms
+Veg Seeds Salad,1,293,Lettuce Leaf-80 gms; CUCUMBER-60 gms; Onion-30 gms; carrot-30 gms; Capsicum-30 gms; Sunflower seeds-15 gms; PUMPKIN SEED-15 gms;Garlic-3 gms; Common salt-15 gms; Black pepper-15 gms
+Steam Vegetable Salad,1,577,carrot-60 gms; Lemon-15 gms; Zucchini-195 gms; Capsicum-150 gms; Onion-120 gms; Cumin seeds-15 gms; Turmeric powder-7 gms; Red chilli Powder-7 gms; Coriander Powder-7 gms; Coriander leaves-1 gms
+FRUIT & NUTS (WALNUT & ALMOND) SALAD,1,292,Apple-90 gms; Grapes-62 gms; Almond-5 gms; PUMPKIN-15 gms; Sunflower seeds-15 gms; strawberry-105 gms
+CHICKEN SALAD WITH ALMOND HONEY MUSTARD DRESSING,1,437,Common salt-15 gms; carrot-60 gms; Capsicum-20 gms; Capsicum-20 gms; Lettuce Leaf-20 gms; Coriander leaves-7 gms; Mint leaves-2.5 gms; Almond-5 gms; HONEY-0.5 gms; Chicken-250 gms; Olive oil-15 gms; Garlic powder-15 gms
+Almond Soup,4,1075,Common salt-15 gms; Almonds-250 gms; Onion-125 gms; garlic-5 gms; Celery-150 gms; Broth-500 gms; thyme-15 gms; Parsley-15 gms
+ALMOND MUSHROOM SOUP,1,187,Almond-10 gms; MUSHROOM-62 gms; Common salt-15 gms; Milk-100 gms
+Oats Smoothie,1,500,Banana-100 gms; Oats-150 gms; Almond Milk-250 gms
+Smoothie (Almond Milk),1,615,Chia Seeds-15 gms; Almond Milk-250 gms; Pineapple-100 gms; Mango-250 gms
+Kala Chana Soup,4,614,Cumin seeds-15 gms; Chickpeas-350 gmsTurmeric powder-15 gms; ;Onion-160 gms; Tomato-0.5  tomato; Garlic powder-7 gms; Ginger powder-7 gms; Coriander Powder-15 gms; Garam Masala-15 gms; Olive oil-15 gms; Coriander leaves-15 gms
+Papaya Salad (raw papaya),1,530,Papaya-75 gms; carrot-60 gms; Common salt-15 gms; Chillies-15 gms; Coriander leaves-15 gms;Cucumber-200 gms; Onion-60 gms; Peanut-75 gms; Olive oil-15 gms
+Pineapple & spinach salad,1,423,Spinach-150 gms; Common salt-7 gms; Black pepper-7 gms; Pineapple-250 gms; Walnut-9 gms
+Foxtail Millet Pulao,4,449,Capsicum-150 gms; carrot-75 gms; Peas-75 gms; Onion-50 gms; Cumin seeds-15 gms; Common salt-15 gms; Ginger-1 piece; CLOVES-2 gms; Coriander Leaves-15 gms; Millets-200 gm; Tomato tomato; Chillies-15 gms; Turmeric powder-7 gms; Coriander Powder-15 gms; Cooking oil-15 gms
+ALMOND FLOUR ROTI (20% almond flour + 80% wheat flour),1,107,Atta-80 gms; Yoghurt-7 gms; Almond Flour- 20 gms
+ALMOND FLOUR ROTI (50% almond flour + 50% oats flour),1,365,"Almond Flour-100 gms; Oats-150 gms; Common salt-15 gms, Atta-100 gms"
+ALMOND FLOUR ROTI (100% almond flour),1,200,ALMOND FLOUR-200 gms
+ALMOND SOUP (WITH ALMOND MILK),1,350,Almond-10 gms; Peas-125 gms; Common salt-15 gms; Almond Milk-200 gms
+Almond roti (50% almond flour and 50% normal atta),1,300,Wheat-150 gms; Almond flour-150 gms
+Nuts and seeds salad,1,629,Almond-25 gms; Fig-25 gms; PUMPKIN SEED-30 gms; Sunflower seeds-30 gms; Lemon-10 gms; Lettuce leaf-4 gms; Cucumber-200 gms; Common salt-15 gms; Black pepper-15 gms; Walnut-275 gms
+Coffee with Almond Milk (No Sugar),1,265,Almond Milk-250 gms; coffee-15 gms
+Almond Flour Roti,5,522,Almond flour-500 gms; Common salt-7 gms; Olive oil-15 gms
+Cashew Milk,3,550,Cashew-250 gms; Milk-300 gms
+Apple Walnut Salad,1,177,Apple-150 g; Pomegranate-20 gms; Lemon-7 gms; Common salt-15 gms; Black Pepper-15 gms; Lettuce Leaf-60 gms; Spinach-60 gms
+APPLE STEW,2,893,Apple-800 gms; HONEY-60 gms; Cinnamon-7 gms; NUTMEG-4 gms; Ginger powder-7 gms; Lemon-15 gms
+Mixed fruit salad,1,794,Apple-200 gms; Pear-178 gms; Banana-101 gms; Grapes-150 gms; Strawberries-75 gms; Blueberries-75 gms; Mint leaves-15 gms
+Chicken Minced Salad,2,420,Olive oil-15 gms; Common salt-15 gms; Chicken-20 gms; Onion-160 gms; Tomato-120 gms; Cucumber-25 gms; Chillies-15 gms; Ginger-15 gms; Coriander Powder-5 gms; Garam Masala-15 gms; Coriander leaves-15 gms
+Papaya Shake with Almond Milk,2,850,Papaya-350 gms; Almond Milk-500 gms
+Broccoli Soup with coconut milk,1,885,"Broccoli-400 gms; Coconut milk-250 gms, Olive oil-15 gms; Onion-125 gms;Garlic-5 gms; POTATO-90 gms"
+Apple Walnut Salad 2,2,228,Apple-200 gms; Walnut-11 gms; Olive oil-15 gms; HONEY-1 gms; Black pepper-1 gms
+Roated Chickpeas,1,225,Chickpeas-150 gms; Cumin Powder-15 gms; Paprika powder-15 gms; Garlic Powder-15 gms; Common salt-15 gms; Black pepper-15 gms
+Safed Matar with no oil,4,592,Peas-250 gms; Tomato-120 gms; Chillies-15 gms; Cumin seeds-15 gms; Coriander Powder-5 gms; Turmeric powder-7 gms; Garam Masala-15 gms; Coriander leaves-5 gms;Onion-160 gms
+Safed Matar Masala (No Oil),2,360,Onion-125 gms; Tomato-90 gms; Chillies-15 gms; Cumin seeds-15 gms; Coriander Powder-55 gms; Turmeric powder-15 gms; Garam Masala-15 gms; Common salt-15 gms; Coriander leaves-15 gms
+Coffee with Almond Milk,2,512,Almond Milk-250 gms; Brewed Coffee-240 gms; Cinnamon-7 gms; HONEY-15 gms
+Almonds and Walnut Raita,1,310,Almond-15 gms; WALNUT-15 gms; Yoghurt-250 gms; Coriander leaves-15 gms; Black pepper-15 gms
+Suji Halwa,1,95,Semolina-75 gms; JAGGERY-0.5 gms; CARDAMOM-15 gms
+Baked sweet potatoes,1,267,Sweet potato-200 gms ; Black pepper-7 gms; Olive oil-15 gms;Parsley-15 gms; Butter-15 gms; Garlic Powder-15 gms
+Bajra Cheela,2,340,carrot-50 gms; Coriander leaves-15 gms; Chillies-10 gms; Mustard oil-15 gms; Common salt-15 gms;Onion-160 gms; Bajra flour-75 gms
+Rice idli,5,158,Rice-75 gms; Fenugreek seeds-4 gms; Rice bran oil-4 gms; Urad Dal Flour-75 gms
+Non Veg Cutlet,2,579,Potato-100 gms; Onion-50 gms;Garlic-15 gms; Ginger-15 gms; Chillies-15 gms; Turmeric powder-4 gms; Coriander leaves-15 gms; Sunflower oil-15 gms; Chicken-300 gms ; Garam Masala-15 gms; Cumin seeds-15 gms; Coriander Powder-5 gms; Common salt-15 gms
+Quinoa Upma,2,422,Quinoa-125 gms; Mustard oil-15 gms; Cumin seeds-15 gms; Onion-62 gms; carrot-62 gms; Peas-62 gms; Capsicum-62 gms; Turmeric powder-4 gms; Coriander leaves-15 gms
+Barley (Jaw) Water,1,15,Barley-15 gms
+kari-Patta Saunf Ajawain Water,1,17,Curry leaves-2 gms; Ajwain-15 gms
+Apple Shake,1,354,Apple-100 gms Milk-250 gms; Cinnamon-4 gms
+Non Vegetarian Tacos,2,406,Chicken-80 gms; Onion-15 gms; Tomato-120 gms; Lettuce Leaf-15 gms; Coriander leaves-15 gms; Lemon-15 gms; Cooking oil-15 gms; Garlic-7 gms; Atta-120 gms; Chillies-4 gms
+Baked Potato,2,345,Potato-300 gms; Coriander leaves-15 gms; Cumin seeds-4 gms; Coriander seeds-4 gms; Olive oil-7 gms; Red chilli Powder-15 gms
+Chick Pea Salad,1,463,Chickpeas-15 gms;Cucumber-200 gms; Black pepper-15 gms; Onion-150 gms; Parsley-15 gms;Mint leaves-15 gms; Olive oil-7 gms; Lemon-15 gms;Garlic-15 gms; Common salt-15 gms; Black pepper-1 gms
+Jaw cheela,1,303,Barley-45 gms; Chillies-7 gms; CORIANDER leaves-7 gms; Common salt-7 gms; Mustard oil-7 gms; Onion-125 gms; TOMATO-90 gms ; Red chilli Powder-15 gms;
+Lettuce wrap (tofu),1,304,Lettuce Leaf-20 gms; Onion-60 gms; carrot-60 gms; Cucumber-60 gms; Tomato-60 gms; CORIANDER LEAVES-15 gms; Lemon-7 gms; Black pepper-7 gms; Mustard oil-15 gms; Tofu-50 g
+Oats Roastie,1,372,Onion-125 gms; carrot-15 gms; Zucchini-15 gms; Potato-15 gms; Common salt-15 gms; Black pepper-7 gms; Cooking oil-15 gms; Oats-150 gms; Red chilli Powder-15 gms
+Veg entree (Roasted),1,736,Garlic-10 gms; Common salt-15 gms; Capsicum-450 gms; Black pepper-7 gms; Onion-125 gms; Brinjal-82 gms; Mushroom-32 gms; Olive oil-15 gms
+Chatpate Kale Masoor,1,635,Ginger-15 gms; Cumin seeds-15 gms; Coriander leaves-15 gms; Common salt-15 gms; Dal dal-250 gms; Olive oil-30 gms;Onion-125 gms;Chillies-15 gms; Garlic powder-15 gms; Turmeric powder-15 gms; Coriander Powder-5 gms; Garam Masala-15 gms; Red chilli Powder-15 gms; Tomato-90 gms
+Veg tacos,1,480,carrot-62 gms; Peas-62 gms; Onion-60 gms; Tomato-30 gms; Capsicum-50 gms; Paneer-62 gms; Cumin seeds-7 gms; Turmeric powder-4 gms; Chillies-7 gms; Sunflower oil-15 gms; Common salt-7 gms; Coriander leaves-15 gms; Cabbage-62 gms;Yoghurt-30 gms; Lemon-7 gms
+Dal Cheela Wrap,1,356,Gram dal-125 gms; Onion-15 gms; Tomato-120 gms; Capsicum-30 gms; Ginger-15 gms; Cumin seeds-7 gms; Turmeric powder-4 gms; Common salt-15 gms; Rice bran oil-15 gms; Lettuce Leaf-10 gms
+Chicken Lollipop,4,700,Ginger-30 gms; Red chilli Powder-30 gms; Black pepper-15 gms; Cumin seeds-15 gms; Coriander Powder-15 gms; Garam Masala-15 gms; Common salt-15 gms; Rice Flour-30 gms; Egg-490 gms; Cooking oil-15 gms; Chicken-150 g; Corn Flour-30 gms
+Jeera Aloo,4,585,POTATO-480 gms; Cumin seeds-15 gms; Turmeric powder-15 gms; Common salt-15 gms; Coriander leaves-15 gms; Olive oil-30 gms; Red chilli Powder-15 gms
+CHICKEN DUMPLING (Non Veg),4,506,Common salt-15 gms; Chicken-250 gms;Onion-160 gms;Garlic-1 gms; Turmeric powder-15 gms; Coriander Powder-5 gms; Garam Masala-15 gms; Cumin seeds-15 gms; Cooking oil-15 gms; Coriander leaves-15 gms
+Tomato rice (Brown Rice),1,527,Rice-250 gms; TOMATO-90 gms; Onion-125 gms ; Turmeric powder-4 gms; Cumin seeds-7 gms; Mustard seeds-7 gms; FENUGREEK SEEDS-7 gms; Curry leaves-3 ; Cooking oil-15 gms; Common salt-7 gms; Red chilli Powder-15 gms
+"Tomato, Beetroot, Amla & Pudina Juice",1,184,TOMATO-90 gms; Beet root-50 gms; Amla-10 gms;Mint leaves-4 gms; Common salt-15 gms; ; Cumin seeds-15 gms
+Lemon Rice,1,304,Rice-250 gms; Mustard oil-15 gms; Mustard seeds-4 gms; Cumin seeds-4 gms; Turmeric powder-4 gms; Lemon-15 gms; Common salt-7 gms; Curry leaves-5 gms
+Chicken Korma,4,549,Chicken-100 gms; Ginger-7 gms;Garlic-7 gms; Cumin seeds-15 gms; Coriander leaves-15 gms; Common salt-15 gms; Cooking oil-30 gms; Yoghurt-15 gms;Onion-160 gms; Tomato-140 gms; Cinnamon-15 gms; Turmeric powder-15 gms; Garam Masala-15 gms
+Chicken with Staraniseed,1,479,Chicken-100 gms;Garlic-250 gms; Ginger-125 gms; Cinnamon-4 gms;
+Quinoa,4,995,Quinoa-250 gms; Cooking oil-15 gms; Cumin seeds-15 gms;Onion-125 gms; capsicum-250 gms; carrot-250 gms; Ginger-15 gms; Garlic powder-15 gms; Coriander Powder-15 gms; Turmeric powder-15 gms; Red chilli Powder-15 gms; Coriander leaves-15 gms
+Nutri Rice (Soyabean),1,1066,Soyabean-62 gms; Rice-125 gms; carrot-125 gms; Peas-125 gms;Garlic-250 gms; Sunflower oil-4 gms; ONION -250 gms; Capsicum-125 gms
+Dhaniya Ajwain Water,4,31,Coriander seeds-7 gms; Ajwain-24 gms
+Dhaniya Water,1,15,Coriander seeds-15 gms
+Detox Water,1,107,Bottle gourd-50 gms; Cucumber-40 gms; Ginger-5 gms;Mint leaves-5 gms ; Common salt-7 gms
+Baked Chicken,3,129,Chicken-100 gms;Parsley-7 gms; Kali Mirch Powder-4 gms; Cooking Oil-7 gms; red chilli flakes-4 gms; Common salt-7 gms
+BBQ Chicken,1,136,Chicken-100 gms;Parsley-7 gms; red chilli flakes-4 gms; Kali Mirch Powder-4 gms; Garlic-7 gms; Common salt-7 gms; Cooking Oil-7 gms
+Carrot Beetroot Pudina Amla Juice,1,246,carrot-180 gms; Beet root-50 gms; Amla-10 gms; Mint leaves-6 gms
+TABBOULEH,1,304,Wheat-45 gms;Parsley-20 gms;Mint leaves-10 gms; Cucumber-40 gms; Tomato-120 gms; Onion-20 gms; Lemon-15 gms; Common salt-4 gms; Olive oil-15 gms; Black pepper-15 gms
+Lauki Cucumber Amla Lemon Juice,1,258,Bottle gourd-50 gms; Cucumber-200 gms; Amla-2.5 gms;Mint leaves-3 gms;
+Jowar Roti (100%),1,350,Jowar Atta-350 gms
+Jowar Roti (50% Jawar 50% Wheat atta),6,315,Jowar Atta-150 gms; Atta-150 gms; Common salt-15 gms;
+Veg Kebab,4,1010,Common salt-15 gms; carrot-150 gms;Beans-150 gms; POTATO-150 gms; Peas-150 gms; Gram dal-150 gms;Onion-125 gms; Garlic powder-15 gms; Ginger powder-15 gms; Cumin seeds-15 gms; Coriander Powder-15 gms; Garam Masala-15 gms;Bread-15 gms; Corn Flour-15 gms; Olive oil-15 gms
+Egg Wrap,1,386,Onion-15 gms; Common salt-7 gms; EGG-120 gms; Milk-15 gms; Cooking oil-15 gms; Black Pepper-7 gms; MUSHROOM-150 gms;Capsicum-7 gms; Roti-50 gms
+Falafel,1,113,Onion-15 gms; Garlic-20 gms; Chillies-4 gms; CORIANDER LEAVES-15 gms;Mint leaves-7 gms; Cooking oil-15 gms; Common salt-7 gms; Cumin seeds-15 gms; Garam Masala-15 gms
+Brown Rice,4,132,Rice-125 gms; Common salt-7 gms;
+Boiled rice,3,132,RICE-125 gms; Common salt-7 gms
+Pyaazi Kebab,1,945,Common salt-15 gms; MUTTON-150 gms;Onion-160 gms; Besan-350 gms; Coriander leaves-150 gms;Mint leaves-15 gms; Ginger powder-15 gms; Garlic powder-15 gms; Red chilli Powder-15 gms; Coriander Powder-15 gms; Cumin seeds-15 gms; Garam Masala-15 gms; Olive oil-15 gms
+Ragi Roti (100%),4,395,Ragi flour-200 gms; Onion-150 gms;Coriander leaves-15 gms; Cumin seeds-15 gms; Common salt-15 gms;
+Makki Methi Roti,1,75,Makai Atta-30 gms; Methi-15 gms; Common salt-15 gms; Ajwain-15 gms;
+Makki Mooli Roti,1,75,Makai Atta-30 gms; Radish-15 gms; Common salt-15 gms; Ajwain-15 gms;
+Makki Roti,1,60,Makai Atta-30 gms; Common salt-15 gms; Ajwain-15 gms;
+Jeera-Kari-Patta Water,1,22,Curry leaves-7 gms; Cumin seeds-15 gms;
+Jeera Water,1,15,Cumin seeds-15 gms
+Vegetable Cutlet,3,475,POTATO-175 gms; Cabbage-62 gms; Peas-62 gms; carrot-62 gms; Onion-62 gms; Chillies-7 gms; Coriander leaves-15 gms; Mustard oil-30 gms
+Veg Grilled Salad,1,873,Zucchini-118 gms; BRINJAL-200 gms; Capsicum-120 gms; Onion-60 gms; Tomato-90 gms; Mushroom-60 gms; Common salt-4 gms;Black Pepper-4 gms; Lettuce Leaf-125 gms; Cucumber-62 gms; Lemon-15 gms;Parsley-15 gms
+Gluten Free Wrap (Rice flour),1,210,Common salt-15 gms; Rice Flour-150 gms; ; Cumin seeds-15 gms; Garlic Powder-15 gms; Olive oil-15 gms
+Palak Patta Chaat,1,1078,SPINACH-30 gms; Turmeric powder-4 gms; Chillies-4 gms; Common salt-4 gms; Mustard oil-15 gms; Tamarind-7 gms; Onion-62 gms; Tomato-62 gms; Coriander leaves-15 gms; Besan-875 gms;
+Veg Dalia(Broken wheat),1,455,carrot-62 gms; Peas-62 gms; Onion-50 gms; Tomato-50 gms; Ginger-20 gms; Chillies-20 gms; Cumin seeds-7 gms; Soyabean oil-15 gms; Curry leaves-3 ; Coriander leaves-15 gms; Common salt-4 gms; dalia-150 gms
+Chana Dal bada,2,119,Chillies; Ginger; Coriander seeds-15 gms; FENUGREEK SEEDS-15 gms; Cumin seeds-7 gms; Cinnamon-0.5 ; Asafoetida-7 gms; Curry leaves-15 ; Coriander leaves-45 gms; Common salt-15 gms; Sunflower oil-15 gms; Channa Dal-1.5  
+Channa Chat,1,565,Chillies-15 gms; Coriander leaves-15 gms; Common salt-15 gms; Onion-125 gms; TOMATO-150 gms;Cucumber-200 gms ; Cumin seeds-15 gms; Chat Masala-15 gms; Lemon-15 gms
+Chana Dal and Cabbage Tikki,3,95,Cabbage-1 ; Onion-60 gms ; Chillies-20 gms; Sunflower oil-15 gms;
+Rajma Tikki,3,522,Ginger-7 gms;Garlic-7 gms; Cumin seeds-4 gms; Common salt-7 gms; Coriander leaves-15 gms; Sunflower oil-15 gms; Red chilli Powder-7 gms; Rajma-300 gms;Onion-160 gms
+Masala Poori,3,356,Wheat-250 gms; Chillies-20 gms; Ginger-4 gms; Cumin seeds-7 gms; Common salt-15 gms; Sunflower oil-15 gms; Red chilli Powder-15 gms; Garam Masala-15 gms; Olive oil-15 gms
+"Beetroot, Cucumber and Tomato Salad",1,585,Beet root-140 gms ; Cucumber-200 gms; Tomato-120 gms; Parsley-125 gms
+LETTUCE LEAVES & PAPAYA SALAD,1,642,Papaya-250 gms; carrot-62 gms; Cucumber-62 gms; Lettuce Leaf-180 gms;Mint leaves-7 gms; Coriander leaves-7 gms; soya sauce-7 gms; Lemon-15 gms; Cherry Tomato-15 gms; Red chilli Powder-7 gms; Lemon-15 gms; Common salt-15 gms
+Lettuce wrapped egg,2,522,Lettuce Leaf-20 gms; TOMATO RIPE-150 gms; Onion-150 gms; Coriander leaves-15 gms; Lemon-15 gms; Egg-130 gms; Common salt-15 gms; Chillies-20 gms; Olive oil-7 gms
+Channa Salad (Black),1,623,Gram dal-125 gms; Onion-60 gms; Cucumber -150 gms; TOMATO-90 gms; Capsicum-150 gms; Coriander leaves-15 gms;Mint leaves-15 gms; Lemon-7 gms; Common salt-7 gms;Black Pepper-4 gms
+Jau Vegetable Dalia,4,517,Cooking oil-15 gms; carrot-62 gms; TOMATO-150 gms; Cumin seeds-7 gms; Turmeric powder-4 gms; Common salt-7 gms; dalia-150 gms; Peas-100 gms; Ginger powder-15 gms; Garam Masala-7 gms
+Rice Tofu Sizzler,4,489,Ginger-7 gms;Garlic-7 gms; Cooking oil-15 gms; Common salt-15 gms; Capsicum-45 gms; Mint leaves-15 gms; Onion-150 gms; Lettuce Leaf-20 gms; Rice-50 gms; Tofu-150 gms; Cumin seeds-15 gms
+"Cherry, Blueberries & Bell peppers salad",4,376,Capsicum-100 gms; Common salt-7 gms;Black Pepper-4 gms; Olive oil-15 gms; Blueberries-250 gms
+Rice Vegetable sizzler,1,189,Ginger-7 gms;Garlic-7 gms; Common salt-15 gms; Cooking oil-15 gms; Capsicum-30 gms; Beans-15 gms; carrot-15 gms;Mint leaves-15 gms; Lettuce Leaf-20 gms; Rice-50 gms
+Quesedilla,1,78,Chicken-0.25 gms; Capsicum-30 gms; Common salt-4 gms; Black pepper-4 gms; Cooking oil-15 gms
+Ragi Dosa,1,77,Ragi flour-62 gms; Cumin seeds-4 gms; Common salt-4 gms; Cooking oil-7 gms;
+Ragi Idli,4,971,Ragi Flour-250 gms; Fenugreek seeds-7 gms; Common salt-7 gms; Cooking oil-7 gms; Urad Dal Flour-700 gms
+LOBIA CHAT,4,375,Lobia-125 gms; Capsicum-62 gms; Cucumber-62 gms; Onion-62 gms; Coriander leaves-15 gms; Common salt-4 gms; Lemon-15 gms; Black pepper-15 gms; Chat Masala-15 gms
+ZUCCHINI SALAD,1,414,Zucchini-200 gms; Onion-30 gms; CUCUMBER-30 gms; Lemon-15 gms; Garlic-4 gms; Common salt-15 gms; Parsley-15 gms; Black pepper-15 gms; Tomato-90 gms
+PITA BREAD (WHEAT),1,164,Atta-125 gms; Yoghurt-30 gms; Sunflower oil-4 gms; Baking Soda-5 gms
+Bajra Khichadi,1,1149,Gram dal-15 gms; Cumin seeds-15 gms; Asafoetida-4 gms; Chillies-10 gms; Common salt-15 gms; Sunflower oil-15 gms; Coriander leaves-15 gms; Bajra-500 gms; Tomato-90 gms; carrot-150 gms;Onion-125 gms; POTATO-150 gms; Ginger-15 gms; Turmeric powder-15 gms; Red chilli Powder-15 gms
+GHIYA CUCUMBER JUICE,1,255,Bottle gourd-125 gms; CUCUMBER-75 gms; Ginger-10 gms; Lemon-15 gms; Common salt-15 gms; Cumin seeds-15 gms;
+GHIYA CUCUMBER AMLA JUICE,1,293,BOTTLE GOURD-150 gms; CUCUMBER-100 gms; Amla-40 gms;Mint leaves-3 gms;
+Veg Basil ,1,231,"Onion-15 gms; Tomato-15 gms; Cucumber-15 gms; Capsicum, red-14 gms; Zucchini-15 gms; Coriander leaves-15 gms; Lemon-15 gms;Mint leaves-4 gms; Black pepper-4 gms; Common salt-4 gms; Cooking Oil-15 gms; Basil-100 gms"
+Boiled Aloo,2,384,Potato-350 gms;Lemon-15 gms; Common salt-4 gms; Chat Masala-15 gms
+Boiled Shakarkandi,2,734,Sweet potato-700 gms; Common salt-4 gms; Lemon-15 gms; Chat Masala-15 gms
+Jeera Rice (Brown Rice),1,88,Rice-62 gms; Cumin seeds-7 gms; Common salt-4 gms; Cooking Oil-15 gms;
+Jeera Rice (Basmati Rice),1,85,Rice-62 gms; Cumin seeds-4 gms; Common salt-4 gms; Cooking Oil-15 gms;
+Stuffed Ragi Roti,1,307,Ragi flour-45 gms; Cauliflower-15 gms; Onion-15 gms; Ginger-15 gms; Coriander seeds-7 gms; Coriander leaves-15 gms; Common salt-15 gms; ; Rice Flour-150 gms; Garam Masala-15 gms; Cumin Powder-15 gms
+Plain Dosa,1,310,Rice-250 gms; Gram dal-30 gms; Common salt-15 gms; Mustard oil-15 gms;
+Uttapam,3,283,Rice-62 gms; Fenugreek seeds-4 gms; Cooking oil-7 gms; Onion-15 gms; Tomato-120 gms; Capsicum-15 gms; carrot-15 gms; Coriander leaves-15 gms; Red chilli Powder-15 gms; Urad Dal Flour-15 gms
+Ragi Wrap,1,130,Ragi Flour-45 gms; Cumin seeds-4 gms; Coriander leaves-15 gms; Cooking oil-7 gms; Onion-15 gms; Tomato-7 gms; Capsicum-15 gms; Lettuce Leaf-15 gms; Mushroom-7 gms
+Bajra Methi Khakra,2,861,Fenugreek leaves-62 gms; Mustard oil-15 gms; Turmeric powder-4 gms; Common salt-15 gms; Bajra-750 gms; Red chilli Powder-15 gms
+Bajra Wrap,1,344,Spinach-15 gms; Capsicum-15 gms; carrot-15 gms; Coriander leaves-15 gms; Common salt-15 gms;Black Pepper-4 gms; Bajra-250 gms; ; Green Chutney-15 gms
+Besan Dhokla,4,591,Turmeric powder-1 gms; Besan-250 gms; Yoghurt-75 gms; MUSTARD SEEDS-24 gms; Olive oil-15 gms; Coriander leaves-30 gms; Baking Soda-5 gms; Ginger-0.25 gms; Lemon-1 gms; Cumin seeds-15 gms; Semolina-150 gms
+Millets Dosa (Foxtail),1,180,Common salt-4 gms; Cooking oil-7 gms; Cumin seeds-4 gms; ; Millets-150 gms; Rice Flour-15 gms
+Methi Water,1,7,FENUGREEK SEEDS-7 gms;
+Pudina Water,1,8,Mint leaves-8 gms;
+Methi-Ajwain Water,1,8,FENUGREEK SEEDS-7 gms; Ajwain-1 gms;
+Chicken Kebab,4,357,Gram dal-30 gms; Cooking oil-15 gms; Cumin seeds-15 gms; Cloves-2 gms; Black pepper-2 ; Cinnamon-0.25 gms; Chicken -150 gms; Common salt-15 gms; Mint leaves-15 gms; Coriander leaves-15 gms; Egg-15 gms; Ajwain-15 gms; Ginger powder-15 gms; Garlic Powder-15 gms; Red chilli Powder-15 gms
+Kadha,1,71,Ginger-7 gms; Cloves-4 gms; Black pepper-4 gms; Cinnamon-7 gms; Cardamom-4 gms; Turmeric powder-15 gms; Lemon-15 gms; Saunf-15 gms
+Lemon Tea,2,22,Tea-15 gms; Lemon-7 gms
+Smoothie (In milk),1,425,"Milk-250 gms; Banana-100 gms;Blueberries-50 gms, Strawberries-25 gms"
+Stuffed Bajara Roti,1,563,Onion-60 gms; Ginger-7 gms; Turmeric powder-4 gms; Cooking oil-15 gms; BAJRA-125 gms; POTATO-350 gms; Cumin seeds-1 gms; CORIANDER-1 gms
+HARA MASALA KEBAB (Spinach),3,243,POTATO-1 75 gms; Coriander leaves-30 gms;Mint leaves-15 gms; Spinach-62 gms; Banana-25 gms; Ginger-7 gms;Garlic-7 gms; Common salt-7 gms; Cooking oil-15 gms
+Chakhle's Shami Kebab,2,85,Onion-60 gms; Garlic-1 gms; Ginger-0.5 gms; CORIANDER-0.5 gms; Common salt-7 gms; Lemon-7 gms
+Chana tikki (Kabuli chana),3,880,POTATO-250 gms; Common salt-15 gms; Cabbage-400 gms;Onion-125 gms; Ginger-15 gms; Cumin seeds-15 gms; Coriander Powder-15 gms; Garam Masala-15 gms; Olive oil-15 gms; Coriander leaves-15 gms
+Lettuce wrap Channa tikki,1,499,POTATO-250 gms; Onion-2 gms; Common salt-7 gms; Coriander leaves-15 gms; Cooking oil-15 gms; Lettuce Leaf-20 gms; CUCUMBER-20 gms; Tomato-20 gms; Channa Dal-150 gms
+Millets Khichdi,1,689,Gram dal-30 gms; carrot-125 gms; Peas-125 gms; Capsicum-125 gms; Fenugreek leaves-15 gms; Tomato-90 gms; Cooking oil-15 gms; Ginger-7 gms; Common salt-7 gms;Millets-150 gms;
+Aloo /Shakarkandi,2,6,SWEET POTATO-2 gms; Lemon-4 gms;
+Sambar,4,26,Drumstick-53 gms; Carrot-53 gms; Mustard seeds-4 gms; Chillies-4 gms; Curry leaves-4gms; Coriander-4 gms; Common salt-2 gms; Cooking oil-4 gms; Dal-12 gms; Potato-53 gms; Ladies finger-53 gms; Onion-16 gms; Tomato-14 gms; Cumin seeds-4 gms; Brinjal-16 gms
+Aloo Tikki,1,406,POTATO-350 gms; CORIANDER LEAVES-15 gms; Turmeric powder-4 gms; Cumin seeds-7 gms; Common salt-15 gms; Cooking oil-15 gms
+ALMOND FLOUR CHEELA,1,435,Common salt-15 gms;Roti-100 gms; Besan-30 gms; SPINACH-15 gms;Onion-125 gms; Coriander leaves-15 gms; Cumin Powder-15 gms; Coriander Powder-15 gms; Turmeric powder-15 gms; Olive oil-15 gms; Tomato-75 gms
+"Carrot, Bell Pepper, Broccoli, Cucumber, and Beetroot Salad",1,258,carrot-50 gms; Capsicum-60 gms; CUCUMBER-40 gms; BEET ROOT-15 gms;Garlic-1 gms; Common salt-15 gms; Black pepper-15 gms; Broccoli-62 gms
+SPROUTS SALAD,1,620,BRUSSELS SPROUTS-250 gms; Tomato-62 gms; Onion-62 gms; CUCUMBER-62 gms; carrot-62 gms; Capsicum-62 gms; CORIANDER LEAVES-15 gms; Lemon-15 gms; Common salt-15 gms; Black pepper-15 gms
+Som Tam Green Papaya Salad,1,200,Papaya-80 gms; carrot-30 gms; Beans-50 gms; HONEY-15 gms; Lemon-10 gms; Coriander leaves-5 ; Garlic powder-15 gms
+"Strawberry , orange Vegetable salad",1,564,ORANGE-250 gms; Lettuce Leaf-100 gms; CUCUMBER-0.5 gms; Lemon-15 gms; Common salt-7 gms; Black pepper-7 gms; strawberry-15 gms; Chat Masala-15 gms; Vegetable Broth-150 gms
+Chicken Salad with Plums,1,317,Chicken-100 gms; Lettuce Leaf-100 gms; Onion-60 gms; Common salt-7 gms; Black pepper-7 gms;Garlic-3 gms; Lemon-15 gms; Plum-25 gms
+Boiled Chicken Salad,1,301,Chicken-100 gms; Lettuce Leaf-50 gms; CUCUMBER-50 gms; Onion-30 gms; Capsicum-20 gms; Common salt-7 gms; Black pepper-7 gms; Lemon-10 gms;Parsley-10 gms;Garlic-2 gms; Olive oil-15 gms
+Veg Soup,1,171,carrot-30 gms; Celery-20 gms; Capsicum-30 gms; Peas-15 gms; Onion-50 gms;Garlic-1 gms; Common salt-0.5 gms; Black pepper-0.5 gms; Olive oil-15 gms;
+Veg Shorba (No Dal),1,187,carrot-30 gms; Celery-20 gms; Beans-15 gms; Onion-50 gms; Tomato-20 gms; Ginger-10 gms; Cooking oil-10 gms; Cumin seeds-5 gms; Turmeric powder-5 gms; Common salt-7 gms; Coriander leaves-15 gms
+Jowar Cheela,1,590,Onion-250 gms; Common salt-15 gms; Roti-100 gms ; Cumin seeds-15 gms; Red chilli Powder-15 gms; Turmeric powder-15 gms; Tomato-150 gms; Capsicum-15 gms; Olive oil-15 gms
+Non-vegetarian tacos,2,502,Mutton-300 gms; Common salt-7 gms; Cooking oil-15 gms; Onion-15 gms; Tomato-120 gms; Lettuce Leaf-15 gms; Coriander leaves-15 gms; Lemon-15 gms; Maize
+Gravy Chicken,1,407,Onion-20 gms; Tomato-120 gms; Chillies-2 gms; Cooking oil-10 gms; Cardamom-1 gms; Cloves-2gms; Turmeric powder-1 gms; Fenugreek leaves-1 gms; Coriander leaves-5 gms; Common salt-15 gms; Garlic powder-15 gms; Ginger powder-15 gms; Chicken-200 gms
+Amaranth Flour Cheela,1,193,Onion-120 gms;Garlic-5 gms; Cooking oil-4 gms; Common salt-15 gms; Turmeric powder-4 gms; Tomato-30 gms; Capsicum-15 gms
+Shredded Chicken Wrapped (wrap),1,650,Chicken-180 gms; Tomato-180 gms; Onion-125 gms; Avocado-150 gms; Olive oil-15 gms
+Masoor Dal,5,679,Gram dal-250 gms; ONION-120 gms; Tomato- 240 gms; Garlic-6 gms; Ginger-4 gms; Chillies-2 gms; Turmeric powder-7 gms; Cumin seeds-24 gms; Common salt-5 gms; Cooking oil-15 gms; Coriander seeds-1 gms; Chillies-1.5 gms
+Mattar ki sabzi,1,297,Onion-1 gms; Tomato-240 gms; Garlic-2 gms; Ginger-4 gms; Chillies-3 gms; Cumin seeds-7 gms; Turmeric powder-7 gms; Cooking oil-15 gms; Common salt-15 gms; Coriander leaves-3 gms
+Apple and Sprouts Salad,1,424,Apple-200 gms; Lemon-15 gms; Common salt-15 gms; Black pepper-15 gms; Moong dal-150 gms; Lettuce Leaf-20 gms; Walnut-9 gms
+Caesar Salad,1,145,Lettuce Leaf-100 gms; Lemon-5 gms; Garlic-5 gms; HONEY-5 gms; Common salt-15 gms; Black pepper-15 gms
+TOMATO & CUCUMBER SALAD,1,402,Tomato-240 gms; CUCUMBER-100 gms; Lettuce Leaf-2 gms; PUMPKIN SEED-15 gms; Sunflower seeds-15 gms; Lemon-15 gms; Common salt-15 gms
+POTATO SALAD,1,492,POTATO-2 gms; PUMPKIN SEED-15 gms; Sunflower seeds-15 gms; Common salt-15 gms; Curd-150 gms; Black pepper-250 gms; Red chilli Powder-15 gms; Onion-15 gms; Garlic powder-15 gms
+Avocado Salad,1,485,Tomato-240 gms; CUCUMBER ; Lettuce Leaf-20 gms; Avocado-150 gms ; PUMPKIN SEED-15 gms; Sunflower seeds-15 gms; Lemon-15 gms; Common salt-15 gms; Olive oil-15 gms
+Veg & FRUIT SALAD,1,599,Lettuce Leaf-20 gms; Capsicum-150 gms; carrot-60 gms; CUCUMBER-70 gms; Apple-200gms; Almond-5 gms; PUMPKIN SEED-15 gms; Sunflower seeds-15 gms; Plum-55 gms; Walnut-9 gms
+QUINOA SALAD,1,155,Quinoa-62 gms; carrot-1 gms; Zucchini-62 gms; CUCUMBER-0.5 ; Lemon-15 gms; Common salt-15 gms
+MILLETS SALAD,4,465,carrot-10 gms; Zucchini-25 gms; CUCUMBER-100 gms; Lemon-15 gms; Common salt-15 gms; Millets-300 gms
+Soya wheat bran Roti (50% wheat bran & 50% soya flour),1,305,Soya flour-5 tablespoon; Common salt-15 gms; Cumin seeds-15 gms; Turmeric powder-15 gms; Warm Water-200 gms; Wheat Flour-Atta)-60 gms)
+Risotto With Additional Dressing(Corn),1,149,Babycorn-15 gms; Onion-62 gms;Garlic-7 gms; MUSHROOM-15 gms; Peas-15 gms; Common salt-15 gms; Black pepper-15 gms;Parsley-5 gms
+Herbal Tea,1,24,Tea-24 gms
+Non-veg SOUP,1,649,carrot-60 gms; Onion-120 gms;Garlic-4 gms; Ginger-5 gms; Peas-125 gms; Beans-125 gms; Black pepper-62 gms; Cooking oil-15 gms; Common salt-15 gms; Coriander leaves-4 gms; Chicken-100 gms; Cumin seeds-7 gms; Coriander seeds-7 gms
+Oats Poha,2,395,Chillies-15 gms; ; Cumin seeds-15 gms; Turmeric powder-15 gms; Common salt-15 gms; Coriander leaves-15 gms; Oats-150 gms;Onion-125 gms; Red chilli Powder-15 gms; Lemon-15 gms; Olive oil-15 gms
+Non-veg Platter (Chicken),3,701,Common salt-15 gms; Black pepper-15 gms; Spinach-250 gms; Lettuce Leaf-250 gms; CUCUMBER-70 gms; VINEGAR-15 gms; Chicken-75 gms; Chillies-7 gms; Garlic-4 gms
+Multigrain Paratha,1,375,Wheat-62 gms; Common salt-15 gms; Cooking oil-15 gms; Cumin Powder-4 gms; Oats Flour-200 gms; TURMERIC-4 gms; Besan-75 gms
+Methi Thepla,1,449,Wheat-250 gms; Fenugreek leaves-125 gms; Turmeric powder-7 gms; Common salt-7 gms; Cooking oil-15 gms; Red chilli Powder-15 gms; Coriander Powder-15 gms; Cumin Powder-15 gms
+Baba Ganoush with Hummus,1,305,Brinjal-200 gms; Garlic-2 gms; Lemon-30 gms; Cooking oil-15 gms; Common salt-15 gms; Black pepper-15 gms;Parsley-4 gms; Cumin seeds -24 gms
+Aloo Curry,1,482,POTATO-200 gms; Onion-75 gms; Tomato-120 gms; Coriander leaves-15 gms; Turmeric powder-15 gms; Fenugreek leaves-0.5 gms; Common salt-7 gms; Cooking oil-15 gms; Chillies-15 gms; Coriander seeds-15 gms
+Kale Chips,3,180,Cooking oil-15 gms; Common salt-15 gms; Kale-150 gms
+Jau Wrap,1,392,Onion-75 gms; Capsicum-10 gms; carrot-10 gms; Common salt-7 gms; Cooking oil-7 gms; CABBAGE-75 gms; Turmeric powder-7 gms; Cumin seeds-7 gms; Besan-30 gms; Barley Flour-150 gms; CORIANDER LEAVES-7 gms; Coriander Powder-7 gms
+JAWAR WRAP,3,80,Onion-15 gms; Capsicum-2 gms; carrot-1 gms; Common salt-15 gms; Cooking oil-7 gms; Jowar-40 gms
+GRILLED PINEAPPLE/ APPLE,4,116,Pineapple-75 gms; HONEY-15 gms; Cinnamon-15 gms; Common salt-7 gms; Ginger-4 gms
+Mixed Veg Soup,1,871,Onion-62 gms;Garlic-30 gms; carrot-150 gms; Celery-150 gms; Cabbage-150 gms; Beans-150 gms; Tomato-150 gms; Peas-15 gms; Common salt-7 gms; Black pepper-7 gms
+Veg Clear Soup,1,1154,carrot-150 gms; Celery-150 gms; Onion-150 gms; Beans-150 gms; Peas-15 gms; MUSHROOM-150 gms; Capsicum-150 gms; Garlic-7 gms; soya sauce-15 gms; Parsley-15 gms; Common salt-15 gms; Black pepper-7 gms; Onion-150 gms; Olive oil-15 gms; Sesame Oil-15 gms
+Soupy Noodles,1,394,carrot-100 gms; Onion-75 gms; Zucchini-50 gms; Peas-25 gms; Cabbage-75 gms; MUSHROOM-50 gms;Garlic-4 gms; VINEGAR-15 gms
+Spinach Soup,1,638,Spinach-62 gms; Onion-150 gms; Garlic-15 gms; POTATO-75 gms; Celery-150 gms; carrot-150 gms; Common salt-7 gms; Black pepper-7 gms; Lemon-15 gms; Cumin seeds-7 gms
+Sweet Corn Kernels,1,223,Onion-75 gms; Garlic-15 gms; carrot-75 gms; Peas-15 gms; Common salt-7 gms; Black pepper-7 gms; Lemon-15 gms;Parsley-7 gms; Cumin seeds-7 gms
+Vegetable Oats Soup,1,276,Onion-75 gms; Garlic-2 gms; carrot-30 gms; Celery-25 gms; Capsicum-50 gms; Zucchini-50 gms; OATMEAL-30 gms; Common salt-7 gms; Black pepper-7 gms
+Green Salad,1,283,Lettuce Leaf-75 gms; Spinach-75 gms; Cabbage-62 gms; CUCUMBER-50 gms; VINEGAR-7 gms; Common salt-7 gms; Black pepper-7 gms
+Green Papaya Salad,1,432,PAPAYA-250 gms; Beans-100 gms; carrot-60 gms;Garlic-7 gms; Lemon-15 gms
+Quinoa Soup,1,237,Quinoa-62 gms; carrot-50 gms; Onion-75 gms; Garlic-7 gms; Common salt-4 gms; Olive oil-24 gms; Celery-15 gms
+Pasta salad,1,606,"CUCUMBER-150 gms; Capsicum-200 gms;Parsley-7 gms;Garlic-15 gms; Common salt-7 gms; Black pepper-7 gms, Pasta-150 gms, Tomato-70 gms"
+"Pomegranate, Avocado, Grapes & Zucchini salad",1,483,Zucchini-62 gms; Grapes-62 gms; Avocado-150 gms; POMEGRANATE-150 gms;Mint leaves-15 gms; Lemon-15 gms; Common salt-7 gms; Black pepper-7 gms; Olive oil-15 gms
+Quinoa and chicken salad,1,516,Quinoa-100 gms; Chicken-70 gms; Common salt-7 gms; Black pepper-7 gms; Capsicum-150 gms; CUCUMBER-150 gms; Parsley-15 gms; Lemon-15 gms;Garlic-2 gms
+Methi matar Vegetable,1,489,Fenugreek leaves-150 gms; Peas-75 gms; Tomato-120 gms; Onion-75 gms; Chillies-7 gms; Cumin powder-4 gms; Mustard seeds-4 gms; Turmeric powder-4 gms; Common salt-7 gms; Cooking oil-15 gms; Garlic-7 gms; Ginger-7 gms; Chillies-7 gms; Coriander seeds-7 gms
+Mooli Methi Vegetable,1,680,Radish-150 gms; Fenugreek leaves-300 gms; Tomato-75 gms; Onion-75 gms; Chillies-7 gms; Cumin powder-4 gms; Turmeric powder-4 gms; Common salt-7 gms; Cooking oil-15 gms; Coriander leaves-15 gms; Garlic-7 gms; Ginger-7 gms; Chillies-7 gms; Coriander seeds-7 gms
+Palak aloo Vegetable,1,216,Spinach-1.5 ; POTATO ; Tomato-120 gms)-1 gms; Onion-50 gms;; Cumin seeds-4 gms; Turmeric powder-4 gms; Common salt-7 gms; Cooking oil-15 gms; Coriander leaves-15 gms
+Mix Vegetable,1,203,Cauliflower-15 gms; carrot-15 gms; Beans-15 gms; Cabbage-15 gms; Capsicum-15 gms; Peas-10 gms; Tomato-35 gms; Onion-15 gms; Chillies-0.25 gms; Cumin seeds-4 gms; Turmeric powder-4 gms; Common salt-0.5 gms; Cooking oil-15 gms; Coriander leaves-15 gms
+Dal Cheela,1,234,Gram dal-125 gms; Onion-15 gms; Capsicum-15 gms; carrot-15 gms; Coriander leaves-15 gms; Turmeric powder-7 gms; Cumin seeds-7 gms; Common salt-15 gms; Cooking oil-15 gms; Ginger-0.5 gms
+Dhokla,4,167,Bread-2- gms; Avocado-60 gms;Garlic-7 gms; CUCUMBER-30 gms; Tomato-30 gms; Lemon-0.25 gms; Common salt-15 gms
+SEEKH KEBAB (CHICKEN),4,381,Lemon-15 gms; Cooking oil-15 gms; Common salt-7 gms; Coriander Leaves-30 gms; Ginger powder-15 gms; Garlic powder-15 gms; Red chilli Powder-24 gms;Onion-125 gms; Cumin Powder-15 gms; Coriander Powder-15 gms; Garam Masala-15 gms; Chicken-90 gms
+SAMAKHIA RICE,1,172,Cumin seeds-15 gms; Cooking oil-7 gms; Samakhia Rice-150 gms
+Spring Roll,4,387,carrot-75 gms; CABBAGE-125 gms; Capsicum-75 gms;Onion-60 gms; Ginger-15 gms; Rice Paper-8 gms; Black Pepper-7 gms; Common salt-7 gms; Cooking oil-15 gms
+Grilled Vegetables,1,76,Capsicum-0.5 gms; Onion-0.5 gms; MUSHROOM-2 gms; Zucchini-0.5 gms; Tomato-0.5 gms; Common salt-4 gms; Black pepper-0.25 gms; Lemon-0.25 gms
+Grilled Fruits,1,115,PEACHES-5 gms; Watermelon-25 gms; Plum-15 gms; Pear-30 gms; Pineapple-40 gms
+Amla water,1,11,Amla-1 gms; Black pepper-1.5 gms;Mint leaves-5 gms
+Prune and Imlie (Tamarind) Water,1,3,PRUNES-2 gms; TAMARIND-1 gms
+Imlie & Prune Water with Mishri,4,102,PRUNES-2 gms; Tamarind-50 gms; Mishri-50 gms
+Jau Roti (100%),4,150,Barley-150 gms
+Kodo Millet Khichdi,4,469,carrot-75 gms; Capsicum-150 gms; Onion-75 gms; Peas-50 gms; Cumin seeds-15 gms; Common salt-15 gms; Cooking oil-15 gms; Coriander Leaves-15 gms; Kodo Millet-200 gm; Turmeric powder-7 gms; Coriander Powder-7 gms; Ginger powder-15 gms; Garlic powder-15 gms; Chillies-15 gms
+Chicken Curry,4,775,Cooking oil-15 gms; Common salt-15 gms; Chicken-350 gms;Onion-120 gms; Tomato-140 gms; Cumin seeds-15 gms; Cinnamon-15 gms; cardamom powder-15 gms; Garlic powder-15 gms; Coriander Powder-15 gms; Garam Masala-15 gms; Red chilli Powder-15 gms; Coriander seeds-15 gms; Ginger powder-15 gms
+Chicken keema,4,601,Chillies-7 gms; Cooking oil-15 gms; Cumin seeds-7 gms; Turmeric powder-7 gms; Common salt-15 gms;Onion-120 gms; Tomato-140 gms; Garlic powder-15 gms; Coriander Leaves-15 gms; Ginger powder-15 gms; Chicken-200 gms; Garam Masala-15 gms; Cumin Powder-15 gms; Coriander Powder-15 gms
+Chana Dal,4,466,Gram dal-250 gms; Onion; Tomato-120 gms; Turmeric powder-7 gms; Cumin seeds-7 gms; Common salt-15 gms; Cooking oil-15 gms; Ginger powder-7 gms; Red chilli Powder-15 gms; Coriander Leaves-15 gms; Coriander Powder-15 gms
+Rajma sabji,4,570,Rajma-250 gms; Cooking oil-15 gms; Cumin seeds-15 gms; Onion-50 gms; Tomato-150 gms; Garlic-15 gms; Chillies-15 gms; Turmeric powder-15 gms; Common salt-15 gms; Coriander leaves-15 gms; Ginger-15 gms
+Lobia sabji,4,714,Cooking oil-15 gms; Cumin seeds-7 gms; Onion-190 gms; Chillies-15 gms; Turmeric powder-7 gms; Common salt-15 gms; Tomato-90 gms; Garlic powder-15 gms; Coriander Leaves-15 gms; Lobia-300 gms; Ginger powder-15 gms; Coriander Powder-15 gms; Cumin Powder-15 gms
+"Avocado, cherry Tomato, Cucumber, Lettuce leaves and Seeds Salad",1,486,Avocado-50 gms; Tomato-62 gms; CUCUMBER-62 gms; Lettuce Leaf-250 gms; Sunflower seeds-15 gms; PUMPKIN SEED-15 gms; Lemon-15 gms; Common salt-1 gms; Black pepper-1 gms; Olive oil-15 gms
+Baby Corn and Broccoli Salad,1,334,Babycorn-62 gms; CUCUMBER-62 gms;Parsley-30 gms; Lemon-7 ml; Common salt-15 gms; Black pepper-15 gms; Broccoli-150 gms
+Baby Tomato and Lettuce Salad,1,480,Lettuce Leaf-250 gms; Lemon-5 ml; Common salt-15 gms; Black pepper-15 gms; Cherry Tomato-50 gms; Lettuce Leaf-150 gms
+Beans Salad,1,324,Rajma-125 gms; Capsicum-62 gms; CUCUMBER-62 gms; Parsley-30 gms; Lemon-15 gms; Common salt-15 gms; Black pepper-15 gms
+Corn and spinach Salad,2,538,SPINACH-250 gms;Garlic-1 gms; Common salt-15 gms; Black pepper-15 gms; Lemon-7 gms; Babycorn-250 gms
+Corn and Avocado salad,2,337,Avocado-50 gms; CUCUMBER-62 gms; Parsley-15 gms; Lemon-15 gms; Common salt-15 gms; Black pepper-15 gms; Corn-150 gms; Olive oil-15 gms
+"Cucumber, Onion and Tomato Salad",1,280,CUCUMBER-70 gms; Tomato-120 gms; Parsley-15 gms; Common salt-15 gms; Black pepper-15 gms; Lemon-15 gms; Onion-30 gms
+Lettuce leaves salad,1,101,Lettuce Leaf-6 gms; CUCUMBER-0.25 gms; Capsicum-0.25 gms; Common salt-15 gms; Black pepper-15 gms; Lemon-15 gms
+Detox salad,2,610,Spinach-500 gms; CUCUMBER-0.5 gms; carrot-5 gms; Avocado-25 gms; Sunflower seeds-15 gms; PUMPKIN SEED-15 gms; Lemon-15 gms; Common salt-15 gms; Black pepper-15 gms
+Mint salad,1,273,Mint leaves-62 gms; CUCUMBER-62 gms; Tomato-120 gms; Lemon-15 gms; Common salt-7 gms; Black pepper-7 gms
+Carrot Soup,1,291,carrot-60 gms; Onion-60 gms; Tomato-120 gms;Garlic-1 gms; Common salt-15 gms; Black pepper-15 gms;Parsley-5 gms; Cumin seeds-15 gms
+Peas soup,2,350,Peas-250 gms; Onion-50 gms; Garlic-1 gms; Common salt-15 gms; Black pepper-15 gms;Mint leaves-4 gms; Olive oil-15 gms
+Tomato soup,2,163,Tomato-60 gms; carrot-20 gms; Onion-50 gms;Garlic-1 gms; Common salt-15 gms; Black pepper-15 gms; Cinnamon-1 gms; Ginger-1 gms
+Chicken rice soup,6,1572,carrot-300 gms; Celery-300 gms; Common salt-15 gms; Parsley-7 gms; Olive oil-15 gms; Rice-300 gms; Onion-160 gms; Garlic-30 gms; Chicken Broth-230 gms; Black Pepper-15 gms; Chicken-200 gms
+Baingan Bharta,1,286,Onion-50 gms ; Tomato-20 gms; Chillies 2 gms; Cumin seeds-7 gms; Common salt-15 gms; Cooking oil-15 gms; Ginger-10 gms; Coriander Leaves-15 gms; Brinjal-100 gms ; Turmeric powder-15 gms; Coriander Powder-15 gms; Red chilli Powder-7 gms; Garam Masala-15 gms
+Bharwa Baigan,1,248,Turmeric powder-7 gms; Cumin seeds-7 gms; Common salt-15 gms; Cooking oil-15 gms; Coriander leaves-30 gms; MANGO POWDER-7 gms; Mustard seeds-7 gms; Curry leaves-10 gms; Brinjal-150 gms
+Bharwa Tinda,1,203,BOTTLE GOURD-120 gms; Cumin seeds-7 gms; Common salt-15 gms; Cooking oil-7 gms; Coriander leaves-30 gms; MANGO POWDER-7 gms; Mustard seeds-7 gms; Curry leaves-10 gms
+Bhindi,1,493,Ladies finger-250 gms; Cooking oil-7 gms; Cumin seeds-15 gms; Onion-180 gms; Common salt-15 gms; Coriander leaves-4 gms; MANGO POWDER-7 gms; Coriander Powder-15 gms
+Green Beans Aloo,2,511,Beans-250 gms; POTATO-100 gms ; Cumin seeds-15 gms; Onion ; Tomato-120 gms; Turmeric powder-7 gms; Common salt-15 gms; Coriander leaves-4 gms
+Karela Vegetable,2,65,Karela-3 ; Cooking oil-15 gms; Onion-1 gms; Cumin seeds-15 gms; Mustard seeds-7 gms; Turmeric powder-7 gms; Common salt-15 gms; Coriander leaves-5 gms
+Methi Vegetable,2,692,Fenugreek leaves-500 gms; Onion-125 gms; Cooking oil-15 gms; Cumin seeds-7 gms; Mustard seeds-7 gms; Asafoetida-4 gms;Garlic-4 gms; Common salt-15 gms; Coriander leaves-15 gms
+Palak Vegetable,2,769,Spinach-500 gms; Onion-100 gms; Tomato-120 gms; Garlic-2 gms; Cumin seeds-7 gms; Common salt-15 gms; Cooking oil-15 gms; Ginger-10 gms
+Broccoli Vegetable,1,134,Onion-100 gms; Garlic-2 gms; Common salt-15 gms; Black pepper-15 gms; Lemon-2 gms
+Bell Peppers Vegetable,1,415,Capsicum-180 gms; Onion-70 gms;Garlic-10 gms; Tomato-120 gms; Common salt-15 gms; Black pepper-15 gms; Basil-5 gms
+Capsicum Vegetable,1,503,Capsicum-200 gms; Onion-100 gms; Tomato-120 gms; Garlic-20 gms; Cumin seeds-7 gms; Turmeric powder-7 gms; Common salt-15 gms; Cooking oil-30 gms; Coriander leaves-4 gms
+Cabbage Matar Vegetable,1,681,CABBAGE-500 gms; Peas-125 gms; Onion-1 gms; Garlic-2 gms; Cumin seeds-7 gms; Turmeric powder-7 gms; Common salt-15 gms; Cooking oil-15 gms; Coriander leaves-4 gms; Ginger-5 gms
+Aloo Gobhi Vegetable,2,230,POTATO-50 gms; Cauliflower-100 gms; Turmeric powder-15 gms; Common salt-15 gms; Mustard oil-30 gms; Coriander leaves-15 gms; Ginger-5 gms1
+Aloo Matar Vegetable,2,495,POTATO-150 gms; Peas-250 gms; Onion; Coriander leaves-15 gms; Cumin seeds-15 gms; Mustard oil-30 gms; Turmeric powder-15 gms; Common salt-15 gms; Ginger-5 gms
+Aloo Matar Gravy,2,815,POTATO-150 gms ; Peas-250 gms; Onion-20 gms; Tomato-320 gms; Turmeric powder-15 gms; Mustard oil-30 gms; Coriander leaves-15 gms; Common salt-15 gms
+BAKED BROCCOLI (NO WHITE SAUCE),1,395,Broccoli-350 gms; Olive oil-30 gms; Garlic-15 gms
+BAKED CAULIFLOWER (NO WHITE SAUCE),1,145,Cauliflower-100 gms; Common salt-15 gms; Olive oil-15 gms; Garlic Powder-15 gms
+BAKED MIX VegETABLES (WITH TOMATO SAUCE),1,1013,Beans-62 gms; Peas-62 gms; carrot-62 gms; Zucchini-62 gms; Garlic-10 gms; Common salt-15 gms; Broccoli-350 gms; Onion-125 gms; Olive oil-15 gms; Tomato-250 gms
+BAINGAN ALOO VegETABLE,1,135,POTATO-50 gms ; Brinjal-15 gms; Ginger-5 gms; Turmeric powder-15 gms; Mustard oil-30 gms; Coriander leaves-15 gms; Common salt-0.5 gms
+BAINGAN MATAR VegETABLE,1,279,Brinjal-15 gms; Peas-62 gms; Ginger-7 gms; Onion; Tomato-120 gms; Turmeric powder-15 gms; Mustard oil-30 gms; Coriander leaves-15 gms; Common salt-15 gms
+CHHOTI ELAICHI WATER,1,3,Cardamom-3 gms
+CINNAMON WATER,1,6,Cinnamon-6 gms
+KHICHDI (BASMATI RICE),1,324,Rice-200 gms; Gram dal-80 gms; Turmeric powder-7 gms; Cumin seeds-7 gms; Cooking oil-15 gms; Common salt-15 gms
+KHICHDI (BROWN RICE),1,299,Rice-175 gms; Gram dal-80 gms; Turmeric powder-7 gms; Cumin seeds-7 gms; Cooking oil-15 gms; Common salt-15 gms
+BLACK CHANNA RASEDAR,1,634,Black gram-250 gms; Onion-200 gms; Tomato-120 gms; Chillies-15 gms; Turmeric powder-4 gms; Coriander leaves-15 gms; Cooking oil-15 gms; Common salt-15 gms
+BLACK CHANNA (dry),1,355,Black gram-250 gms; Cumin seeds-15 gms; Chillies-15 gms; Ginger-15 gms; MANGO POWDER-15 gms; Coriander leaves-15 gms; Cooking oil-15 gms; Common salt-15 gms
+DHANIYA CHUTNEY,2,263,Coriander leaves-250 gms; Garlic-1 gms; Ginger-1 ; Lemon-0.5 gms; Common salt-7 gms
+GREEN CHUTNEY,2,340,Coriander leaves-250 gms;Mint leaves-62 gms; Onion-0.5 ; Ginger-1 gms; Chillies-1 ; MANGO POWDER-7 gms; Lemon-0.5 gms; Common salt-15 gms
+Overnight soaked oats,1,354,Milk-200 gms; ALMOND-15 gms; BLACKBERRY-30 gms; Apple-100 gms; Walnut-9 gms
+Tomato chutney,2,372,Tomato-200 gms; Onion-100 gms; Chillies-15 gms;Garlic-2 gms; Mustard seeds-4 gms; Cumin seeds-4 gms; Gram dal-4 gms; Asafoetida-30 gms; Turmeric powder-4 gms; Common salt-4 gms; Ginger-5 gms
+Chickpea Curry,1,381,Onion-95 gms; Tomato-90 gms; Cooking oil-7 gms; Cumin seeds-15 gms; Turmeric powder-4 gms; Common salt-15 gms; Coriander leaves-5 gms; Chickpeas-150 gms
+Mix Vegetable Pulav,1,694,carrot-125 gms; Peas-125 gms; Onion-125 gms; Tomato-125 gms; Cumin seeds-4 gms; Cooking oil-7 gms; Common salt-15 gms; Coriander leaves-4 gms; Chillies-4 gms; Garlic-0.5 gms; Ginger-0.5 gms; Rice-150 gms
+Broccoli SALAD,1,110,Lemon-5 ml; Common salt-15 gms; Black pepper-15 gms; Sunflower seeds-10 gms; Broccoli-70 gms
+Bajra Dosa,1,36,Fenugreek seeds-15 gms; Common salt-15 gms; Cooking oil-5 gms; Bajra-1 gms
+Parwal Aloo Vegetable,1,534,Parwal-250 gms; POTATO-150 gms; Cooking oil-15 gms; Cumin seeds-7 gms; ; Turmeric powder-7 gms; Chillies-15 gms; Common salt-15 gms; Coriander leaves-75 gms
+Pyaaz Sabzi,1,331,Onion-250 gms; Cooking oil-15 gms; Cumin seeds-7 gms; Mustard seeds-7 gms; Turmeric powder-7 gms; Chillies-15 gms; Coriander seeds-15 gms; Common salt-15 gms
+Sarson Saag,1,647,MUSTARD LEAVES-250 gms; SPINACH-250 gms; Bathua leaves-50 gms; Ginger-1 gms;Garlic-6 gms; Maize-30 gms; Common salt-15 gms; Ghee-15 gms; Cumin seeds-15 gms; Chillies-15 gms
+"Zucchini, asparagus, and bell peppers",1,347,Zucchini-200 gms; Capsicum-100 gms; Cooking oil-15 gms;Garlic-2 gms; Common salt-15 gms; Black pepper-15 gms
+Spring onions with bell peppers,1,354,Onion-200 gms; Capsicum-100 gms; Garlic-2 gms; Common salt-15 gms; Black pepper-15 gms; Chillies-7 gms; Coriander leaves-15 gms
+Steamed Broccoli,1,123,Garlic-1 gms; Common salt-15 gms; Lemon-7 gms; Chillies-30 gms; Broccoli-70 gms
+Stuffed bell peppers,1,517,Capsicum-200 gms; POTATO-125 gms; Peas-125 gms; Onion-1 gms; Garlic-2 gms; Cumin seeds-7 gms; Turmeric powder-7 gms; Chillies-15 gms; Common salt-15 gms; Cooking oil-15 gms; Coriander leaves-5 gms
+Stuffed Karela,1,168,Karela-40 gms; Cooking oil-30 gms; Cumin seeds-15 gms; Asafoetida-7 gms; Turmeric powder-7 gms; Chillies-4 gms; Coriander seeds-15 gms; Common salt-15 gms; Coriander leaves-5 gms; Onion-30 gms
+Turnip (Shalgum) Vegetable,1,434,TURNIP-250 gms; Onion-100 gms;Garlic-2 gms; Ginger-1 gms; Cumin seeds-15 gms; Mustard seeds-7 gms; Turmeric powder-7 gms; Coriander seeds-15 gms; Chillies-7 gms; Common salt-15 gms; Cooking oil-15 gms
+Pudina Chutney,1,99,Mint leaves-50 gms; Coriander leaves-25 gms; Chillies-2 gms; Lemon-10 gms; Common salt-7 gms; Ginger-3.5 gms
+Upma,1,279,Semolina-80 gms; Cooking oil-10 gms; Gram dal-7 gms; Curry leaves-8 gms; Chillies-2 gms; Onion-50 gms; carrot-50 gms; Peas-50 gms; Common salt-15 gms; Channa Dal-7 gms
+Quinoa Chicken Soup,1,257,Chicken-80 gms; Quinoa-50 gms; carrot-50 gms; Celery-30 gms; Onion-10 gms; Garlic-2 gms; Cooking oil-5 gms; Common salt-15 gms; Black pepper-15 gms
+Anjeer Water,1,50,Fig-50 gms
+Dhaniya Ajwain Jaw Water,1,55,Coriander seeds-15 gms; Barley-0.25 gms; Water-15 gms
+Tinda Vegetable (Gravy),1,361,Tinda-4 gms; Onion-180 gms; Tomato-120 gms; Cumin seeds-4 gms; Turmeric powder-7 gms; Chillies-15 gms; Coriander seeds-4 gms; Common salt-15 gms; Mustard oil-7 gms; Coriander leaves-5 gms
+Baba Ganoush with Falafel,2,201,Brinjal-100 gms;Garlic -2 gms; Lemon-4 gms; Cooking oil-15 gms; Cumin seeds-4 gms; Common salt-15 gms; Black pepper-15 gms;Parsley -4 gms; Onion-15 gms; Coriander leaves-15 gms; Mint leaves-4 gms; Coriander seeds-4 gms; Chillies-4 gms
+GOBHI MATAR VegETABLE,1,657,Cauliflower-250 gms; Peas-62 gms; Tomato-120 gms; Onion-90 gms; Ginger-20 gms; Cumin seeds-7 gms; Coriander seeds-4 gms; Turmeric powder-7 gms; Chillies-7 gms; Common salt-15 gms; Cooking oil-15 gms; CORIANDER LEAVES-60 gms
+KASHMIRI BAINGAN,1,535,Brinjal-250 gms; Tomato-120 gms; Onion-90 gms; Ginger-1.5 gms; Garlic-1.5 gms; Cumin seeds-4 gms; Chillies-7 gms; Turmeric powder-4 gms; Cinnamon-4 gms; Cardamom-4 gms; Cloves-4 gms; Black PEPPER-4 gms; Cooking oil-15 gms; Common salt-15 gms; Coriander leaves -4 gms
+KASHMIRI GOBHI,1,573,Cauliflower-250 gms; Tomato-120 gms; Onion-120 gms; Ginger-1.5 gms;Garlic-1.5 gms; Cumin seeds-0.25 gms; Chillies-7 gms; Turmeric powder-4 gms; Cinnamon-4 gms; Cardamom-4 gms; Cloves-4 gms; Black pepper-4 gms; Mustard oil-15 gms; Common salt-1 gms; Coriander leaves-5 gms
+KASHMIRI PALAK,1,450,Spinach-250 gms; Tomato-120 gms; Onion-0.5 gms; Garlic-1.5 gms; Ginger-1.5 gms; Cumin seeds-4 gms; Chillies-7 gms; Turmeric powder-4 gms; Cinnamon-4 gms; Cardamom-4 gms; CLOVES-4 gms; Black PEPPER-4 gms; Mustard oil-15 gms; Common salt-15 gms; Coriander leaves -4 gms
+Parwal,1,379,Onion-120 gms; Tomato-120 gms; Ginger-80 gms; Cumin seeds-7 gms; Turmeric powder-7 gms; Chillies-4 gms; Coriander seeds-7 gms; Mustard oil-15 gms; Common salt-15 gms; Coriander leaves-4 gms
+Mushroom Vegetable,1,297,Mushroom-150 gms; Onion-90 gms; Ginger-1.5 gms; Cumin seeds-7 gms; Turmeric powder-7 gms; Chillies-4 gms; Coriander seeds-7 gms; Mustard oil-7 gms; Common salt-15 gms; Coriander leaves-5 gms
+Muli Saag,1,212,Radish leaves-150 gms; RADISH-0.5 gms; Cumin seeds-7 gms; Turmeric powder-7 gms; Chillies-4 gms; Coriander seeds-7 gms; Chillies-2 gms; Mustard oil-15 gms; Common salt-15 gms
+Methi Aloo Vegetable,1,257,Fenugreek leaves-100 gms; POTATO-100 gms; Cumin seeds-7 gms; Turmeric powder-7 gms; Chillies-4 gms; Coriander seeds-7 gms; Chillies-2 gms; Mustard oil-15 gms; Common salt-15 gms
+Methi Gajar Vegetable,1,257,Fenugreek leaves-100 gms; carrot-100 gms; Cumin seeds-7 gms; Turmeric powder-7 gms; Chillies-4 gms; Coriander seeds-7 gms; Chillies -2 gms; Mustard oil-15 gms; Common salt-15 gms
+Veg Entree (Grilled),1,383,Garlic-2 gms; Common salt-15 gms; Black pepper-15 gms; Capsicum-90 gms; Onion-90 gms; Brinjal-123 gms; Mushroom-48 gms
+Tomato Rice (White Rice),1,303,Puffed rice-125 gms; Tomato-120 gms; Onion-1 gms; Turmeric powder-4 gms; Chillies-7 gms; Cumin seeds-7 gms; Mustard seeds-7 gms; Fenugreek seeds-7 gms; Curry leaves-3 gms; Cooking oil-15 gms; Common salt-7 gms
+Moong Tikki,3,201,Dal dal-62 gms; POTATO-90 gms; Ginger-4 gms; Chillies-4 gms; Common salt-15 gms; Cumin seeds-4 gms; Lemon-7 gms; Cooking oil-15 gms
+Kari-Patta Water,1,11,Curry leaves-6 gms;Ajwain-5 gms
+Dal Soup,3,374,Onion-60 gms; Garlic-0.5 gms; Ginger-7 gms; Turmeric powder-4 gms; Cumin seeds-4 gms; Coriander seeds-4 gms; Common salt-15 gms; Black pepper-15 gms; Coriander leaves-5 gms; Olive oil-15 gms; Moong Dal-150 gms; Tomato -90 gms
+Pumpkin Vegetable,1,333,"PUMPKIN-250 gms; Mustard oil-7 gms; Mustard seeds-7 gms; Curry leaves-6 gms; Pomegranate, maroon seeds-15 gms; Common salt-15 gms; Turmeric powder-4 gms;Black Pepper-4 gms; Cumin seeds-0.25 gms"
+Capsicum Potato Vegetable,1,315,POTATO-90 gms; Capsicum-40 gms; Onion-0.5 gms; Tomato-120 gms; Mustard oil-15 gms; Cumin seeds-7 gms; Turmeric powder-7 gms; Chillies-7 gms; Common salt-15 gms; Parsley-4 gms; Coriander leaves-5 gms
+Cauliflower Vegetable,1,328,Cauliflower-250 gms; Onion-0.5 gms; Ginger-15 gms; Cumin seeds-7 gms; Coriander seeds-7 gms; Turmeric powder-4 gms; Common salt-15 gms; Black pepper-15 gms;Parsley-5 gms; Coriander leaves-5 gms
+Drumstick Curry,1,182,Drumstick-2 gms; Onion-0.5 gms; Tomato-120 gms)-1 ; Ginger-0.5 gms;Garlic-0.5 gms; Cumin seeds-7 gms; Turmeric powder-7 gms; Coriander seeds-7 gms; Chillies-4 gms; Common salt-15 gms; Coriander leaves-5 gms
+Ganth Gobhi Vegetable (Lump Cabbage),1,235,Onion-15 gms;Garlic-1 gms; Cumin seeds-7 gms; Turmeric powder-4 gms; Coriander seeds-4 gms; Chillies-4 gms; Common salt-15 gms; Black pepper-15 gms; Coriander leaves-5 gms; CAULIFLOWER-150 gms; Olive oil-15 gms
+Dry Matar Vegetable,1,339,Peas-250 gms; Onion-15 gms; Ginger-7 gms; Mustard oil-7 gms; Cumin seeds-7 gms; Turmeric powder-7 gms; Coriander seeds-7 gms; Chillies-4 gms; Common salt-15 gms; Coriander leaves-5 gms; Olive oil-15 gms
+Beetroot Salad,1,325,Beetroot-50 gms; CUCUMBER-25 gms; Onion-25 gms; Tomato-90 gms; carrot-50 gms; Lettuce Leaf-30 gms; Lemon-15 gms; Common salt-15 gms; Black pepper-15 gms; Parsley-5 gms; CORIANDER-5 gms
+Bellpepper Salad,1,950,Capsicum-750 gms; CUCUMBER-50 gms; Onion-25 gms; Tomato-90 gms; Common salt-15 gms; Black pepper-15 gms; Parsley-5 gms
+Fresh Fruit Salad,1,464,APPLE-100 gms; BANANA-59 gms; Mango-150 gms; Common salt-15 gms; PUMPKIN SEED-15 gms; Sunflower seeds-15 gms; Mint leaves-5 gms; Strawberry-30 gms; Pineapple-75 gms
+Chicken soup,1,248,Chicken-100 gms; carrot-60 gms; Celery-17 gms; Onion-1 gms; Garlic-10 gms; Common salt-15 gms; Black pepper-15 gms; Parsley-15 gms; Olive oil-15 gms
+2 Pieces Stuffed idli,2,424,RICE-125 gms; Gram dal-62 gms; Common salt-15 gms; carrot-62 gms; Peas-62 gms; Beans-62 gms; Mustard seeds-4 gms; Cumin seeds-4 gms; Turmeric powder-4 gms; Chillies-4 gms; Cooking oil-15 gms; CORIANDER LEAVES-5 gms
+HALDI WATER,1,4,Turmeric powder-4 gms
+HONEY LEMON WATER,1,22,Lemon-15 gms; HONEY-7 gms
+JEERA AJWAIN WATER,1,20,Cumin seeds-15 gms; Ajwain-5 gms
+Grilled Chicken Salad,1,180,Chicken-60 gms; Garlic-0.5 gms; Common salt-15 gms; Black pepper-15 gms; carrot-1 gms; Capsicum-20 gms; Lettuce Leaf-10 gms; Yoghurt-10 gms; Lemon-15 gms; Coriander leaves-20 gms; Mint leaves-2 gms; Cumin seeds-7 gms
+TANDOORI CHICKEN (2 LEG & 2 BREAST),2,230,Chicken-150 gms; Lemon-15 gms; Ginger-10 gms; Garlic-10 gms; Cumin seeds-7 gms; Turmeric powder-4 gms; Chillies-4 gms; Common salt-15 gms; Cooking oil-15 gms
+Mixed Fresh Fruit Juice,2,428,ORANGE-150 gms; Apple-150 gms; Pear-89 gms; Ginger-24 gms; Lemon-15 gms
+Shreded Chicken Dish,1,705,Chicken-150 gms; Onion-250 gms; Zucchini-250 gms; Garlic-10 gms; Common salt-15 gms; Black pepper-15 gms; Lemon-15 gms
+Black Rice (pulao),1,501,carrot-1 gms; Peas-50 gms; Capsicum-50 gms; Cooking oil-15 gms; Turmeric powder-15 gms; Cumin seeds-15 gms; Coriander leaves-5 gms; Rice-350 gms
+PULAO,1,583,Rice-62 gms; carrot-125 gms; Peas-125 gms; Capsicum-125 gms; Onion-1 gms; Tomato-90 gms; Ginger-2 gms; Garlic-2 gms; Cumin seeds-7 gms; Ghee-7 gms; Turmeric powder-5 gms; Coriander seeds-7 gms; Black pepper-5 gms; Common salt-15 gms; Coriander leaves-5 gms
+Millets (Little) (Pulav),1,796,Garlic-1 gms; carrot-250 gms; Onion-250 gms; Peas-250 gms; Cumin seeds-15 gms; Common salt-15 gms; Black pepper-15 gms
+Quinoa Khichdi,1,118,Quinoa-50 gms; Dal-20 gms; Cooking oil-5 gms; Cumin seeds-7 gms; Mustard seeds-7 gms; Turmeric powder-7 gms; Coriander seeds-7 gms; Common salt-15 gms
+Quinoa Pulao,1,401,Quinoa-50 gms; carrot-100 gms; Peas-100 gms; Beans-100 gms; Cooking oil-15 gms; Cumin seeds-7 gms; Turmeric powder-7 gms; Coriander seeds-7 gms; Common salt-15 gms
+Ragi Dalia,1,628,Cumin seeds-7 gms; Chillies-4 gms; Cooking oil-15 gms; Onion-125 gms; Tomato-120 gms; dalia-350 gms; Common salt-7 gms
+Cooked Arhar dal,1,282,Turmeric powder-4 gms; Common salt-15 gms; Cooking oil-7 gms; Mustard seeds-4 gms; Cumin seeds-4 gms; Ginger-0.25 gms; Garlic-1 gms; Tomato-62.5 gms; Onion-62 gms; Coriander leaves-5 gms; Dal-150 gms
+Chicken frittata,1,170,Chicken-60 gms; Egg-20 gms; Capsicum-20 gms; Onion-20 gms; Spinach-20 gms; Common salt-15 gms; Black pepper-15 gms
+Roasted Fish,3,99,Lemon-1 gms; Common salt-15 gms; Black pepper-15 gms; Garlic-3 gms; Parsley-5 gms; Salmon-60 gms
+Masala Fish,2,139,Salmon-20 gms; Onion-10 gms; Ginger-7 gms; Garlic-7 gms; Turmeric powder-15 gms; Chillies-15 gms; Cumin seeds-15 gms; Coriander seeds-15 gms; Common salt-15 gms; Cooking oil-15 gms; Coriander leaves-5 gms
+Ghiya Vegetable (gravy),1,819,BOTTLE GOURD-500 gms; Tomato-90 gms; Onion-160 gms ; Cumin seeds-4 gms; Turmeric powder-7 gms; Chillies-4 gms; Coriander seeds-4 gms; Ginger-15 gms; Common salt-15 gms; Mustard oil-15 gms; Coriander leaves-5 gms
+Thai Salad with Coconut Lime Dressing,1,149,Zucchini-10 gms; Capsicum-20 gms; Cabbage-1- gms; Lettuce Leaf-30 gms; COCONUT milk-15 gms; Lemon-15 gms; Coriander leaves-15 gms; Garlic-7 gms; Ginger-7 gms; Common salt-15 gms; Black pepper-15 gms
+Chicken Greek Salad,1,83,Chicken-1 gms; Garlic-7 gms; Common salt-15 gms; Black pepper-15 gms; CUCUMBER-1 gms; Tomato-1 gms; Capsicum-1 gms; Lettuce Leaf-30 gms; Lemon-5 gms; Garlic-7 gms
+Lettuce Avocado Salad,1,57,Lettuce leaf-1 gms; Avocado-1 gms; CUCUMBER-1 gms; Yoghurt-10 gms; Lemon-5 gms; Coriander leaves-2 gms; Cumin seeds-7 gms; Common salt-15 gms; Black pepper-15 gms
+Almond coriander soup,1,216,Coriander leaves-10 gms; Ginger-1 gms; Common salt-4 gms; Onion-150 gms; Black pepper-0.25 gms; Olive oil-15 gms; Almond-11 gms
+Lemon rice soup,1,101,Mustard seeds-5 gms; Cumin seeds-5 gms; Ginger-1 gms; Curry leaves-10 gms; Lemon-15 gms; Common salt-15 gms; Rice-50 gms
+Rice flour laddu,4,305,Rice-250 gms; COCONUT-50 gms; Cardamom-5 gms; Ghee-10 ml
+Thekua,15,386,Atta-300 gms; Jaggery-40 gms; Cardamom-16 gms; Ghee-30 gms
+Oats milk,3,94,Rolled Oats-90 gms; Common salt-4 gms
+Cooked Foxtail Millets,1,150,Millets-150 gms
+Cooked kuddo Millets,1,150,Millets-150 gms
+Rice Noodles,1,165,Rice Noodles-150 gms; ; Common salt-15 gms
+MILLET CHEELA,1,128,Millets-45 gms; Onion-62.5 gms; carrot-40 gms; Spinach-37.5 gms; CORIANDER LEAVES-37.5 gms; Chillies-7 gms; Cumin seeds-7 gms; Cooking oil-7 gms; Common salt-7 gms
+Quinoa Cheela,1,443,Onion-15 gms; Capsicum-15 gms; carrot-15 gms; Coriander leaves-7 gms; Cumin seeds-4 gms; Chillies-7 gms; Cooking oil-15 gms; Common salt-15 gms; Quinoa-350 gms
+Oats Dalia,1,119,Onion-15 gms; Peas-15 gms; carrot-15 gms; Beans-15 gms; Cumin seeds-15 gms; Turmeric powder-7 gms; Chillies-7 gms; Cooking oil-15 gms; Common salt-15 gms
+Dal Tikki,2,356,Channa Dal-125 gms; POTATO-175 gms; Coriander leaves-7 gms; MANGO POWDER-7 gms; Cumin seeds-4 gms; Coriander seeds-4 gms; Chillies powder-4 gms; Common salt-15 gms; Cooking oil-15 gms
+"Tea (ginger, Tulsi, cardamon, cinnamon sticks, black pepper)",1,910,Ginger-35 gms; Milk-875 gms
+Spinach Salad,1,184,SPINACH-50 gms; CUCUMBER-20 gms; Sunflower Seeds-10 g; Pumpkin Seeds-30 gms; Lemon-15 gms; Common salt-7 gms; Black pepper-7 gms; Onion-62.5 gms; Tomato-45 gms; Olive oil-7.5 gms
+JAWAR STUFFED ROTI (Aloo),1,52,Onion-15 gms; Coriander leaves-7 gms; Cooking oil-15 gms; Common salt-15 gms
+Aam Ras,1,400,MANGO-150 gms; Milk-250 gms
+Lemon Coriander Soup,4,111,Coriander leaves-15 gms; Ginger-1 gms; Garlic-1 gms; Common salt-15 gms; Lemon-15 gms; Olive oil-15 gms; Onion-31.25 gms; Coriander Powder -24 gms
+chicken stew,4,92,Chicken-62 gms; POTATO-87.5 gms; carrot-20 gms; Peas-37.5 gms
+moong dal puree,4,705,Moong Dal-150 gms; carrot-60 gms; POTATO-175 gms; TOMATO-90 gms; Onion-125 gms; Garlic-15 gms; Ginger-15 gms; Cumin seeds-15 gms; Turmeric powder-15 gms; Common salt-15 gms; Coriander leaves-15 gms; Olive oil-15 gms
+Rice Dosa,1,24,Urad Dal Flour-15 gms; Rice Flour-37.5 gms; Common salt-4 gms
+Quinoa Cutlet,1,279,Quinoa-75 gms; POTATO-87.5; carrot-60 gms; Beans-15 gms; Coriander leaves-7 gms; Ginger-0.25 gms; Cumin seeds-4 gms; Red chilli Powder-7 gms; Common salt-7 gms; Olive oil-3.75 gms; Garlic powder-4 gms
+Broccoli with mix bell pepper Vegetable,1,732,Broccoli-200 gms; Capsicum-150 gms; Babycorn-100 gms; Tofu-250 gms; Black pepper-10 ; Onion;Garlic-2 gms; Olive oil-15 gms; Common salt-15 gms
+Ragi Flour Cheela,1,169,RAGI-60 gms; Onion-30 gms; TOMATO-30 gms; Capsicum-30 gms; Cumin seeds-2 gms; Common salt-2 gms; Olive oil-15 gms
+Rice Flour Cheela,1,211,Rice Flour-150 gms; Cumin seeds-10 gms; CORIANDER-10 gms; Turmeric powder-10 gms; Red chilli Powder-15 gms; Common salt-1 gms; Olive oil-15 gms
+Vegetable Juice(Cucumber+Ghiya+1 Carrot),1,95,CUCUMBER-20 gms; Bottle gourd-15 gms; Carrot-60 gms
+"Veg Shredded,Green Peas Mushroom Vegetable",1,1113,CABBAGE-250 gms; carrot-250 gms; Peas-250 gms; MUSHROOM-250 gms; Onion-1 gms; Garlic powder-15 gms; Cumin seeds-15 gms; CORIANDER-15 gms; Turmeric powder-7 gms; Red chilli Powder-15 gms; Common salt-15 gms; Olive oil-30 gms
+Lemon Rice Soup With Red Rice,4,1647,Rice-1200gms; Onion-125 gms; Garlic-15 gms; carrot-125 gms; Olive oil-30 gms; Celery-62 gms; Lemon-90 gms
+Baingan Vegetable,1,346,TOMATO-150 gms; Onion-125 gms; Cloves-1 gms; Cumin seeds-1 gms; Turmeric powder-15 gms; Red chilli Powder-15 gms; CORIANDER-24 gms; Olive oil-15 gms
+Millets Cheela,1,271,Millets-150 gms; CARROT-30 gms; Onion-30 gms; Capsicum-30 gms; Cumin seeds-15 gms; Common salt-1 gms; Olive oil-15 gms
+Ragi Soup,2,543,Onion-300 gms;Garlic-10 gms; carrot-60 gms; Celery-17 gms; Coriander seeds-15 gms; Cumin seeds-15 gms; Turmeric powder-4 gms; Olive oil-15 gms; Common salt-7 gms; Ragi flour-100 gms
+Fish Salad 1,1,530,Fish-170 gms; Onion-60 gms; Tomato-90 gms; CUCUMBER-150 gms; Lemon-15 gms; Coriander Powder-5 gms; Red chilli Powder-15 gms; Olive oil-15 gms; CORIANDER LEAVES-10 gms
+Rice Flour Wrap with Chicken and Veggies,4,622,Rice Flour-150 gms; Common salt-15 gms; Olive oil-15 gms; Chicken-150 gms; Onion-1 gms; Capsicum-201 gms; Ginger-15 gms; Garlic powder-15 gms; CORIANDER-15 gms; Cumin seeds-15 gms; Turmeric powder-15 gms; Red chilli Powder-15 gms
+Masoor Dal Sambar,4,890,Masoor Dal-300 gms; carrot-87.5 gms; Beans-150 gms; Drumstick-62 gms; Olive oil-30 gms; Cumin seeds-15 gms; Fenugreek seeds-15 gms; Onion-125 gms; Turmeric powder-7 gms; Common salt-7 gms; Coriander leaves-7 gms; Tamarind-15 gms; Sambar Powder-15 gms; Brinjal-137 gms
+Moong Dal Tikki,6,945,Moong Dal-350 gms; POTATO-375 gms; Onion-125 gms; Chillies-30 gms; Coriander Powder-5 gms; Garam Masala-15 gms; Olive oil-30 gms; Common salt-15 gms
+Oatmeal,1,586,Oats-150 gms; Almond Milk-200 gms; Apple-200 gms; Blueberries-10 gms; Walnut-11 gms; Cinnamon-15 gms
+Boiled Aloo Chat,1,255,POTATO-150 gms; Cumin seeds-15 gms; Red chilli Powder-15 gms; Chat Masala-15 gms; Common salt-15 gms; Lemon-15 gms; Coriander leaves-15 gms; Olive oil-15 gms
+Saunf Ajwain Water,1,30,Saunf-15 gms; Ajwain-15 gms
+Red Rice,4,180,Rice-150 gms; Common salt-15 gms; Coriander leaves-15 gms
+Saunf Elaichi Water,4,45,Saunf-15 gms; cardamom-15 gms; Jaggery-15 gms
+Classic Avocado Salad,2,615,Avacado-300 gms; Tomato-90 gms; Onion-150 gms; Olive oil-30 gms; Lemon-15 gms; Common salt-15 gms; Black pepper-15 gms
+Corn Avocado Salad,2,1281,Babycorn-350 gms; Avacado-700 gms; Capsicum-37 gms; Onion-125 gms; Lemon-15 gms; Olive oil-15 gms; Common salt-15 gms; Black pepper-24 gms
+Spinach Vegetable,4,785,SPINACH-250 gms; POTATO-300 gms;Onion-125 gms; Cloves-30 gms; Cumin seeds-15 gms; Coriander Powder-5 gms; Turmeric powder-15 gms; Red chilli Powder-15 gms; Common salt-15 gms; Olive oil-15 gms
+Spinach Vegetable 2,4,512,Spinach-150 gms; Potato-150 gms;Onion-125 gms;Garlic-15 gms; Cumin seeds-15 gms; Coriander Powder-5 gms; Red chilli Powder-7 gms; Common salt-15 gms; Olive oil-30 gms
+Upma,4,935,Semolina-150 gms;Onion-125 gms; Peas-150 gms; carrot-250 gms; Beans-150 gms; Cumin seeds-15 gms; Gram dal-37.5 gms; Channa Dal-15 gms; Asafoetida-15 gms; Common salt-15 gms; Olive oil-15 gms; Lemon-15 gms; Coriander leaves-15 gms
+"Dhaniya Jeera, Saunf Water",1,35,Coriander seeds-15 gms; Cumin seeds-15 gms;Fennel Seeds-5 gms
+Shredded Chicken Breast Dry Gravy,1,450,Chicken-150 gms; Onion-160 gms; Garlic-30 gms; Chillies-15 gms; Coriander Powder-5 gms; Garam Masala-15 gms; Turmeric powder-15 gms; Red chilli Powder-15 gms; Common salt-15 gms; Olive oil-15 gms; Coriander leaves-15 gms
+"Arugula Salad(cheery tomato,carrot,cucumber and radish)",2,995,CUCUMBER-150 gms; Cherry Tomato-150 gms; carrot-150 gms; Radish-150 gms; Arugula Leaves-150 gms; Lemon-15 gms; Olive oil-165 gms; Cumin seeds-15 gms; Coriander Powder-5 gms; Turmeric powder-15 gms; Red chilli Powder-15 gms; Common salt-15 gms
+"Baby Spinach salad(cherry tomato,carrot,cucumber and radish)",2,1155,Cucumber-200 gms; Cherry Tomato-150 gms; carrot-150 gms; Radish-150 gms; Spinach-250 gms; Lemon-15 gms; Olive oil-165 gms; Cumin seeds-15 gms; Coriander Powder-30 gms; Turmeric powder-15 gms; Common salt-15 gms
+"lettuce salad(cheery tomato,carrot,cucumber and radish)",2,877,Cucumber-100 gms; Cherry Tomato-187 gms; carrot-60 gms; Radish-150 gms; Lettuce leaf-150 gms; Olive oil-165 gms; Cumin seeds-15 gms; Coriander Powder-5 gms; Turmeric powder-15 gms; Red chilli Powder-15 gms; Common salt-15 gms
+Gobhi Gajar Matar Without Oil,1,770,Cauliflower-250 gms; carrot-150 gms; Peas-150 gms; Onion-125 gms; Chillies-15 gms; Cumin seeds-15 gms; Ginger powder-15 gms; Coriander Powder-5 gms; Turmeric powder-15 gms; Common salt-15 gms; Coriander leaves-15 gms
+Gobhi Gajar Matar With Oil,1,785,Cauliflower-150 gms; carrot-150 gms; Peas-250 gms;Onion-125 gms; Chillies-15 gms; Red chilli Powder-15 gms; Cumin seeds-15 gms; Ginger powder-15 gms; Coriander Powder-5 gms; Turmeric powder-15 gms; Common salt-15 gms; Coriander leaves-15 gms
+Grilled Basa Fish,1,212,Turmeric powder-7 gms; Red chilli Powder-15 gms; Garam Masala-15 gms; Coriander Powder-5 gms; Common salt-15 gms; Lemon-15 gms; Olive oil-15 gms; Fish-125 gms
+"Cucumber ,Onion,Tomato and Carrot Salad",1,500,Cucumber-200 gms; Onion-15 gms; Tomato-90 gms; carrot-150 gms; Coriander leaves-15 gms; Common salt-15 gms; Lemon-15 gms
+"Vegetable smoothie (cucumber,carrot,beetroot and apple)",2,801,Cucumber-200 gms; carrot-250 gms; Beetroot-136 gms; Apples-200 gms; Lemon-15 gms
+Baigan Bharta,4,775,Onion-125 gms; Chillies-15 gms; Cumin seeds-15 gms; Ginger powder-15 gms; Garlic powder-15 gms; Turmeric powder-15 gms; Coriander Powder-15 gms; Garam Masala-15 gms; Olive oil-15 gms; Common salt-15 gms; Tomato-250 gms; Eggplant-250 gms; Coriander leaves-15 gms
+Jowar Cheela,1,885,Jowar-250 gms; carrot-250 gms;Onion-160 gms; Coriander leaves-150 gms; Cumin seeds-30 gms; Red chilli Powder-15 gms; Common salt-15 gms; Olive oil-15 gms
+Brinjal Vegetable,1,645,Brinjal-150 gms;Onion-160 gms; Tomato-240 gms; Ginger powder-15 gms; Garlic powder-15 gms; Cumin seeds-15 gms; Coriander Powder-5 gms; Common salt-15 gms; Cooking oil-15 gms; Coriander leaves-15 gms
+Fenugreek Vegetable,1,585,Fenugreek leaves-250 gms;Onion-125 gms; Tomato-90 gms; Olive oil-15 gms; Cumin seeds-15 gms; Ginger powder-15 gms; Garlic powder-15 gms; Coriander Powder-15 gms; Turmeric powder-15 gms; Red chilli Powder-15 gms; Common salt-15 gms
+Roasted Vegetable,1,625,Sweet potato-250 gms; Brussels sprouts-150 gms; carrot-150 gms; Olive oil-15 gms; Thyme-15 gms; Rosemary-15 gms; Garlic powder-15 gms; Common salt-15 gms
+Mixed Vegetable Bhaji,1,1450,Potato-350 gms; carrot-250 gms; Beans-250 gms; Peas-250 gms;Onion-125 gms; Tomato-90 gms; Chillies-15 gms; Ginger powder-15 gms; Garlic powder-15 gms; Cumin seeds-15 gms; Red chilli Powder-15 gms; Turmeric powder-15 gms; Common salt-15 gms; Olive oil-15 gms; Coriander leaves-15 gms
+Qunoia Flour Cheela,1,641,Quinoa Flour-150 gms; Onion-125 gms; Tomato-90 gms; Capsicum-201 gms; Chillies-15 gms; Turmeric powder-15 gms; Common salt-15 gms; Olive oil-15 gms; Coriander leaves-15 gms
+Steamed /Blanched Vegetable,1,1151,Beetroot-136 gms; carrot-150 gms; Broccoli-150 gms; Cauliflower-250 gms; Spinach-150 gms; Onion-150 gms; Tomato-90 gms; Chillies-15 gms; Lemon-15 gms; Cumin seeds-15 gms; Common salt-15 gms; Coriander leaves-15 gms
+Rasam,1,181,Tomato-90 gms; Cumin seeds-15 gms; Turmeric powder-15 gms; Fenugreek seeds-15 gms; Chillies-15 gms; Garlic-1 gms; Common salt-15 gms; Tamarind-15 gms
+Kala Chana Sprouts,1,180,Kala chana-150 gms; Lemon-15 gms; Common salt-15 gms
+Sauteed Vegetables,1,280,Olive oil-15 gms;Garlic-15 gms; Onion-150 gms; Beans-15 gms; carrot-15 gms; Capsicum-5 gms; Cumin seeds-15 gms; Coriander Powder-5 gms; Turmeric powder-15 gms; Red chilli Powder-15 gms; Common salt-15 gms
+Pasta Salad,1,1476,Pasta-750 gms; Cherry Tomato-150 gms; CUCUMBER-150 gms; Onion-150 gms; Capsicum-201 gms;Parsley-15 gms; Lemon-30 gms; Olive oil-15 gms; Common salt-15 gms
+Brown Rice Pulao,1,1022,Rice-150 gms; Onion-150 gms; carrot-150 gms; Peas-150 gms; Cumin seeds-15 gms; CLOVES-150 gms; Cinnamon-15 gms; CARDAMOM-2 gms; Ginger powder-15 gms; Garlic powder-15 gms; Chillies-15 gms; Common salt-15 gms; Olive oil-15 gms; Coriander leaves-15 gms; Corn Kernels-150 gms
+Onion Masala Salad,1,455,Onion-160 gms; Red chilli Powder-15 gms; Lemon-15 gms; Common salt-15 gms; Coriander leaves-250 gms
+Dhaniya Chutney,1,202,Coriander leaves-150 gms; Chillies-15 gms;Garlic-15 gms; Cumin seeds-15 gms; Common salt-7 gms;
+Salted Roasted Makhana,1,280,Makhana-250 gms; Olive oil-15 gms; Common salt-15 gms
+Chicken Do Pyaza,1,500,Chicken-150 gms; Onion-150 gms; Tomato-90 gms; Chillies-15 gms; Olive oil-15 gms; Cumin seeds-15 gms; Coriander Powder-5 gms; Garam Masala-15 gms; Red chilli Powder-15 gms; Common salt-15 gms; Coriander leaves-15 gms
+Chicken kebab,1,305,Chicken-150 gms; Yoghurt-15 gms; Ginger powder-15 gms; Garlic powder-15 gms; Lemon-15 gms; Red chilli Powder-15 gms; TURMERIC-15 gms; Cumin seeds-15 gms; Coriander Powder-5 gms; Garam Masala-15 gms; Common salt-15 gms; Olive oil-15 gms
+Green Chutney,1,515,Coriander leaves-150 gms;Mint leaves-150 gms; Chillies-15 gms; Ginger powder-15 gms;Onion-125 gms; Cumin Powder-15 gms; Chat Masala-15 gms; Lemon-15 gms; Common salt-15 gms;
+Kali Masoor Chat,1,640,Dal-150 gms;Onion-125 gms; Tomato-90 gms;Cucumber-200 gms; Chillies-15 gms; Lemon-15 gms; Chat Masala-15 gms; Common salt-15 gms; Coriander leaves-15 gms
+Chana Salad,1,890,Chickpeas-150 gms;Cucumber-200 gms; Tomato-90 gms;Onion-125 gms; Chillies-15 gms; Coriander leaves-250 gms; Lemon-15 gms; Common salt-15 gms; Black pepper-15 gms; Cumin seeds-15 gms
+Kala Chana Chat,1,515,Chickpeas-150 gms;Onion-125 gms; Tomato-120 gms; Chillies-15 gms; Coriander leaves-15 gms; Tamarind-15 gms;Mint leaves-15 gms; Chat Masala-15 gms; Cumin seeds-15 gms; Common salt-15 gms; Lemon-15 gms
+Spinach Chana Dal Cutlet,1,420,Spinach-150 gms;Onion-125 gms; Chillies-15 gms; Ginger powder-15 gms; Cumin seeds-15 gms; Coriander Powder-5 gms; Red chilli Powder-15 gms; Common salt-15 gms;Bread-50 gms; Olive oil-15 gms
+Vegetable soup with Quinoa,1,535,Quinoa-150 gms;Onion-125 gms;Garlic-15 gms; carrot-150 gms; Beans-15 gms; Cumin seeds-15 gms; Coriander Powder-5 gms; Turmeric powder-15 gms; Red chilli Powder-15 gms; Common salt-15 gms; Olive oil-15 gms
+Low-Fat Bajra Cheela,1,850,Bajra flour-350 gms; Spinach-150 gms; Carrot-150 gms;Onion-125 gms; Coriander leaves-15 gms; Cumin seeds-15 gms; Coriander Powder-15 gms; Common salt-15 gms; Olive oil-15 gms
+Low-Fat Grilled Chicken Breast,1,482,Chicken-172 gms; VINEGAR-250 gms; Olive oil-15 gms; Oregano-15 gms; Common salt-15 gms; Black pepper-15 gms
+Roasted Makhana Bhel Without Peanuts,1,820,Makhana-300 gms;Onion-125 gms; Tomato-90 gms; Cucumber-200 gms; Chillies-15 gms; Coriander leaves-15 gms; Red chilli Powder-15 gms; Cumin seeds-15 gms; Chat Masala-15 gms; Lemon-15 gms; Common salt-15 gms
+Sprouts Cheela,1,520,Moong-250 gms;Onion-120 gms; Tomato-90 gms; Turmeric powder-15 gms; Cumin seeds-15 gms; Common salt-15 gms; Olive oil-15 gms
+"Bell pepper, onion, and tomato Vegetable",1,485,Capsicum-150 gms; Onion-150 gms; Tomato-90 gms; Olive oil-15 gms; Cumin seeds-15 gms; Coriander Powder-5 gms; Turmeric powder-15 gms; Red chilli Powder-15 gms; Common salt-15 gms; Coriander leaves-15 gms
+Chicken gravy (low-fat),1,570,Chicken-150 gms;Onion-160 gms; Tomato-120 gms; Olive oil-15 gms; Cumin seeds-15 gms; Ginger powder-15 gms; Garlic powder-15 gms; Turmeric powder-15 gms; Coriander Powder-5 gms; Garam Masala-15 gms; Red chilli Powder-15 gms; Common salt-15 gms; Coriander leaves-15 gms
+Tomato Basil Soup,2,440,Olive oil-15 gms;Onion-160 gms;Garlic-15 gms; Tomato-120 gms; Basil-100 gms; Common salt-15 gms; Black pepper-15 gms
+"Saute zucchini, asparagus, and bell peppers",2,1205,Zucchini-680 gms; Asparagus-150 gms; Capsicum-300 gms; Olive oil-15 gms; Garlic Powder-15 gms; Common salt-15 gms; Black pepper-15 gms;Parsley-15 gms
+Style Roasted Makhana,1,780,Makhana-750 gms; Olive oil-15 gms; Common salt-15 gms
+Kalimirch Chicken,1,670,Chicken-150 gms;Onion-125 gms; Tomato-120 gms; Chillies-15 gms; Cumin seeds-15 gms; Black pepper-150 gms; Turmeric powder-15 gms; Coriander Powder-5 gms; Garam Masala-15 gms; Common salt-15 gms; Yogurt-15 gms; Coriander leaves-15 gms; Olive oil-15 gms
+Low Fat Besan Cheela,4,682,Besan-350 gms;Onion-160 gms; Tomato-90 gms; Turmeric powder-15 gms; Red chilli Powder-15 gms; Common salt-7 gms; Olive oil-15 gms; Chillies-15 gms; Ginger-15 gms
+Low Fat Dal Cheela,1,440,Moong Dal-150 gms;Onion-125 gms; Tomato-90 gms; Chillies-15 gms; Turmeric powder-15 gms; Red chilli Powder-15 gms; Common salt-15 gms; Olive oil-15 gms
+Tinda Vegetable (Low Fat),2,705,Tinda-330 gms;Onion-125 gms; Tomato-120 gms; Cumin seeds-15 gms; Turmeric powder-15 gms; Coriander Powder-55 gms; Red chilli Powder-15 gms; Common salt-15 gms; Olive oil-15 gms
+Green Chutney without any Nuts,1,600,Coriander leaves-150 gms;Mint leaves-250 gms; Chillies-15 gms; Ginger-15 gms; Onion-125 gms; Cumin seeds-15 gms; Lemon-15 gms; Common salt-15 gms
+French Fries,1,530,Potato-500 gms; Common salt-15 gms; Olive oil-15 gms
+Saute Bell Pepper,1,246,Capsicum-201 gms; Olive oil-15 gms; Common salt-15 gms; Garlic-15 gms
+Chatpate Mushroom,1,247,Mushroom-100 gms; Onion-50 gms; Chillies-15 gms; Cumin seeds-7 gms; Coriander seeds-7 gms; Lemon-7 gms; Sunflower oil-15 gms; Coriander leaves-15 gms; Ginger-4 gms; Coriander Powder-5 gms; Common salt-7 gms; Garam Masala-15 gms;
+Mushroom Pepper Masala,1,428,Mushroom-100 gms; Onion-120 gms ; Capsicum-120 gms; Garlic-15 gms; Ginger-15 gms; Turmeric powder-7 gms; Chillies-7 gms; Cumin seeds-7 gms; Coriander leaves-15 gms; Sunflower oil-15 gms; Black pepper-7 gms
+Potato Mushroom Kebab,2,950,Potato-80 gms; Olive oil-15 gms;Onion-160 gms; Coriander Powder-5 gms; Mushroom-450 gms; Garlic powder-15 gms; Ginger-15 gms ; Coriander leaves-15 gms; Red chilli Powder-15 gms; Garam Masala-15 gms; Common salt-15 gms;Bread-150 gms
+MUSHROOM SOUP,1,505,MUSHROOM-125 gms; Milk-250 gms; Common salt-15 gms; Milk-100 gms; Olive oil-15 gms
+Mushroom Capsicum Onion Vegetable,1,547,MUSHROOM-120 gms; Capsicum-150 gms; Tomato-120 gms; Onion-75 gms; Chillies-15 gms; Cumin seeds-4 gms; Turmeric powder-4 gms; Common salt-7 gms; Cooking oil-15 gms; Coriander leaves-15 gms; Ginger-4 gms; Garlic-4 gms; Chillies-7 gms; Coriander powder-7 gms
+Mushroom Do Pyaza,1,457,MUSHROOM-150 gms; Yoghurt-30 gms; Tomato-120 gms; Onion-75 gms; Chillies-15 gms; Cumin powder-4 gms; Turmeric powder-4 gms; Common salt-7 gms; Cooking oil-15 gms; Coriander leaves-15 gms; Ginger-4 gms; Garlic-4 gms; Chillies-7 gms; Coriander seeds-7 gms
+Mushroom masala,1,463,MUSHROOM-150 gms; Yoghurt-30 gms; Tomato-120 gms; Onion-75 gms; Chillies-15 gms; Cumin seeds-4 gms; Turmeric powder-4 gms; Common salt-7 gms; Cooking oil-15 gms; Coriander leaves-15 gms; Ginger-7 gms; Garlic-7 gms; Chillies powder-7 gms; Coriander powder-7 gms
+Spinach masala,1,539,Spinach-250 gms; Tomato-120 gms; Onion-100 gms; Cumin seeds-4 gms; Turmeric powder-4 gms; Common salt-7 gms; Cooking oil-15 gms; Coriander leaves-15 gms; Garlic-2.5 gms; Chillies-7 gms; Coriander Powder-7 gms; Ginger-2.5 gms
+Mushroom saute,1,380,MUSHROOM-100 gms; Tomato-120 gms; Onion-50 gms; Cumin powder-0.25 gms; TURMERIC-4 gms; Common salt-7 gms; Cooking oil-15 gms; Coriander leaves-15 gms; Garlic-2.5 gms; Coriander Powder-7 gms; Chillies-7 gms; Ginger-0.25 gms
+Stuffed Mushroom,2,185,MUSHROOM-2 ; Spinach-60 gms; Onion-30 gms; Capsicum-75 gms; carrot-1 gms;Garlic-5 gms; Common salt-0.5 gms; Black pepper-0.5 gms;Parsley-4 gms
+Methi Mushroom Vegetable,1,357,Fenugreek leaves-100 gms; MUSHROOM-100 gms; Onion-100 gms; Cumin seeds-7 gms; Turmeric powder-7 gms; Chillies-4 gms; Coriander seeds-7 gms; Chillies-2 gms; Mustard oil-15 gms; Common salt-15 gms
+Dry Matar Mushroom Vegetable,1,459,Peas-62 gms; MUSHROOM-150 gms; TOMATO-150 gms; Cumin seeds-15 gms; Turmeric powder-15 gms; Coriander seeds-15 gms; Red chilli Powder-15 gms; Common salt-7 gms; Olive oil-15 gms; CORIANDER LEAVES-15 gms
+Kala Channa Tikki,3,601,Chickpeas-150 gms; POTATO-250 gms;Onion-125 gms; Chillies-15 gms; Ginger-15 gms; Cumin seeds-1 gms; Coriander Powder-15 gms; Garam Masala-15 gms; Olive oil-15 gms
+Salami Sandwich (Chicken),2,784,Chicken Salami-300 gms; Tomato-120 gms; Cucumber-200 gms; Lettuce Leaf-10 gms;Black Pepper-4 gms;Bread-150 gms
+Chicken Sandwich,1,389,Bread-50 gms; Chicken-150 gms; Garlic-4 gms; Common salt-15 gms; Black pepper-15 gms;Lettuce Leaf-20 gms; Tomato-120 gms; Yoghurt-15 gms
+Stuffed Oats Bran wheat Roti,1,176,Wheat-15 gms; Cauliflower-62 gms; Spinach-62 gms; Ginger-7 gms; Chillies-7 gms; Cumin seeds-4 gms; CORIANDER-4 gms; Mustard oil-15 gms
+Wheat Porridge,1,289,Wheat-62 gms; Milk-125 gms; Cardamom-4 gms; ALMOND-4 gms; Dates-8 gms; Raisins-6 gms; Apple-80 gms
+Chicken Shawarma (With Pita bread and Curd),2,500,Chicken-300 gms; Lemon-15 gms; Cinnamon-15 gms; Common salt-15 gms; Onion-125 gms; Olive oil-15 gms; Cumin seeds-15 gms
+Open Sandwich,2,529,Bread-50 gms; Onion-75 gms; Capsicum-75 gms; Cucumber-75 gms; Cherry Tomato-100 gms; Chaat Masala-15 gms; Common salt-15 gms; BUTTER-24 gms; Sweet Corn-100 gms
+Bread poha,1,496,Bread-25 gms; Onion-125 gms; Tomato-120 gms; Peas-15 gms; Capsicum-75 gms; Mustard seeds-7 gms; Cumin seeds-7 gms; Turmeric powder-4 gms; Chillies-4 gms; Common salt-4 gms; Sunflower oil-15 gms; Coriander leaves-15 gms; Lemon-80 gms
+CHICKEN BREAD ROLL,6,667,Capsicum-250 gms; Common salt-15 gms; Bread-50 gms; Chicken-258 gms; Garlic powder-15 gms; Ginger-4 gms; Chillies-15 gms; Coriander Powder-15 gms; Cumin seeds-15 gms; Garam Masala-15 gms; Olive oil-15 gms
+Whole wheat bread,1,147,Wheat-125 gms;Common salt-7 gms; Olive oil-15 gms
+Bruschetta,1,249,TOMATO-90 gms;Garlic-5 gms; Common salt-7 gms; Black pepper-7 gms;Bread-25 gms; Basil-100 gms; Cooking oil-15 gms
+Veg Sandwich,1,365,Bread-50 gms; Capsicum-30 gms; Zucchini-30 gms; Cucumber-200 gms; Common salt-15 gms; Lettuce Leaf-10 gms; Carrot-30 gms
+Suji Veggie Pocket,1,190,Semolina-30 gms; Yoghurt-60 ml; Cumin seeds-4 gms; Sunflower oil-7 gms; carrot-20 gms; Beans-20 gms; Peas-20 gms; Onion-50 gms; Ginger-7 gms; Chillies-7 gms; Common salt-0.25 gms
+Wheat Roti,1,45,Atta-30 gms; Common salt-15 gms;
+Chicken Wheat Wrap,1,317,Chicken-60 gms; Sunflower oil-15 gms; Turmeric powder-7 gms; Chillies-4 gms; Onion-62 gms; Cabbage-62 gms; Capsicum-62 gms; CORIANDER LEAVES-15 gms; Cumin seeds-15 gms; Green Chutney-15 gms
+Oats Wrap,2,435,Common salt-15 gms; Oats-150 gms; Black pepper-15 gms; Baking Soda-5 gms; Spinach-250 gms
+Bread Roll,2,619,Potato-450 gms;Bread-50 gms; Chillies-20 gms;Garlic-15 gms; Coriander leaves-15 gms; Black pepper-15 gms; Onion; Sunflower oil-15 gms; Red chilli Powder-15 gms; Ginger powder-24 gms;
+Avocado Toast,2,525,Common salt-15 gms; Bread-25 gms; Tomato-150 gms; Avocado-150 gms;Onion-125 gms; Lemon-15 gms; Black Pepper-15 gms; Olive oil-15 gms;Parsley-15 gms
+POORI,1,279,Atta-250 gms; Common salt-4 gms; Sunflower oil-25 gms
+Suji Idli,2,530,Semolina-250 gms; CURD-250 gms; Cooking Oil-15 gms; Common salt-15 gms
+Missi Roti,3,745,Coriander leaves-15 gms; Atta-250 gms; Besan-250 gms;Onion-125 gms; Turmeric powder-15 gms; Red chilli Powder-15 gms; Coriander Powder-15 gms; Cumin seeds-15 gms; Ajwain-15 gms; Common salt-15 gms; Olive oil-15 gms
+Aloo Toast,4,484,Chillies-15 gms; Common salt-15 gms; Cumin seeds-15 gms; Bread-4 gms; POTATO-250 gms;Onion-125 gms; Turmeric powder-15 gms; Red chilli Powder-15 gms; Chat Masala-15 gms; Olive oil-15 gms
+Wheat bran roti Roll,1,100,Atta-30 gms; Mustard oil-15 gms; Lettuce Leaf-10 gms; Cucumber-15 gms; Capsicum-15 gms; carrot-15 gms;
+Wheat Palak Wrap,1,480,"SPINACH-125 gms; Onion-15 gms; Capsicum-15 gms; Mushroom-15 gms; Zucchini-15 gms; Capsicum, red-15 gms; Cooking oil-7 gms; Cumin seeds-4 gms; Common salt-4 gms; ; Atta-250 gms; Garam Masala-15 gms"
+Stuffed Jau Roti (Spinach),1,615,Spinach-250 gms; Chillies-15 gms; Common salt-15 gms; dalia-150 gms; Onion-125 gms; Turmeric powder-15 gms; Cumin seeds-15 gms; Coriander Powder-15 gms; Olive oil-15 gms
+Oats Stuffed Roti (Fenugreek),4,600,Cumin seeds-15 gms; Common salt-15 gms; Atta-250 gms; ; Oats-150 gms; Fenugreek Leaves-125 gms ; Coriander Powder-15 gms; TURMERIC-15 gms; Red chilli Powder-15 gms
+Oats Cheela,1,240,Onion-15 gms; TOMATO-15 gms; Capsicum-15 gms; Common salt-15 gms; Coriander leaves-15 gms; Cooking oil-15 gms; Oats-150 gms
+Stuffed Wheat Bran Roti,1,148,Onion-60 gms; Ginger-7 gms; Turmeric powder-4 gms; Cooking oil-15 gms; Atta-62 gms
+Vermicelli,1,394,Cooking oil-30 gms; vermicelli-125 gms; Common salt-7 gms; Chillies-1 gms; Curry leaves-5 gms; Ginger-10 gms; Onion-1 gms; TURMERIC-7 gms; carrot-62 gms; Capsicum-62 gms; Peas-62 gms; Lemon-7 gms; CORIANDER-15 gms;
+Dal Wali Roti,1,111,Atta-30 gms; Gram dal-30 gms; Ginger-7 gms; Cumin seeds-7 gms; Onion-15 gms; Common salt-7 gms; CORIANDER-15 gms;
+Ragi Roti (20% Ragi & 80% wheat),1,76,Wheat-25 gms; Ragi flour-6 gms; Common salt-15 gms; Cumin seeds-15 gms; Olive oil-15 gms
+Ragi Roti (50% Ragi & 50% Normal Atta),1,186,Wheat-150 gms; Ragi flour-150 gms;Onion-125 gms; Coriander leaves-15 gms; Cumin seeds-1 gms;Olive oil-15 gms
+Soya Flour Roti (20% soya flour + 80% wheat),1,515,Atta-250 gms; Soya flour-250 gms; Common salt-15 gms
+Soya wheat Roti (50% soya atta & 50% wheat atta),1,161,Atta-60 gms; Soya flour-75 gms; Common salt-4 gms; Turmeric powder-7 gms; Ajwain-15 gms;
+Bran Roti (25% wheat bran & 75 % normal atta),10,532,Wheat-375 gms; Common salt-7 gms; Atta-150 gms
+Bran Roti (20% wheat bran & 80% wheat),1,689,Wheat-150 gms; Atta -500 gms; Common salt-15 gms; Olive oil-24 gms;
+Wheat Burger with Oats Tikki & Salad,1,585,POTATO-175 gms ; Onion-24 gms; Coriander leaves-7 gms; Ginger-15 gms; carrot-7 gms; Common salt-30 gms; Cooking oil-15 gms; Lettuce Leaf-10 gms; CUCUMBER-20 gms; Avocado-60 gms; VINEGAR-7 gms; Green Chutney-15 gms; Tomato-90 gms; Onion-110 gms
+Banana Bread (Eggless),1,429,Banana-75 gms; Wheat-350 gms; Common salt-4 gms
+Plain Roti with Veggies,1,443,Wheat-30 gms; Common salt-7 gms; carrot-75 gms; Capsicum-75 gms; Peas-30 gms; Tomato-120 gms; Onion-75 gms; Cumin seeds-4 gms; Turmeric powder-4 gms; Cooking oil-15 gms; Coriander seeds-4 gms; Chillies-4 gms
+Wheat Roti with Veggie Wrap,4,441,Common salt-15 gms; carrot-75 gms; Capsicum-75 gms; Onion-75 gms; Cumin seeds-4 gms; Turmeric powder-62 gms; Cooking oil-15 gms; Wheat Roti-4 ; CABBAGE-75 gms; Coriander Powder-15 gms; Garam Masala-15 gms; Coriander Leaves-15 gms
+Suji Dhokla,4,461,Semolina-250 gms; Yoghurt-125 gms; Lemon-15 gms; Chillies-4 gms; Asafoetida-4 gms; Common salt-7 gms; Cooking oil-15 gms; Mustard seeds-4 gms; Curry leaves-7 gms; Ginger powder-15 gms; CORIANDER LEAVES-15 gms
+Noodles Vegetable Sizzler,1,745,Capsicum-30 gms; carrot-125 gms; Zucchini-125 gms; MUSHROOM-125 gms; Lettuce Leaf-20 gms; Spinach-15 gms; Common salt-15 gms; Onion-70 gms; Capsicum-70 gms; Rice Noodles-150 gms
+Avocado Sandwich,1,172,Bread-2 ; Avocado-0.5 gms;Garlic-7 gms; CUCUMBER-3 ; Tomato-120 gms)-3 ; Lemon-0.25 gms; Common salt-15 gms
+Cocktail Idli,1,89,Gram dal-30 gms; Common salt-7 gms; Cooking oil-30 gms; Mustard seeds-7 gms; Coriander leaves-15 gms
+Suji wrap,4,807,Semolina-300 gms; Cumin seeds-4 gms; Common salt-7 gms; Coriander leaves-5 gms; Cooking oil-15 gms; carrot-62 gms; Capsicum-62 gms; Onion-62 gms; Yoghurt-200 gms; Tomato-90 gms
+Chicken Wheat Noodles,2,578,Chicken-150 gms; carrot-125 gms; Capsicum-125 gms; Peas-125 gms;Garlic-3 gms; soya sauce-15 gms; VINEGAR-15 gms; Common salt-15 gms; Ginger-5 gms
+Ragi Roti (30% Oats Bran + 70% Ragi atta),1,44,Ragi flour-24 gms; Oats-15 gms; Common salt-2.5 gms
+Wheat Roti (20% Quinoa flour + 80% wheat flour),2,105,Atta-30 gms; Quinoa Flour-75 gms
+Jau Roti (20% Jau atta and 80% wheat atta),1,99,Barley-24 gms; Atta-75 gms
+Jau Roti (50% Jau atta & 50% Oats atta),1,150,Barley-75 gms; Oats Atta-75 gms
+20% flaxseed flour 80% wheat flour Roti,1,170,Atta-150 gms; Flaxseed flour-20 gms
+JAWAR ROTI (20% JAWAR & 80% WHEAT),1,160,Atta-135 gms; Jowar Roti-25 gms
+Baba Ganoush with Pita Bread,2,322,Brinjal-100 gms ;Garlic-3 gms;Lemon-4 gms; Cooking oil-15 gms; Cumin seeds-15 gms; Black pepper-15 gms;Parsley-15 gms; Wheat-125 gms; Yoghurt-30 gms
+Vermicelli Rolls,2,819,carrot-75 gms; Peas-100 gms; Coriander Powder-15 gms; Vermicelli-350 gms; Turmeric powder-15 gms; Cumin seeds-7 gms; Red chilli Powder-7 gms; Coriander Leaves-75 gms; Common salt-15 gms;Onion-160 gms
+Wheat Pasta (Veg),1,233,Common salt-15 gms; Onion-62 gms; Capsicum-62 gms; Zucchini-62 gms; Garlic-2 gms; Black pepper-15 gms; CHEESE-15 gms
+Wheat Pasta (Non-veg),1,326,Common salt-15 gms; Chicken-30 gms; Onion-62 gms; Capsicum-62 gms; Zucchini-62 gms; carrot-62 gms; Garlic-3 gms; Black pepper-15 gms; CHEESE-15 gms
+BAJRA ROTI (100%),1,0,Bajra-200 grams
+BAJRA ROTI (50% BAJRA ATTA & 50% NORMAL ATTA),1,300,Atta-150 gms; Bajra-150 gms;
+BAJRA ROTI (20% BAJRA & 80% WHEAT),1,175,Atta-160 gms; Bajra-40 grams; Common salt-15 gms
+OATS BREAD,1,202,Milk-45 gms; Cooking oil-7 gms; Oats-150 gms
+Besan Roti (20% Besan & 80% Wheat),1,415,Wheat-25 gms; Common salt-15 gms; Onion-25 gms; Besan-350 gms
+Oats bran roti (50% Oats bran and 50% Normal (Wheat) atta),1,300,Atta-150 gms; Oats Bran-150 gms
+Oats bran roti (20% Oats bran and 80% Normal (Wheat) atta),1,200,Atta-160 gms; Oats Bran-40 gms
+Quinoa Flour Roti (20% Quinoa Flour & 80% Wheat),1,200,Wheat-160 gms; Quinoa Flour-40 gms
+Ragi Roti (25% Ragi & 75% Normal Atta),1,100,Wheat-75 gms; Ragi flour-25 gms
+Dal peetha,4,404,Atta-200 gms; Gram dal-50 gms; Cumin seeds-15 gms; Tomato-120 gms; Ginger-4 gms; Chillies-2 ; Mustard oil-15 gms
+Tawa Roti,2,101,Atta-100 gms; Common salt-1 gms
+Missi Roti(1/3 Besan & 1/3 Wheat Atta & 1/3 Wheat Bran),1,728,Besan-250 gms; Atta-250 gms; Onion-160 gms; Ajwain-15 gms; Red chilli Powder-15 gms; CORIANDER-1 gms; Cumin seeds-15 gms; Common salt-7 gms; Olive oil-15 gms
+Open Sandwich with one ,1,380,Bread-25 gms; carrot-62 gms; Beetroot-62 gms; CUCUMBER-62 gms; TOMATO-62 gms; Onion-62 gms; Coriander leaves-15 gms; Common salt-15 gms; Chat Masala-15 gms
+50% Barley Atta & 50% Oats Atta Roti,1,250,Barley Flour-125 gms; Oats Flour-125 gms
+Garlic Toast,2,105,Bread-60 gms; Garlic-5 gms; Butter-30 gms; Common salt-10 gms
+Ragi Roti (50% Ragi atta + 50% Wheat atta),4,627,Ragi flour-200 gms; Atta-250 gms; Onion-125 gms; Coriander leaves-20 gms; Chillies-15 gms; Cumin seeds-1 gms; Common salt-1 gms; Olive oil-15 gms
+Quinoa Flour Roti (50% Quinoa Flour + 50% Normal Atta),2,535,Quinoa-350 gms; Atta-150 gms; Coriander Powder-5 gms; Red chilli Powder-15 gms; Olive oil-15 gms
+Oats Bran Roti,1,289,Common salt-15 gms; Oats Flour-250 gms; Cumin seeds-24 gms
+Bajra Roti(50% Bajra & 50 % Wheat Atta),6,515,Bajra-250 gms; Atta-250 gms; Common salt-15 gms;
+Amaranth Flour roti,6,30,Common salt-15 gms;Olive oil-15 gms; Amaranth Flour-1 gram
+Amaranth Flour Roti 50% Amaranth Flour and 50% Wheat Flour,6,180,Amaranth Flour-1 gram; Atta-150 gms; Common salt-15 gms ; Olive oil-15 gms
+Bread Poha with Brown Bread,1,434,Bread-100 gms; Onion-125 gms; Tomato-90 gms; Mustard seeds-24 gms; Cumin seeds-15 gms; Turmeric powder-15 gms; Red chilli Powder-15 gms; Coriander Powder-5 gms; Olive oil-15 gms; Common salt-15 gms; Coriander leaves-15 gms
+Ragi Roti Without Oil,1,290,Ragi-150 gms; Common salt-15 gms; Onion-125 gms
+Vegetable Wheat Vermicelli,4,765,Vermicelli-300 gms;Onion-125 gms; Tomato-90 gms; Black pepper-7 gms; Peas-150 gms; Olive oil-15 gms; Cumin seeds-7 gms; Ginger-15 gms; Garlic powder-15 gms; Turmeric powder-4 gms; Garam Masala-15 gms; Common salt-7 gms; Coriander leaves-15 gms
+Amarnath Roti(50%Almond Flour+50%Normal Atta),1,166,Amaranth Flour-1 gms; Oats-150 gms; Common salt-15 gms
+Veggies Stuffed Jaw Roti,1,770,Barley Flour-250 gms; Common salt-15 gms; Olive oil-15 gms;Onion-125 gms; POTATO-150 gms; carrot-15 gms; Peas-150 gms; Cumin seeds-15 gms; Coriander Powder-5 gms; Turmeric powder-15 gms; Red chilli Powder-15 gms
+Whole Wheat Bread Poha,1,315,Bread-25 gms;Onion-125 gms; Tomato-90 gms; Chillies-15 gms; ; Cumin seeds-15 gms; Turmeric powder-15 gms; Common salt-15 gms; Olive oil-15 gms
+Oats bran roti(50% Oats bran & 50% wheat atta),1,180,Oats-150 gms; Common salt-15 gms; Maida-15 gms
+Garlic and Tomato Salad,1,241,Tomato-120 gms; Lettuce Leaf-100 gms;Garlic-5 gms; Common salt-15 gms; Black pepper-1 gms
+FISH CURRY,1,434,Sunflower oil-7 gms; Onion-62 gms; Ginger-4 gms; Garlic-7 gms; Turmeric powder-7 gms; Tomato-125 gms; Common salt-7 gms; Coriander leaves-15 gms; Fish-200 gms
+Fish Salad,1,487,Salmon-200 gms; Lemon-15 gms; Common salt-7 gms; Lettuce Leaf-6 0 gms; Cucumber-62 gms; Capsicum-45 gms;Onion-150 gms; Garlic-4 gms;Black Pepper-4 gms
+GRILLED FISH,1,120,Lemon-0.5 gms;Salmon-100 gms; Olive oil-15 gms
+Masala Fish Fry,3,32,CAT FISH-2 gms; Turmeric powder-15 gms; Common salt-15 gms
+Non-veg PLATTER (Fish),3,269,Garlic-4 gms;Lettuce Leaf-20 gms; Spinach-20 gms; CUCUMBER-0.25 gms; Fish-200 gms
+Samakiya Rice,1,150,Samakhia Rice-150 gms
+Fish Tikka,4,515,Ginger-15 gms; Turmeric powder-15 gms; Common salt-15 gms; Fish-360 gms; Garlic powder-15 gms; Lemon-15 gms; Coriander Powder-5 gms; Garam Masala-15 gms; Red chilli Powder-15 gms; Olive oil-30 gms; Cumin Powder-15 gms; Yoghurt-1 gm
+Baked Fish,1,170,fish-100 gms;Parsley-0.25 gms; red chilli flakes-4 gms; Kali Mirch Powder-4 gms; Cooking Oil-7 gms; Lemon-15 gms; Common salt-15 gms
+Fish Cutlet (Grilled/Roasted),1,264,fish-60 gms; Potato-150 gms; Onion-0.5 gms; Ginger-4 gms;Garlic-4 gms; Turmeric powder-4 gms; Red Chilli Powder-4 gms;Lemon-4 gms; Coriander leaves-15 gms; Cooking oil-7 gms; Cumin seeds-7 gms
+Fish Tikka Kebab,1,122,fish-70 gms; Yoghurt-7 gms; Lemon-7 gms; Ginger powder-4 gms; Garlic powder-4 gms; Chilli powder-4 gms; Turmeric powder-4 gms; Cooking oil-7 gms; Cumin seeds-15 gms
+Fish Sizzler,1,590,fish-200 gms ; Zucchini-125 gms; carrot-125 gms;Garlic-15 gms; Coriander leaves-125 gms
+Lettuce wrapped fish,2,640,Lettuce Leaf-20 gms; TOMATO-150 gms; Onion-150 gms; Coriander leaves-15 gms; Lemon-15 gms; Avocado-150 gms;Garlic-10 gms; Common salt-15 gms; Salmon-100 gms; Olive oil-15 gms
+Egg white omelette,1,135,Egg-130 gms ; Sunflower oil-5 gms
+Egg white Scrambled,2,60,Egg-30 gms ; Groundnut oil-15 gms; Black pepper-15 gms
+Poached Egg white,1,195,Egg-150 gms ; Sunflower oil-15 gms; Lemon-15 gms; Common salt-15 gms
+Egg Bhurji,1,201,Egg-130 gms; Cooking oil-7 gms; Onion-20 gms; Capsicum-10 gms; Mushroom-15 gms; Common salt-4 gms; Red chilli Powder-15 gms
+EGG WHITE SALAD,1,244,Egg-130 gms; Celery-62 gms; Capsicum-2 gms; Onion-15 gms; Lettuce Leaf-20 gms ;Black pepper-15 gms
+EGG SALAD,1,276,Egg-130 gms; Capsicum-62 gms; Common salt-4 gms; Lettuce Leaf-20 gms; Onion-15 gms; Black pepper-15 gms; Mustard oil-15 gms; Lemon-15 gms
+Egg white Fritatta,1,292,Egg-180 gms; Milk-15 gms; Common salt-15 gms; Cooking oil-15 gms; TOMATO-15 gms; Capsicum-15 gms; Mushroom-15 gms; Spinach-15 gms; Black pepper-7 gms
+"Carrot, Bell Pepper, Broccoli, Cucumber , Beetroot Salad and Egg Salad",1,388,Egg-130 gms; carrot-50 gms; Capsicum-60 gms; CUCUMBER-40 gms; BEETROOT-15 gms;Garlic-1 gms; Common salt-15 gms; Black pepper-15 gms;Broccoli-62 gms
+Roast Chicken Tomato Salad,1,327,Lettuce Leaf-50 gms; Tomato-50 gms; Onion-30 gms; Common salt-0.5 gms; Black pepper-0.5 gms; Lemon-10 gms;Parsley-10 gms;Garlic-2 gms; Olive oil-15 gms;Chicken-150 gms
+Egg Rice,1,265,Egg-2 gms; Onion-30 gms; Capsicum-20 gms; MUSHROOM-10 gms; Peas-10 gms; Garlic-5 gms; Ginger-2 gms; Chillies-2 gms; soya sauce-2 gms; Cooking oil-2 gms; Common salt-15 gms; Black pepper-15 gms; Rice-150 gms
+Masala omelette,1,381,Egg-130 gms; Onion-90 gms; Tomato-120 gms; Chillies-15 gms; Common salt-7 gms; Coriander leaves-4 gms; Cooking oil-15 gms
+Banana Bread (egg),2,116,Banana-75 gms; BUTTER-7 gms; Egg-65; Wheat-30 gms; Common salt-4 gms
+Veggies and Egg soup,1,471,Onion-75 gms;Garlic-7 gms; carrot-75 gms; Zucchini-50 gms; Spinach-50 gms; MUSHROOM-70 gms; Egg-130 gms; Common salt-7 gms; Black pepper-7 gms
+Egg Wheat Noodles,2,808,Egg-130 gms; carrot-125 gms; Capsicum-250 gms; Peas-250 gms;Garlic-3 gms; soya sauce-15 gms; VINEGAR-15 gms; Common salt-15 gms; Ginger-0.5 gms
+Egg curry,2,88,Egg-30 gms; Onion-10 gms; Tomato-10 gms; Turmeric powder-4 gms; Common salt-15 gms; Cooking oil-15 gms; Coriander leaves-4 gms
+Egg Sunny Sideup,1,28,Egg-2 gms; Cooking oil-15 gms; Common salt-7 gms;Black Pepper-4 gms
+Egg White Sandwich,1,199,Egg-20gms; Bread-30 gms; Olive oil-15 gms; Black Pepper-7 gms; Common salt-7 gms; Cherry Tomato-100 gms; Onion-37.5 gms; Coriander Leaves-15 gms
+Egg white Boiled,2,160,Egg-130 gms; VINEGAR-15 gms; Common salt-15 gms
+Kale Mushroom Frittata with 2 egg Whites,1,477,Egg-100 gms; Kale-67 gms; MUSHROOM-250 gms; CHEESE-15 gms; Olive oil-15 gms; Common salt-15 gms; Black pepper-15 gms
+French Toast with 2 Egg Whites and Whole Wheat Bread,1,110,Bread-30 gms; Eggs-65 gms; Olive oil-15 gms
+Egg White Curry,1,460,Eggs-3 g; Onion-125 gms; Tomato-90 gms; Ginger powder-15 gms; Garlic powder-15 gms; Cumin seeds-15 gms; Coriander Powder-5 gms; Red chilli Powder-15 gms; Common salt-15 gms; Olive oil-15 gms; Coriander leaves-150 gms
+Egg White Omelette with mushroom,1,571,Onion-62.5 gms; Common salt-4 gms; Olive oil-15 gms; Coriander leaves-37.5 gms ; Egg-260 gms; MUSHROOM-75 gms; Capsicum-200 gms; Black Pepper-7 gms
+Egg Bhurji with 3 Egg Whites and 1 Yolk,1,590,Eggs-195 gms;Onion-125 gms; Tomato-90 gms; Chillies-15 gms; Common salt-15 gms; Coriander leaves-150 gms
+Egg Fritttata with high fiber,1,761,Eggs-3 egg; SPINACH-150 gms; Broccoli-350 gms; Capsicum-201 gms; Olive oil-30 gms; Common salt-15 gms; Black pepper-15 gms
+Egg Frittata with high fiber content and low fat,1,1246,Eggs-390 gms; Spinach-150 gms; Broccoli-350 gms; Capsicum-201 gms;Onion-125 gms; Olive oil-15 gms; Black pepper-15 gms
+Paneer Tikki,3,241,"Potato-100 gms;Chillies-15 gms; Coriander leaves-15 gms; Sunflower oil-15 gms; Common salt-15 gms; Garam Masala-15 gms; Red chilli Powder-4 gms; Paneer-50 gms; Ginger-2.5 gms ,Cumin powder-7 gms"
+Dahi Paneer Kebab,1,174,Paneer-70 gms; Yoghurt-15 gms; Ginger-7 gms;Garlic-7 gms; Lemon-15 gms; Coriander leaves-15 gms; Common salt-15 gms; Olive oil-15 gms; Red chilli Powder-15 gms
+French Toast Baked,1,365,Bread-25 gms; Egg-130 gms; Milk-15 gms; Common salt-15 gms; carrot-15 gms; Capsicum-15 gms; Onion-15 gms; Tomato-120 gms; Red chilli Powder-15 gms
+Filter Coffee (Skimmed milk),1,257,Milk-250 gms; Coffee-7 gms
+Chikoo Shake,1,482,chikoo-350 gms; Milk-125 gms; Cinnamon-7 gms
+Paneer satay,2,292,Paneer-60 gms; Lemon-7 gms; Common salt-15 gms; Yoghurt-150 gms; soya sauce-15 gms; Garlic powder-15 gms; Garam Masala-15 gms; Red chilli Powder-15 gms
+PANEER CUTLETS,2,876,Paneer-200 gms; Potato-150 gms; Ginger-15 gms; Turmeric powder-4 gms; Sunflower oil-15 gms; Garlic powder-15 gms; Chillies-2 gms; Coriander Powder-5 gms;Onion-125 gms; carrot-50 gms; Peas-250 gms; Cumin seeds-15 gms; Garam Masala-15 gms; Common salt-15 gms
+Chicken Tikka,4,1127,Ginger-7 gms; Turmeric powder-15 gms; Common salt-15 gms; Chicken-750 gms; Garlic powder-7 gms; Coriander Powder-24 gms; Yogurt-225 gms; Paprika powder-30 gms; Cumin Powder-24 gms; Lemon-30 gms
+Quinoa Tikki,2,541,Common salt-7 gms; Coriander leaves-7 gms; POTATO-150 gms;Onion-125 gms;Mint leaves-7 gms; Chillies-15 gms; Cumin seeds-15 gms; Olive oil-15 gms; Quinoa-200 gms
+Paneer Bhurji,1,229,Paneer-50 gms; Onion-60 gms;Tomato-70 gms; Turmeric powder-4 gms; Cumin seeds-4 gms; Chillies-4 gms; Mustard oil-15 gms; CORIANDER LEAVES-15 gms; Common salt-7 gms
+MURGH PALAK KORMA KEBAB,4,695,Chicken-60 gms; Spinach-500 gms; Ginger-30 gms; Chillies-15 gms; Garlic powder-15 gms; Cumin seeds-15 gms; Common salt-15 gms; Curd-15 gms; Garam Masala-15 gms; Cooking oil-15 gms
+Paneer Masala,1,564,Paneer-100 gms; Turmeric powder-7 gms; Common salt-7 gms; Cooking oil-15 gms; Onion-90 gms; Garlic-20 gms; TOMATO-90 gms; Coriander Powder-5 gms; Garam Masala-15 gms; Red chilli Powder-15 gms;Yoghurt-200 gms
+Papaya shake,2,557,Papaya-300 gms; MILK-250 gms; Black Pepper-7 gms
+Peas raita,1,445,Peas -150 gms; Yoghurt-250 gms; Common salt-15 gms; Cumin seeds-15 gms; Red chilli Powder-15 gms
+Garlic Cheese Toast,1,195,Bread-25 gms;Garlic-5 gms; BUTTER-15 gms; CHEESE-15 gms; Tomato-120 gms; Common salt-15 gms;
+Banana Shake,2,518,Banana-118 gms;Milk-400 gms
+Lauki Raita,4,525,Bottle gourd-250 gms; Common salt-15 gms;Yoghurt-200 gms; Cumin seeds-15 gms; Chat Masala-15 gms; Black pepper-15 gms; Coriander leaves-15 gms
+Egg Sandwich,1,212,Egg-2 ; bread-50 gms; Common salt-7 gms; Tomato-120 gms; CUCUMBER-5 gms; Black pepper-15 gms; Olive oil-15 gms
+Beetroot Raita,1,350,Yoghurt-250 gms; Beet root-70 gms;Mint leaves-15 gms; Common salt-15 gms
+Cucumber Raita,1,489,Yoghurt-250 gms; Cucumber-200 gms; Cumin seeds-15 gms;Common salt -24 gms
+Almond and Raisins Raita,1,295,Yoghurt-250 gms; Almond-5 ; RAISINS-7 ; Coriander leaves-15 gms; Common salt-15 gms; Cumin seeds-15 gms
+French Toast,1,107,Bread-25 gms; Egg-60 gms; milk-15 gms; BUTTER-7 gms
+Mango Shake,2,1200,MANGO-700 gms; Milk-500 gms
+Strawberry Shake,1,350,strawberry-100 gms; Milk-250 gms
+Aloo Raita,1,270,POTATO-150 gms; Yoghurt-30 gms; Cumin seeds-15 gms; Red chilli Powder-15 gms; Black pepper-15 gms; Coriander Powder-15 gms; Ginger powder-15 gms; Chillies-15 gms
+Lettuce Wrap (paneer),1,341,Paneer-150 gms; Onion-15 gms; Tomato-15 gms; Cucumber-15 gms; Carrot-15 gms; Capsicum-15 gms; Chillies-10 gms; Coriander leaves-15 gms; Lemon-15 gms; Black pepper-4 gms; Cooking Oil-15 gms; Common salt-15 gms; Cumin seeds-15 gms; Turmeric powder-7 gms; Lettuce Leaf-20 gms
+Paneer Pakora,3,640,Turmeric powder-15 gms; Cumin seeds-15 gms; Common salt-15 gms; Paneer-50 gms; Besan-250 gms; Red chilli Powder-250 gms; Coriander Powder-15 gms; Garam Masala-15 gms; Olive oil-15 gms
+Paneer & Salsa Tortilla Wrap,1,289,Paneer-50 gms; Tomato-62 gms; Capsicum-62 gms; Onion-62 gms; Coriander leaves-15 gms;Black Pepper-4 gms; Common salt-4 gms; Soyabean oil-15 gms; Chat Masala-15 gms
+Rawa Dosa,1,287,Semolina-125 gms; Yoghurt-15 gms; Black pepper-7 gms; Curry leaves-5 gms; Coriander leaves-30 gms; Onion-60 gms; Sunflower oil-15 gms; ; Cumin seeds-15 gms; Rice Flour-15 gms
+Malai Tikka,1,635,Cauliflower-125 gms; Mushroom-125 gms; Paneer-125 gms; Yoghurt-30 gms; Cashew-5 gms; Ginger-20 gms;Garlic-5 gms; Lemon-15 gms; Cumin seeds-15 gms; Coriander seeds-15 gms; Turmeric powder-15 gms; Coriander leaves-125 gms; Sunflower oil-15 gms
+Hung Curd Salad,1,955,Yoghurt-125 gms; Cucumber-200 gms; Tomato-120 gms; Onion-125 gms; Capsicum-125 gms; Lettuce Leaf-10 gms; carrot-125 gms; Parsley-125 gms
+Mint raita,4,275,Mint leaves-15 gms; Yoghurt-15 gms;Onion-125 gms; Tomato-90 gms; Cumin seeds-15 gms; Common salt-15 gms
+Lauki raita (lactose free),4,484,Bottle gourd-250 gms; Common salt-15 gms;Yoghurt-200 gms; Cumin seeds-15 gms; Chaat Masala-4 gms
+Rice Paneer Sizzler,4,444,Paneer-150 gms; Ginger-7 gms; Garlic-7 gms; Cooking oil-15 gms; Capsicum-30 gms; Onion-150 gms;Mint leaves-15 gms; Lettuce Leaf-20 gms; Rice-50 gms
+PANEER SALAD,1,284,Paneer-100 gms; Cucumber-62 gms; Onion-62 gms; Coriander leaves-15 gms; Lemon-15 gms; Black pepper-15 gms; Chat Masala-15 gms
+Suji Cheela,1,310,Semolina-62 gms; Yoghurt-30 gms; Onion-30 gms; Tomato-120 gms; Capsicum-15 gms; Chillies-4 gms; MUSTARD SEEDS-4 gms; Coriander leaves-15 gms; Cooking oil-7 gms; Common salt-4 gms; Cumin seeds-4 gms; Red chilli Powder-15 gms
+KADHI (NO PAKORA),1,958,Yoghurt-500 gms; Turmeric powder-4 gms; Common salt-7 gms; Cumin seeds-7 gms; MUSTARD SEEDS-7 gms; Chillies-40 gms; Ginger-7 gms; Garlic-7 gms; Sunflower oil-7 gms; Cumin seeds-7 gms; Curry leaves-4 ; Besan-350 gms; Red chilli Powder-15 gms
+PANEER ROTI,1,142,Atta-45 gms; Paneer-30 gms; Onion-15 gms; Ginger-7 gms; Coriander leaves-15 gms; Cumin seeds-15 gms; Garam Masala-15 gms;
+Paneer Sandwich,2,626,Cucumber-75 gms; Tomato-75 gms; Onion-75 gms; Black pepper-7 gms; Red chilli Powder-7 gms; Common salt-15 gms; Bread-100 gms; Paneer-250 gms; Chat Masala-7 gms; BUTTER-15 gms
+Paneer Tikka,3,471,Paneer-100 gms; Yoghurt-15 gms; Ginger-15 gms;Garlic-15 gms; Turmeric powder-4 gms; Lemon-7 gms; Common salt-15 gms; Mustard oil-15 gms; Capsicum-225 gms; Tomato-1 ; Onion-60 gms
+Yogurt Kebab,3,1190,Common salt-15 gms; Curd-350 gms;Paneer-250 gms; POTATO-250 gms; Coriander leaves-250 gms;Mint leaves-15 gms; Ginger-15 gms; Chat Masala-15 gms; Cumin seeds-15 gms; Olive oil-15 gms
+Saute Paneer,1,236,"Paneer -150 gms; Cooking oil-7 gms; Onion-15 gms; Capsicum-15 gms; Capsicum, red-15 gms; Zucchini-15 gms; Common salt-4 gms; Coriander leaves-15 gms"
+Makhana Milk,1,530,Makhana-250 gms; Milk-250 gms; Brown sugar-15 gms; cardamom-15 gms
+Milk Tea,2,280,Tea-15 gms; Ginger-15 gms; MILK-250 gms
+Chicken Biryani,1,441,Chicken-100 gms; Yoghurt-30 gms; Common salt-15 gms; Cardamom-2 gms; Cooking oil-15 gms; Onion-30 gms; Cumin seeds-7 gms; Cinnamon-5 gms; Cloves-10 gms; Nutmeg-15 gms;Mint leaves-2 gms; Milk-15 gms; Rice-150 gms; Red chilli Powder-15 gms; Ginger powder-15 gms; Garlic powder-15 gms
+CHEESY CHICKEN PATTIES (Tikki),1,226,Chicken-60 gms; CHEESE-62 gms; Egg-60 gms; Onion-15 gms; Common salt-7 gms; Black pepper-7 gms; Olive oil-15 gms
+ACHARI TIKKA (PANEER),1,401,Paneer-250 gms; Common salt-15 gms ; Fenugreek seeds-15 gms; Yoghurt-1 gms; Ginger powder-15 gms; Garlic powder-15 gms; Red chilli Powder-15 gms; Turmeric powder-15 gms; Coriander Powder-15 gms; Cumin seeds-15 gms; Garam Masala-15 gms; Olive oil-15 gms
+Paneer Wrap In Soya Palak Roti,1,180,Spinach-30 gms; Atta-30 gms; Cumin seeds-4 gms; Paneer-30 gms; Onion-15 gms; Ginger-4 gms; Common salt-7 gms; Capsicum-15 gms; carrot-15 gms; CUCUMBER-15 gms; Coriander leaves-15 gms
+Dahi Vada,2,251,Gram dal-60 gms; Cumin seeds-4 gms; Common salt-7 gms; Cooking oil-15 gms; Yoghurt-150 gms; Coriander leaves-15 gms
+Curd Rice,1,286,Rice-100 gms; Yoghurt-100 gms; Milk-30 gms; carrot-10 gms; CUCUMBER-10 gms; Coriander leaves-5 gms; Chillies-5 gms; Ginger-2 gms; Curry leaves-2 gms; Mustard seeds-2 gms; Gram dal-2 gms; Asafoetida-1 gms; Cooking oil-2 gms; Common salt-15 gms
+Matar Paneer,1,595,Paneer-125 gms; Peas-150 gms; Tomato-120 gms; Onion-75 gms; Garlic-2 gms; Ginger-4 gms; Chillies-3 gms; Yoghurt-75 gms; Cumin seeds-1.5 gms; Turmeric powder-2 gms; Cooking oil-15 gms; Common salt-15 gms; Coriander leaves-4 gms
+Palak Paneer,1,990,Paneer-200 gms; Spinach-400 gms; Onion-150 gms; Tomato-200 gms; Garlic-1 gms; Chillies-2 gms; Cumin seeds-1.5 gms; Turmeric powder-2 gms; Cooking oil-15 gms; Common salt-15 gms
+Palak Mushroom,1,562,Paneer-200 gms; MUSHROOM-200 gms; Onion-10 gms; Tomato-120 gms)-2 gms;Garlic-1 ; Chillies 2 gms; Cumin seeds-1.5 gms; Turmeric powder-2 gms; Cooking oil-15 gms; Common salt-15 gms
+Pineapple Raita,10,2065,Yoghurt-250 gms; Coriander leaves-10 gms; Mint leaves-5 gms; Pineapple-1800 gms
+Strawberry Yogurt,1,375,Yoghurt-250 gms; strawberry-125 gms
+Vegetable Raita,1,510,Yoghurt-250 gms; CUCUMBER-80 gms; carrot-80 gms; Onion-50 gms; Coriander leaves-30 gms;Mint leaves-5 gms; Common salt-15 gms
+CHICKEN SALAD,1,555,Common salt-15 gms; Chicken-250 gms; Celery-150 gms; Onion-125 gms; Black pepper-15 gms
+BROCCOLI SOUP,1,310,Garlic-15 gms; Onion-30 gms; Milk-250 gms; Common salt-15 gms; Broccoli-50 g
+Smoothie (In Curd),1,439,Papaya-150 gms; Apple-62 gms; ORANGE-80 gms; Sunflower seeds-15 gms; Yoghurt-125 gms; Chia Seeds-7 gms; Almond-5 pieces
+Masala Tea,2,270,Milk-250 gms; Ginger-5 gms; Tea-15 gms
+Tea,1,165,Tea-15 gms; Milk-150 gms
+Haldi Milk,1,132,Turmeric powder-7 gms; Milk-125 gms
+Coffee Double Expresso (Skimmed milk),1,132,Milk-125 gms; coffee-7 gms
+Chilli Paneer,1,256,Black pepper-15 gms; Common salt-15 gms; Cooking oil-15 gms;Garlic-15 gms; Ginger-15 gms; Onion-0.25  ; Capsicum-0.25  -150 gms;; soya sauce-15 gms; VINEGAR-15 gms; Onion-1 gms; Paneer-2  cube
+Corn Cutlet,2,493,POTATO-175 gms; Chillies-15 gms; Coriander leaves-15 gms; Common salt-15 gms; Cooking oil-15 gms; Cumin seeds-4 gms; Chillies-4 gms; Besan-250 gms
+Chilli Paneer & Baby corn,2,365,Babycorn-75 gms; Black pepper-7 gms; Common salt-7 gms; Cooking oil-30 gms;Garlic-15 gms; Ginger-15 gms; Chillies-15 gms; soya sauce-15 gms; Onion-1 gms; Paneer-125 gmans;Onion-90 gms; Green Bell pepper-95 gms
+"Chilli Paneer with Salad (Bell peppers, Broccoli & Cherry tomatoes)",1,392,Paneer-75 gms; Black pepper-15 gms; Common salt-15 gms; Cooking oil-30 gms;Garlic-15 gms; Ginger-15 gms; Capsicum-75 gms; Lemon-15 gms; Onion-75 gms; Broccoli-62 gms
+Dal Kebab,3,206,POTATO-125 gm; Chillies-15 gms; Coriander leaves-4 gms; Common salt-7 gms; Cooking oil-15 gms; Cumin seeds-4 gms; Ginger-7 gms; Garlic-4 gms; Besan-150 gms
+Dahi Channa Kebab,1,347,Yoghurt-15 gms; Tomato-120 gms;Coriander leaves-15 gms; Common salt-15 gms; Cooking oil-15 gms; Cumin seeds-4 gms; Coriander seeds-4 gms; Ginger-4 gms; Garlic-1.5 gms; Channa Dal-150 gms
+Grilled Paneer,4,153,Paneer-50 gms; Turmeric powder-4 gms; Common salt-7 gms; Cooking oil-15 gms; Chillies-7 gms; Yoghurt-70 gms
+Pav Bhaji,1,1533,POTATO-200 gms; Capsicum-250 gms; carrot-250 gms; Peas-250 gms; Cauliflower-250 gms; Onion-150 gms; Tomato-120 gms; Turmeric powder-7 gms; Common salt-7 gms; BUTTER-15 gms; Cooking oil-15 gms; Coriander leaves-4 gms; Lemon-15 gms
+Paneer Tikka Kathi Roll,1,565,Lemon-4 gms; Common salt-7 gms; Onion-120 gms; Capsicum-125 gms; Lettuce Leaf-125 gms; Cooking oil-15 gms; Yoghurt-15 gms; Chillies-4 gms; Paneer-150 gms
+Noodles Paneer Sizzler,1,382,Paneer-125 gms; Lettuce Leaf-20 gms; Common salt-15 gms; Capsicum-70 gms; Onion-70 gms;Mint leaves-15 gms; Ginger-7 gms;Garlic-15 gms; Cumin seeds-7 gms; Coriander seeds-4 gms; Garlic-4 gms; Chillies-15 gms; Cooking oil-15 gms
+Methi Paneer Vegetable,1,335,Paneer-75 gms; Fenugreek leaves-62 gms; Tomato-75 gms; Onion-60 gms; Chillies-7 gms; Cumin powder-4 gms; Turmeric powder-4 gms; Common salt-7 gms; Cooking oil-15 gms; Coriander leaves-15 gms; Chillies-4 gms; Coriander seeds-7 gms
+Mushroom Paneer masala,1,489,MUSHROOM-100 gms; Tomato-120 gms; Onion-50 gms; Cumin powder-4 gms; Turmeric powder-4 gms; Common salt-7 gms; Cooking oil-15 gms; Coriander leaves-15 gms; Garlic-2.5 gms; Chillies-7 gms; Coriander powder-7 gms; Paneer-150 gms; Ginger-5 gms
+Vegetable idli (Rice idli),3,266,CARROT-30 gms; Peas-30 gms; Capsicum-30 gms; Mustard seeds-4 gms; Gram dal-4 gms; Curry leaves-4 gms; Cooking oil-7 gms; Common salt-7 gms; Rice-150 gms
+SAMAKHIA KHEER,2,87,Milk-500 ml; Almond-5 gms; Dates-2 gms; RAISINS-5 gms; Samakhia Rice-75 gms
+Makhana Kheer,4,294,Makhana-250 gms; Almond-5 gms; Milk-30 gms; Dates-4 gms; Raisins-5 gms
+Reshami Tikka,3,258,Turmeric powder-4 gms; Yoghurt-15 gms; Common salt-15 gms; Black pepper-15 gms; Coriander leaves-4 gms; Lemon-0.5 gms;Yoghurt-200 gms
+Reshami Tikka (Paneer),1,378,Capsicum-62 gms; Onion-62 gms; Turmeric powder-4 gms; Common salt-15 gms; Cooking oil-1 ml; Lemon-0.5 gms; Coriander leaves-5 gms; Paneer-150 gms; Ginger powder-15 gms; Garlic powder-15 gms; Garam Masala-15 gms; Red chilli Powder-15 gms; Cumin Powder-15 gms
+Risotto recipe (No cheese),1,1039,Onion-62 gms;Garlic-7 gms; MUSHROOM-62 gms; Common salt-15 gms; Black pepper-15 gms;Parsley-15 gms; Vegetable Broth-300 gms; Arborio rice-500 gms; Rosemary-24 gms; thyme-24 gms; Olive oil-15 gms
+Besan Milk,2,281,Besan-24 gms; CARDAMOM-7 gms; Milk-250 gms
+Curd,2,504,Milk-500 gms; Yoghurt-4 gms
+Boondi Raita,1,404,Yoghurt-250 gms; Coriander leaves-4 gms; Boondi-150 gms
+Beetroot and Paneer Salad,1,262,BEETROOT-90 gms; CUCUMBER-62 gms; CORIANDER-15 gms; Common salt-15 gms; Black pepper-15 gms; Lemon-15 gms; Paneer-50 gms
+Creamy Cucumber Salad,2,88,CUCUMBER-1 gms; Mint leaves-7 gms; Common salt-15 gms; Black pepper-15 gms; Paneer-50 gms
+CARROT MILK,1,330,Milk-250 gms; carrot-60 gms; Almond-5 gms; Cardamom-15 gms
+BUTTERMILK,1,162,Yoghurt-125 gms; Common salt-15 gms; Mint leaves-3 gms; Cumin seeds-15 gms; Black Pepper-4 gms
+MUSHROOM SOUP (WITH ALMOND MILK),1,340,MUSHROOM-125 gms; Common salt-15 gms; Almond Milk-200 gms
+Broccoli SOUP (WITH LACTOSE FREE MILK),1,410,Garlic-15 gms; Onion-30 gms; Common salt-15 gms; Broccoli-150 gms; Lactose Free Milk-200 gms
+Paneer Capsicum Onion Vegetable,1,607,Paneer-100 gms; Capsicum-200 gms; Onion-100 gms; Tomato-100 gms; Cooking oil-15 gms; Cumin seeds-15 gms; Ginger-2.5 gms;Garlic-2.5 gms; Turmeric powder-7 gms; Chillies-15 gms; Coriander seeds-15 gms; Common salt-15 gms; Coriander leaves-15 gms
+Hazelnut Asian Lettuce Wrap (Vegetarian with Paneer),1,336,Paneer-60 gms; carrot-80 gms; Capsicum-80 gms; Water Chestnut-40 gms; soya sauce-15 gms; VINEGAR-15 gms; Cooking oil-15 gms; Ginger-7 gms; Chillies-4 gms; Lettuce leaf-20 gms
+GREEN BEANS PANEER VegETABLE,1,482,Beans-250 gms; Paneer-50 gms; Tomato-120 gmsl; Onion-0.5 gms; Garlic-2 gms; Cumin seeds-7 gms; Turmeric powder-7 gms; Chillies-7 gms; Common salt-15 gms; Cooking oil-15 gms; Coriander leaves-4 gms
+Dahi Aloo Gravy,1,301,POTATO ; Yoghurt-125 gms; Onion-0.5 gms; Tomato-120 gms)-1 ; Ginger-7 gms; Cumin seeds-7 gms; Turmeric powder-7 gms; Coriander seeds-7 gms; Chillies-4 gms; Common salt-15 gms; Fenugreek leaves-4 gms
+Cold Coffee,2,765,Coffee-250 gms; Brown sugar-15 gms; Milk-500 gms
+Fruit Raita,1,350,Yoghurt-250 gms; Apple-10 gms; Pomegranate-10 gms; Grapes-50 gms; Mint leaves-10 gms; Common salt-15 gms; Black pepper-5 gms
+Grilled Caesar Salad (non Veg),1,122,Chicken-1 gms; Garlic-7 gms; Common salt-15 gms; Black pepper-15 gms; Lettuce Leaf-30 gms; CHEESE-10 gms; Lemon-15 gms; Yoghurt-15 gms; soya sauce-7 gms; Garlic-7 gms
+Bathua raita,1,212,Bathua leaves-100 gms; Yoghurt-100 gms; Mint leaves-5 gms; Cumin seeds-7 gms
+Sugarcane kheer,4,180,Rice-150 gms; Almond-5.5 gms; Cashew-10 gms; Sugarcane juice-15 gms
+Spinach and Walnut Raita,4,326,Cumin seeds-15 gms; Common salt-15 gms; Yoghurt-15 gms; SPINACH-250 gms; Walnut-11 gms; Coriander Powder-5 gms; Red chilli Powder-15 gms
+HOMEMADE PANEER,1,60,Milk-15 gms; VINEGAR-45 gms
+Herb Paneer,4,129,VINEGAR-45 gms; Capsicum-45 gms; Coriander leaves-7 gms;Mint leaves-7 gms; Black pepper-15 gms; Paneer-10 gms
+Paneer Kebab,2,91,Paneer-50 g; POTATO-10 gms; Ginger-7 gms; Mint leaves-4 gms; Coriander leaves-15 gms; Cumin seeds powder-15 gms; Black Pepper Powder-10 gms; Common salt-15 gms; Cooking oil-15 gms
+Coffee Espresso (Skimmed milk),1,265,Milk-250 gms; coffee-15 gms
+Greek Salad,1,170,CUCUMBER-50 gms; Tomato-50 gms; Capsicum-25 gms; Paneer-20 g; VINEGAR-15 gms; Common salt-15 gms; Black pepper-15 gms
+Hariyali Tikka Veg,3,245,MUSHROOM-15 gms; Cauliflower-15 gms; Capsicum-15 gms; Zucchini-15 gms; Paneer-50 gms; Yoghurt-15 gms; Coriander leaves-30 gms; Mint leaves-15 gms; Spinach-30 gms; Lemon-15 gms; Common salt-15 gms; Cooking oil-15 gms
+Lactose Free Milk Coffee With Brown Sugar,1,390,Milk-250 gms; Brown sugar-15 gms; Coffee-125 gms
+Skimmed Milk Coffee Without Sugar,1,382,Milk-250 gms; Coffee-125 gms; Cinnamon-7 gms
+Gujiya,1,231,Atta-100 gms; Ghee-15 gms; COCONUT-50 gms; Jaggery-50 gms; RAISINS-15 gms; Cardamom-1 gms; Sunflower oil-20 ml
+Rice kheer,1,195,Milk-20 gms; Rice-150 gms; Jaggery-0.5 gms; CARDAMOM-5 gms; Ghee-15 gms
+Paneer Wrap(Cabbage Leaves),1,136,Atta-30 gms; Paneer-10 gms; Cabbage-20 g; carrot-15 gms; Onion-20 gms; Ginger-5 gms; Red chilli Powder-7 gms; Cumin seeds-4 gms; Coriander seeds-15 gms; Common salt-15 gms; Olive oil-15 gms
+Paneer Wrap(icebarg Leaves),1,125,Atta-30 gms; Paneer-10 gm; Capsicum-20 gmsr; Onion-15 gms; TOMATO-10 gms; CUCUMBER-15 gms; Cumin seeds-4 gms; CORIANDER leaves-1 gms; Common salt-15 gms; Olive oil-15 gms
+Smoothie,1,1194,Apple-200 gms; Pear-178 gms; Banana-101 gms; Grapes-150 gms; Strawberries-75 gms; Blueberries-75 gms; Mint leaves-15 gms; Yoghurt-150 gms; Milk-250 gms
+Pumpkin Soup,4,970,PUMPKIN-200 gms; Onion-160 gms; Garlic-15 gms; Olive oil-30 gms; Common salt-15 gms; Broth-300 gms; Milk-250 gms
+Tea with Skimmed Milk,1,275,HONEY-10 gms; Milk-250 gms; Tea-15 gms
+Paneer Stuffed Roti,2,591,Atta-250 gms; Common salt-1 gms; Olive oil-15 gms; Paneer-150 gms; Onion-125 gms; Chillies-15 gms; Coriander seeds-15 gms; Coriander Powder-5 gms; Turmeric powder-15 gms
+Saute Paneer For Fasting,1,179,Paneer-112 gms; Olive oil-15 gms; Cumin seeds-15 gms; Common salt-1 gms; Red chilli Powder-15 gms; Lemon-1 gms Coriander leaves-10 gms;Mint leaves-10 gms
+Paneer Stuffed Roti using a combination of Oats Bran and Oats Atta,4,188,Cumin seeds-1 gms; Coriander Powder-5 gms; Red chilli Powder-7 gms; Paneer-150 gms; Coriander leaves-10 gms; GHEE-15 gms
+Paneer Vegetable curry,2,825,Paneer-300 gms; Onion-125 gms; Tomato-90 gms; POTATO-150 gms; Capsicum-15 gms; Zucchini-15 gms; Peas-15 gms; Ginger powder-15 gms; Cumin seeds-15 gms; Coriander Powder-5 gms; Garam Masala-15 gms; Red chilli Powder-15 gms; Common salt-15 gms; Olive oil-30 gms; Coriander leaves-5 gms
+Garden Cress Seeds Kheer without Sugar,1,577,Garden cress seeds-30 gms; Milk-500 gms; cardamom powder-15 gms; HONEY-15 gms; Ghee-15 gms; Almonds-2.2 gms
+Style Beetroot & Paneer Salad,2,860,beetroot-240 gms; Paneer-280 gms; Cucumber-200 gms; Tomato-90 gms; Onion ; Coriander leaves-5 gms; Chat Masala-15 gms; Common salt-15 gms; Lemon-15 gms
+Buttermilk(Toned Milk),1,295,Milk-250 gms; Curd-15 gms; Common salt-15 gms; Coriander leaves-15 gms
+Banana Smoothie,1,537,Banana-272 gms; Milk-250 gms; HONEY-15 gms
+Mango Smoothie,1,537,Mango-272 gms; Milk-250 gms; HONEY-15 gms
+Strawberry Smoothie with Skimmed Milk,1,295,strawberry-30 gms; Milk-250 gms; HONEY-15 gms
+Apple Smoothie with Skimmed Milk,1,450,Apple-200 gms; Milk-250 gms
+Oatmeal Skimmed Milk,1,810,Oats-150 gms; Milk-250 gms; Common salt-15 gms; Banana-118 gms ; Blueberries-250 gms; Almond-3.3 gms; Cinnamon-24 gms
+Qunioa Porridge With Double Toned Milk,1,541,Quinoa-150 gms; Milk-250 gms; Nutmeg-15 gms; DATES-15 gms; Almonds-5.5 gms; Walnut-58.5 gms; Banana-101 gms
+Oats Smoothie With Sugar Skimmed Milk,1,501,Oats-150 gms; Banana-101 gms; Milk-250 gms
+Hung Curd Salad,2,600,Yoghurt-150 gms; Cucumber-200 gms; Tomato-90 gms; Capsicum-100 gms; Onion-15 gms; Coriander leaves-15 gms; Black pepper-15 gms; Common salt-15 gms
+Matar Paneer (with low fat),1,985,Paneer-150 gms; Peas-150 gms;Onion-125 gms; Ginger powder-15 gms; Garlic powder-15 gms; Tomato-90 gms; Cumin seeds-225 gms; Coriander Powder-5 gms; Garam Masala-15 gms; Red chilli Powder-15 gms; Common salt-15 gms; Coriander leaves-150 gms; Olive oil-15 gms
+Cauliflower Paneer Tikki,2,570,Cauliflower-250 gms; Paneer-120 gms; carrot-150 gms; Coriander leaves-15 gms; Red chilli Powder-15 gms; Coriander Powder-5 gms; Common salt-15 gms
+Paneer Tikka in Green Chutney,1,555,Paneer-150 gms; Coriander leaves-150 gms;Mint leaves-150 gms; Chillies-15 gms; Ginger-15 gms;Garlic-15 gms; Cumin seeds-15 gms; Chat Masala-15 gms; Common salt-15 gms; Olive oil-15 gms
+Paneer kebab,1,590,Paneer-150 gms; Capsicum-201 gms; Onion-150 gms; Olive oil-15 gms; Cumin Powder-15 gms; Coriander Powder-5 gms; Garam Masala-15 gms; Red chilli Powder-24 gms; Common salt-15 gms
+Nuts and seeds raita with skimmed milk curd,1,234,Yoghurt-150 gms; Almond-5.5 gms; Walnut-4 gms; Pumpkin Seeds-15 gms; Sunflower Seeds-15 gms; Cumin seeds-15 gms; Common salt-15 gms; Coriander leaves-15 gms
+Low Fat Paneer Tikki,1,810,Paneer-150 gms; Sweet potato-180 gms; Peas-250 gms;Onion-125 gms; Chillies-15 gms; Ginger-15 gms; Red chilli Powder-15 gms; Cumin seeds-15 gms; Garam Masala-15 gms; Common salt-15 gms; Olive oil-15 gms
+No Fat Grilled Chicken Breast with Skimmed Milk Curd,1,567,Chicken-172 gms; Yoghurt-300 gms; Ginger powder-15 gms; Garlic powder-15 gms; Turmeric powder-15 gms; Cumin seeds-15 gms; Coriander Powder-5 gms; Red chilli Powder-15 gms; Common salt-15 gms
+Coffee (Skimmed milk),1,45,Milk-30 gms; coffee-15 gms
+Nimbupani,4,132,Lemon-125 gms; Common salt-7 gms;
+Lemon Water,1,5,Lemon-5 gms
+Dalcheeni Water,1,5,Cinnamon-5 gms
+Besan Cheela,1,151,Onion-15 gms; Tomato-15 gms; Cumin seeds-15 gms; Coriander leaves-15 gms; Common salt-7 gms; Mustard oil-7 gms; Turmeric powder-15 gms; Besan-62 gms
+Filter Coffee Without Sugar,2,280,Coffee-30 gms; Milk-250 gms
+Black Filter Coffee Without Sugar,2,30,Coffee-30 gms
+Low Fat Dal Cheela,1,440,Moong Dal-150 gms;Onion-125 gms; Tomato-90 gms; Chillies-15 gms; Turmeric powder-15 gms; Red chilli Powder-15 gms; Common salt-15 gms; Olive oil-15 gms
+Tinda Vegetable-Low Fat),2,705,Tinda-330 gms;Onion-125 gms; Tomato-120 gms; Cumin seeds-15 gms; Turmeric powder-15 gms; Coriander Powder-55 gms; Red chilli Powder-15 gms; Common salt-15 gms; Olive oil-15 gms
+Safed Matar Masala-No Oil),2,360,Onion-125 gms; Tomato-90 gms; Chillies-15 gms; Cumin seeds-15 gms; Coriander Powder-55 gms; Turmeric powder-15 gms; Garam Masala-15 gms; Common salt-15 gms; Coriander leaves-15 gms
+Green Chutney without any Nuts,1,600,Coriander leaves-150 gms;Mint leaves-250 gms; Chillies-15 gms; Ginger-15 gms; Onion-125 gms; Cumin seeds-15 gms; Lemon-15 gms; Common salt-15 gms
+Coffee with Almond Milk,2,512,Almond Milk-250 gms; Brewed Coffee-240 gms; Cinnamon-7 gms; HONEY-15 gms
