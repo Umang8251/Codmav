@@ -12,7 +12,7 @@ from math import pow
 def load_data(file_path):
     return pd.read_csv(file_path)
 
-nutrition_data = load_data('nutrition_cf - Sheet4.csv')
+nutrition_data = load_data('nutrition_cf - Sheet5.csv')
 # Function to filter dataset based on multiple allergies, region, and category using regex
 def filter_dataset(df, allergies, region_pattern, category):
     if allergies == ["no-allergies"]:
@@ -151,7 +151,7 @@ def recommend_food(df, meal_type, target_nutrients, num_recommendations=27):
 def divide_by_serving(food):
   serving = food['Serving']
   food['Serving_Numbers'] =  int(serving[0])
-  food[['Proteins', 'Carbohydrates', 'Fats', 'Fiber', 'Energy(kcal)']] = food[['Proteins', 'Carbohydrates', 'Fats', 'Fiber', 'Energy(kcal)']].div(food['Serving_Numbers'], axis=0)
+  food[['Proteins', 'Carbohydrates', 'Energy(kcal)']] = food[['Proteins', 'Carbohydrates', 'Energy(kcal)']].div(food['Serving_Numbers'], axis=0)
   food = food.drop(['Serving_Numbers'], axis=0)
   return food
 
@@ -165,8 +165,8 @@ def divide_by_serving_combo(food, assoc_food, target_nutrients):
     new_food['Serving_Numbers'] = int(serving[0])
     new_assoc_food['Serving_Numbers_assoc'] = int(assoc_serving[0])
 
-    new_food[['Proteins', 'Carbohydrates', 'Fats', 'Fiber', 'Energy(kcal)']] = new_food[['Proteins', 'Carbohydrates', 'Fats', 'Fiber', 'Energy(kcal)']].div(new_food['Serving_Numbers'], axis=0)
-    new_assoc_food[['Proteins', 'Carbohydrates', 'Fats', 'Fiber', 'Energy(kcal)']] = new_assoc_food[['Proteins', 'Carbohydrates', 'Fats', 'Fiber', 'Energy(kcal)']].div(new_assoc_food['Serving_Numbers_assoc'], axis=0)
+    new_food[['Proteins', 'Carbohydrates', 'Energy(kcal)']] = new_food[['Proteins', 'Carbohydrates', 'Energy(kcal)']].div(new_food['Serving_Numbers'], axis=0)
+    new_assoc_food[['Proteins', 'Carbohydrates', 'Energy(kcal)']] = new_assoc_food[['Proteins', 'Carbohydrates', 'Energy(kcal)']].div(new_assoc_food['Serving_Numbers_assoc'], axis=0)
 
     if check_combined_nutritional_requirements(new_food, new_assoc_food, target_nutrients):
         return [new_food['Food'], new_food['Energy(kcal)'], new_assoc_food["Food"], new_assoc_food["Energy(kcal)"]]
@@ -176,7 +176,7 @@ def divide_by_serving_combo(food, assoc_food, target_nutrients):
 
     return []
 
-def get_weekly_plan(recommended_foods, associative_rules, valid_associations, target_nutrients):
+''' def get_weekly_plan(recommended_foods, associative_rules, valid_associations, target_nutrients):
     assoc_food_present = []
     recommendations_with_associations = []
     print(recommended_foods)
@@ -193,13 +193,14 @@ def get_weekly_plan(recommended_foods, associative_rules, valid_associations, ta
         for value in associativity_values:
             if value in valid_associations and value in associative_rules:
                 if (value=='11' or value=='9' or value=='5' or value=='3' or value=='1'):
-                    associated_food_items = nutrition_data[nutrition_data['Associativity'].isin(associative_rules[value])]  
+                    associated_food_items = nutrition_data[nutrition_data['Associativity'].isin(associative_rules[value])] 
+                    filtered_assoc = filter_dataset(associated_food_items, user_allergies_input, user_region_pattern, user_category)  
                 else:
-                    associated_food_items = recommended_foods[recommended_foods['Associativity'].isin(associative_rules[value])]     
+                    filtered_assoc = recommended_foods[recommended_foods['Associativity'].isin(associative_rules[value])]      
                 if (value!='14'):
-                    associated_food_items = associated_food_items[~associated_food_items['Food'].isin(assoc_food_present)]
-                if not associated_food_items.empty:
-                    for _, assoc_row in associated_food_items.iterrows():
+                    filtered_assoc = filtered_assoc[~filtered_assoc['Food'].isin(assoc_food_present)]
+                if not filtered_assoc.empty:
+                    for _, assoc_row in filtered_assoc.iterrows():
                         if check_combined_nutritional_requirements(row, assoc_row, target_nutrients):
                             assoc_food_present.append(assoc_row['Food'])
                             associated_foods.append(assoc_row['Food'])
@@ -238,4 +239,4 @@ def get_weekly_plan(recommended_foods, associative_rules, valid_associations, ta
     while len(recommendations_with_associations) < 7:
         recommendations_with_associations.extend(recommendations_with_associations[:7 - len(recommendations_with_associations)])
 
-    return pd.DataFrame(recommendations_with_associations[:7], columns=['Food', 'Associations', 'Energy(kcal)','Carbon Footprint(kg CO2e)'])
+    return pd.DataFrame(recommendations_with_associations[:7], columns=['Food', 'Associations', 'Energy(kcal)','Carbon Footprint(kg CO2e)'])'''
