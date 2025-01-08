@@ -27,7 +27,6 @@ def get_postgresql_connection():
             database="postgres",
             user="postgres.boebcbhffoetsqpkrnsa",
             password="Umang@51004#",
-            pool_mode="transaction",
             port=6543
         )
         return conn
