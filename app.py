@@ -420,7 +420,7 @@ if st.button("Generate Diet Plan", type="primary"):
 
         for index, row in recommendations.iterrows():
             food = row['Food']
-            food_link = f'<a href="https://www.google.com" target="_blank">{food}</a>'  # Replace with actual link format
+            #food_link = f'<a href="https://www.google.com" target="_blank">{food}</a>'  # Replace with actual link format
             carbon_footprint = row['Carbon Footprint(kg CO2e)']
             image_urls = images.get(food, ["Not_found_link"])
             calories = row['Energy(kcal)']
