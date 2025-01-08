@@ -23,11 +23,12 @@ lottie_coding = load_lottieurl("https://lottie.host/0193aee4-27d6-4b30-ad1f-33ab
 def get_postgresql_connection():
     try:
         conn = psycopg2.connect(
-            host="db.boebcbhffoetsqpkrnsa.supabase.co",
+            host="aws-0-ap-south-1.pooler.supabase.com",
             database="postgres",
-            user="postgres",
+            user="postgres.boebcbhffoetsqpkrnsa",
             password="Umang@51004#",
-            port=5432
+            pool_mode="transaction",
+            port=6543
         )
         return conn
     except Exception as e:
