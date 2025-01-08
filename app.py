@@ -236,11 +236,6 @@ with st.container():
             key="region"
         )
 
-    if st.button("Save User Data"):
-        if username.strip():
-            save_user_data_postgresql(username, user_height, user_weight, gender, user_allergies_input, user_category, user_region_pattern)
-        else:
-            st.error("Please enter a valid username.")
 
 # Define associativity rules
 associativity_rules = {
@@ -332,9 +327,14 @@ def get_weekly_plan(recommended_foods, associative_rules, valid_associations, ta
 
 
 if st.button("Generate Diet Plan", type="primary"):
+    if username.strip():
+        save_user_data_postgresql(username, user_height, user_weight, gender, user_allergies_input, user_category, user_region_pattern)
+    else:
+        st.error("Please enter a valid username.")
     animation_placeholder = st.empty()
     with animation_placeholder:
         st_lottie(lottie_coding, height=150, key="coding")
+    
     try:
         filtered_data = filter_dataset(nutrition_data, user_allergies_input, user_region_pattern, user_category)
         filtered_data_null = filter_dataset(nutrition_data, user_allergies_input, "Null", user_category)
