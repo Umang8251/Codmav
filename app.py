@@ -425,7 +425,7 @@ if st.button("Generate Diet Plan", type="primary"):
             image_urls = images.get(food, ["Not_found_link"])
             calories = row['Energy(kcal)']
             img_html = f'<img src="{image_urls[0]}" width="100"/>'
-            food_html = f'<strong>{food_link}</strong>'
+            food_html = f'<strong>{food}</strong>'
             carbon_html = f'{carbon_footprint} kg CO2e'
             calories_html = f'{calories} kcal'
             nutrition_html = row.to_frame().transpose().drop(columns=['Food', 'Carbon Footprint(kg CO2e)', 'Energy(kcal)']).to_html(index=False, header=False)
