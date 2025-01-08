@@ -19,7 +19,7 @@ lottie_coding = load_lottieurl("https://lottie.host/0193aee4-27d6-4b30-ad1f-33ab
 
 
 st.title(":rainbow[Personalized Food Recommender]")
-file_path = 'nutrition_cf - Sheet5.csv'
+file_path = 'nutrition_cf - Sheet6.csv'
 nutrition_data = load_data(file_path)
 with st.container():
     left_column, right_column = st.columns(2)
