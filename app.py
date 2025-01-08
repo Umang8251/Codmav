@@ -451,7 +451,7 @@ if st.button("Generate Diet Plan", type="primary"):
     weekly_snacks_plan = organize_weekly_plan(recommended_snacks_with_assoc)
 
     animation_placeholder.empty()
-    st.balloons()
+    #st.balloons()
     # Display recommendations using Streamlit
     st.write('# Recommended Foods')
 
