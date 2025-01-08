@@ -1,7 +1,5 @@
+#app.py
 import streamlit as st
-import mysql.connector
-from mysql.connector import Error
-#from recommender import load_data
 import pandas as pd
 import re
 from recommender import *
@@ -19,92 +17,37 @@ def load_lottieurl(url):
     
 lottie_coding = load_lottieurl("https://lottie.host/0193aee4-27d6-4b30-ad1f-33ab0f07bde3/nkAKPlrlyd.json")
 
-# MySQL Database connection
-def get_connection():
-    try:
-        conn = mysql.connector.connect(
-            host="localhost",       # Replace with your MySQL host
-            user="root",            # Replace with your MySQL username
-            password="root", # Replace with your MySQL password
-            database="codmav1"       # Replace with your database name
-        )
-        if conn.is_connected():
-            return conn
-    except Error as e:
-        st.error(f"Error while connecting to MySQL: {e}")
-        return None
 
-# Save user data to the database
-def save_user_data(username, height, weight, gender, allergies, diet_preference, region):
-    conn = None
-    try:
-        conn = get_connection()
-        if not conn:
-            return  # Stop if connection failed
-        
-        cursor = conn.cursor()
-        
-        # Insert into users table
-        cursor.execute("INSERT INTO users (username) VALUES (%s)", (username,))
-        user_id = cursor.lastrowid  # Get the inserted user_id
-        
-        # Insert into user_preferences table
-        cursor.execute(
-            """
-            INSERT INTO user_preferences (user_id, height, weight, gender, allergies, diet_preference, region)
-            VALUES (%s, %s, %s, %s, %s, %s, %s)
-            """,
-            (user_id, height, weight, gender, ', '.join(allergies), diet_preference, region)
-        )
-        
-        conn.commit()
-        st.success("Data saved successfully!")
-    except Error as e:
-        st.error(f"An error occurred: {e}")
-    finally:
-        if conn and conn.is_connected():
-            cursor.close()
-            conn.close()
-
-# Streamlit UI
 st.title(":rainbow[Personalized Food Recommender]")
 file_path = 'nutrition_cf - Sheet6.csv'
-
-try:
-    nutrition_data = load_data(file_path)
-except FileNotFoundError:
-    st.error("Data file not found. Please check the file path.")
-    nutrition_data = None
-
+nutrition_data = load_data(file_path)
 with st.container():
-    username = st.text_input('Enter your name:')
     left_column, right_column = st.columns(2)
-
     with left_column:
-        user_height = st.number_input('Enter your height (in m):', format="%f", value=1.0)
-        gender = st.radio("Select your gender", ["Male", "Female"], horizontal=True)
-        user_allergies_input = st.multiselect(
-            "Select your allergies", 
-            ["no-allergies", "Dairy", "Egg", "Gluten", "Nut", "Soy", "Fish", "Mushroom", "Peanut", "Seafood", "Pork", "Onion", "Citrus", "Caffeine", "Garlic"]
-        )
+        user_height = st.number_input('Enter your height (in m):',
+                            format="%f", value=1.0
+                            )
+        gender = st.radio(
+            "Select your gender",
+            ["Male", "Female"],
+            horizontal=True,
+            )
+        user_allergies_input = st.multiselect("Select your allergies", ["no-allergies", "Dairy", "Egg", "Gluten", "Nut", "Soy", "Fish", "Mushroom", "Peanut", "Seafood", "Pork", "Onion", "Citrus", "Caffeine", "Garlic"])
+    
 
     with right_column:
-        user_weight = st.number_input('Enter your weight (in kg):', format="%f", value=1.0)
-        user_category = st.selectbox(
-            "Select your diet preference", 
-            ["veg", "eggetarian", "non-veg"]
-        )
-        user_region_pattern = st.selectbox(
-            "Select your region", 
-            ["North", "South", "East", "West", "Continental"]
-        )
-
-    if st.button("Save Data"):
-        if username.strip() == "":
-            st.error("Please enter your name.")
-        else:
-            save_user_data(username, user_height, user_weight, gender, user_allergies_input, user_category, user_region_pattern)
-
+        user_weight = st.number_input('Enter your weight (in kg)',
+                            format="%f", value=1.0
+                            )
+        user_category = st.selectbox("Select your diet preference", ["veg", "eggetarian", "non-veg"],
+                             index=None,
+                             placeholder=""
+                             )
+        user_region_pattern = st.selectbox("Select your region", ["North", "South", "East", "West", "Continental"],
+                                   index=None,
+                                   placeholder="")
+        
+      
 # Define associativity rules
 associativity_rules = {
     '1': ['2'],
