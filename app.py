@@ -334,7 +334,7 @@ def get_weekly_plan(recommended_foods, associative_rules, valid_associations, ta
 if st.button("Generate Diet Plan", type="primary"):
     animation_placeholder = st.empty()
     with animation_placeholder:
-        st_lottie(lottie_coding, height=150, key="coding")
+        st_lottie(lottie_coding, height=300, key="coding")
     try:
         filtered_data = filter_dataset(nutrition_data, user_allergies_input, user_region_pattern, user_category)
         filtered_data_null = filter_dataset(nutrition_data, user_allergies_input, "Null", user_category)
