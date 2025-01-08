@@ -6,4 +6,4 @@ numpy
 scikit-learn
 streamlit-lottie
 mysql-connector-python
-psycopg2
+
